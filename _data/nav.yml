@@ -1,0 +1,31 @@
+MainNav:
+  - item: homme
+    name:
+      de: Home
+      en: Home
+    link: "/"
+    hardlink: false
+  - item: team
+    name:
+      de: Team
+      en: Team
+    link: "/team/"
+    hardlink: false
+  - item: book
+    name:
+      de: Book
+      en: Book
+    link: "/book/"
+    hardlink: false
+  - item: projects
+    name:
+      de: Projekte
+      en: Projects
+    link: "/projects/"
+    hardlink: false
+  - item: publications
+    name:
+      de: Publikationen
+      en: Publications
+    link: "/publications/"
+    hardlink: false

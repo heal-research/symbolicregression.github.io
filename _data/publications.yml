@@ -1,0 +1,144 @@
+- id: shape-multi
+  year: 2023
+  title: Shape-constrained multi-objective genetic programming for symbolic regression
+  authors: C. Haider, F.O. de Franca, B. Burlacu & G. Kronberger
+  publisher: Applied Soft Computing, Volume 132, 2023
+  link: https://doi.org/10.1016/j.asoc.2022.109855
+- id: physics-constitutive-models
+  year: 2022
+  title: Extending a physics-based constitutive model using genetic programming
+  authors: G. Kronberger, E. Kabliman, J. Kronsteiner & M. Kommenda
+  publisher: Applications in Engineering Science, Vol. 9
+  link: https://doi.org/10.1016/j.apples.2021.100080
+- id: shape-constraints-for-validation
+  year: 2022
+  title: Comparing Shape-Constrained Regression Algorithms for Data Validation
+  authors: F. Bachinger
+  publisher: Proceedings of the 18th International Conference on Computer Aided Systems Theory - EUROCAST 2022, Las Palmas de Gran Canaria, Spain (2022)
+  link: https://heal.heuristiclab.com/storage/app/media/uploaded-files/eurocast2022_bachinger.pdf
+- id: shape-constraints-for-validation
+  year: 2022
+  title: Shape-constrained Symbolic Regression with NSGA-III.
+  authors: C. Haider
+  publisher: Proceedings of the 18th International Conference on Computer Aided Systems Theory - EUROCAST 2022, Las Palmas de Gran Canaria, Spain (2022)
+  link: https://heal.heuristiclab.com/storage/app/media/uploaded-files/eurocast2022_haider.pdf
+- id: diff-equations-blood-glucose
+  year: 2022
+  title: Identifying Differential Equations to predict Blood Glucose using Sparse Identification of Nonlinear Systems.
+  authors: D. Jödicke,  D. Parra, G. Kronberger & S.M. Winkler
+  publisher: Proceedings of the 18th International Conference on Computer Aided Systems Theory - EUROCAST 2022, Las Palmas de Gran Canaria, Spain (2022)
+  link: https://heal.heuristiclab.com/storage/app/media/uploaded-files/eurocast2022_joedicke.pdf
+- id: symreg-fast-function-extraction
+  year: 2022
+  title: Symbolic Regression with Fast Function Extraction and Nonlinear Least Squares Optimization
+  authors: Kammerer, G. Kronberger & M. Kommenda
+  publisher: Proceedings of the 18th International Conference on Computer Aided Systems Theory - EUROCAST 2022, Las Palmas de Gran Canaria, Spain (2022)
+  link: https://heal.heuristiclab.com/storage/app/media/uploaded-files/eurocast2022_kammerer.pdf
+- id: shape-constraints-improving
+  year: 2021
+  title: Using Shape Constraints for Improving Symbolic Regression Models
+  authors: C. Haider, F. O. de França, B. Burlacu & G. Kronberger
+  publisher: arXiv preprint
+  link: https://arxiv.org/abs/2107.09458
+- id: contemporary-symreg
+  year: 2021
+  title: Contemporary symbolic regression methods and their relative performance
+  authors: W. La Cava, P. Orzechowski, B. Burlacu, F. Olivetti de França, M. Virgolin, Y. Jin, M. Kommenda & J. H. Moore
+  publisher: arXiv preprint
+  link: https://arxiv.org/abs/2107.14351
+- id: single-screw-extruder
+  year: 2021
+  title: "Predicting the Non-Linear Conveying Behavior in Single-Screw Extrusion: A Comparison of Various Data-Based Modeling Approaches used with CFD Simulations"
+  authors: W. Roland, C. Marschik, M. Kommenda, A. Haghofer, S. Dorl & S. Winkler
+  publisher: International Polymer Processing. Vol. 36, Issue 5, pp. 529-544 (2021)
+  link: https://doi.org/10.1515/ipp-2020-4094
+- id: microscopic-resiudal-stresses
+  year: 2021
+  title: Study of Microscopic Residual Stresses in an Extruded Aluminium Alloy Sample after Thermal Treatmen
+  authors: L. Millán, G. Bokuchava, J. I. Hidalgo,  R. Fernández, G. Kronberger, P. Halodova, A. Sáez, I. Papushkin, O. Garnica, J. Lanchares & G. González-Doncel
+  publisher: "Journal of Surface Investigation: X-ray, Synchrotron and Neutron Techniques. 15, pp. 763–767 (2021)"
+  link: https://doi.org/10.1134/S1027451021040145
+- id: symreg-applications
+  year: 2021
+  title: Application of symbolic regression for constitutive modeling of plastic deformation
+  authors: E. Kabliman, A. H. Kolody, J. Kronsteiner, M. Kommenda & G. Kronberger
+  publisher: Applications in Engineering Science, Volume 6, 100052, Elsevier. (June 2021)
+  link: https://doi.org/10.1016/j.apples.2021.100052
+- id: shape-constrained-regression
+  year: 2021
+  title: Shape-constrained Symbolic Regression – Improving Extrapolation with Prior Knowledge
+  authors: G. Kronberger, F. O. de Franca, B. Burlacu, C. Haider & M. Kommenda
+  publisher: Evolutionary Computation (2021)
+  link: https://doi.org/10.1162/evco_a_00294
+- id: esimation-grain-level-residual-stresses
+  year: 2021
+  title: Estimation of Grain-Level Residual Stresses in a Quenched Cylindrical Sample of Aluminum Alloy AA5083 Using Genetic Programming
+  authors: L. Millán, G. Kronberger, J. I. Hidalgo, R. Fernández, O. Garnica & G. González-Doncel
+  publisher: Applications of Evolutionary Computation (Conference Proceedings EvoApplications 2021), Vol. 12694, pp. 421.436, (2021)
+  link: https://doi.org/10.1007/978-3-030-72699-7_27
+- id: continuous-improvment
+  year: 2021
+  title: Continuous improvement and adaptation of predictive models in smart manufacturing and model management
+  authors: F. Bachinger, G. Kronberger & M. Affenzeller
+  publisher: "IET Collaborative Intelligent Manufacturing, Vol. 3, Iss. 1, Special Issue: Selected Papers from Collaborative and Intelligent Manufacturing in Industry 4.0 (ISM @SMM 2019), pp. 48-63, (March 2021)"
+  link: https://doi.org/10.1049/cim2.12009
+- id: smart-manufactoring
+  year: 2020
+  title: Smart Manufacturing and Continuous Improvement and Adaptation of Predictive Models
+  authors: G. Kronberger, F. Bachinger & M. Affenzeller
+  publisher: "Procedia Manufacturing, Volume 42. (2020). Part of special issue: International Conference on Industry 4.0 and Smart Manufacturing (ISM 2019)"
+  link: https://www.sciencedirect.com/science/article/pii/S2351978920305862?via%3Dihub
+- id: symreg-exhaustive-search
+  year: 2020
+  title: "Symbolic Regression by Exhaustive Search: Reducing the Search Space Using Syntactical Constraints and Efficient Semantic Structure Deduplication"
+  authors: L. Kammerer, G. Kronberger, B. Burlacu, S. M. Winkler, M. Kommenda & M. Affenzeller
+  publisher: Genetic Programming Theory and Practice XVII., pp. 79-99. Springer. (2020)
+  link: https://link.springer.com/book/10.1007/978-3-030-39958-0
+- id: concept-for-technical-infrastructure
+  year: 2020
+  title: Concept for a Technical Infrastructure for Management of Predictive Models in Industrial Applications
+  authors: F. Bachinger & G. Kronberger
+  publisher: Computer Aided Systems Theory - EUROCAST 2019, pp. 263-270. Springer. (2020)
+  link: https://link.springer.com/chapter/10.1007/978-3-030-45093-9_32
+- id: white-black
+  year: 2020
+  title: "White Box vs. Black Box Modeling: On the Performance of Deep Learning, Random Forests, and Symbolic Regression in Solving Regression Problems"
+  authors: Michael Affenzeller, Bogdan Burlacu, Viktoria Dorfer, Sebastian Dorl, Gerhard Halmerbauer, Tilman Königswieser, Michael Kommenda, Julia Vetter & Stephan Winkler
+  publisher: Computer Aided Systems Theory - EUROCAST 2019, pp. 288-295. Springer. (2020)
+  link: https://link.springer.com/chapter/10.1007/978-3-030-45093-9_35
+- id: symreg-dynamic-systems
+  year: 2020
+  title: Identification of Dynamical Systems Using Symbolic Regression
+  authors: G. Kronberger, L. Kammerer & M. Kommenda
+  publisher: Computer Aided Systems Theory - EUROCAST 2019, pp. 370-377. Springer. (2020)
+  link: https://link.springer.com/chapter/10.1007/978-3-030-45093-9_45
+- id: shash-tree-similarities
+  year: 2020
+  title: Hash-Based Tree Similarity and Simplification in Genetic Programming for Symbolic Regression
+  authors: B. Burlacu, L. Kammerer, M. Affenzeller & G. Kronberger
+  publisher: Computer Aided Systems Theory - EUROCAST 2019, pp. 361-369. Springer. (2020)
+  link: https://link.springer.com/chapter/10.1007/978-3-030-45093-9_44
+- id: data-aggregation
+  year: 2020
+  title: Data Aggregation for Reducing Training Data in Symbolic Regression
+  authors: L. Kammerer, G. Kronberger & M. Kommenda
+  publisher: Computer Aided Systems Theory - EUROCAST 2019, pp. 378-386. Springer. (2020)
+  link: https://link.springer.com/chapter/10.1007/978-3-030-45093-9_46
+- id: concept-drift-detection
+  year: 2020
+  title: Concept Drift Detection with Variable Interaction Networks
+  authors: J. Zenisek, G. Kronberger, J. Wolfartsberger, N. Wild & M. Affenzeller
+  publisher: Computer Aided Systems Theory - EUROCAST 2019, pp. 296-303. Springer. (2020)
+  link: https://link.springer.com/chapter/10.1007/978-3-030-45093-9_36
+- id: mulilayer-analysis
+  year: 2020
+  title: Multilayer analysis of population diversity in grammatical evolution for symbolic regression
+  authors: G. Kronberger, J. M. Colmenar, S. M. Winkler & J. I. Hidalgo
+  publisher: Soft Computing. Springer. (2020)
+  link: https://link.springer.com/article/10.1007/s00500-020-05062-9
+- id: operon
+  year: 2020
+  title: "Operon C++: an efficient genetic programming framework for symbolic regression"
+  authors: B. Burlacu, G. Kronberger & M. Kommenda
+  publisher: "Proceedings of the 2020 Genetic and Evolutionary Computation Conference Companion (GECCO ’20), pp. 1562–1570, (July 2020)"
+  link: https://dl.acm.org/doi/10.1145/3377929.3398099

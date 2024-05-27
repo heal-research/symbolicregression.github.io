@@ -1,0 +1,30 @@
+---
+title: Publications
+layout: subpage
+lang: en
+permalink: /publications/
+description: List of all publicated scientific contributions
+---
+
+<section id="publications">
+   <div class="container text-justify">
+      <h2>Publications</h2>
+      {% assign publications = site.data.publications | sort: 'year' | reverse %}
+      {% for publication in publications%}
+      {% assign link = publication.link | strip_newlines %}
+      <div class="row">
+         <div class="col-md-1 col-sm-12">
+            <h6>{{ publication.year }}</h6>
+         </div>
+         <div class="col-md-11 col-sm-12">
+            {% if link == "" %}
+            <h5>{{ publication.title }}</h5>
+            {% else %}
+            <h5><a href="{{ link }}" alt="Link to publication" target="_blank">{{ publication.title }}</a></h5>
+            {% endif %}
+            <p>{{ publication.authors }} - {{ publication.title }} - {{ publication.publisher }}</p>
+         </div>
+      </div>
+      {% endfor %}
+   </div>
+</section>

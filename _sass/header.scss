@@ -1,0 +1,17 @@
+@import
+  "vars"
+;
+
+
+header{
+   height:100vh;
+   max-height:100vh;
+   position: relative;
+   overflow: hidden;
+
+   background-color: $brand-primary;
+
+  .svg-container {
+
+  }
+}

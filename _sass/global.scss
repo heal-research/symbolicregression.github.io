@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: $base-font-family;
+   font-size: $base-font-size;
+   color: $base-text-color;
+   background: $base-bg;
+   overflow-x: hidden;
+}
+
+a {
+   color: $brand-primary;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+p {
+   line-height: 1.5;
+   padding:0;
+   font-size:1rem;
+   margin-bottom: 20px;
+}
+
+.text-right {
+   text-align: right;
+ }
+
+ .text-justify {
+   text-align: justify;
+ }
+
+ section.pad{
+   padding-top:30px;
+   padding-bottom:30px;
+ }
+
+ .h-100{
+   min-height:100%;
+ }
+
+ .btn {
+   border-radius: 0;
+   text-transform: uppercase;
+   font-family: $base-font-family;
+   font-weight:700;
+   color:$base-text-color-light;
+   transition: all 0.3s;
+ }
+
+ .btn:hover {
+   border:2px solid;
+ }
+
+ .btn-xl{
+   padding:15px;
+ }
+
+ .btn-slim-primary {
+   border:2px solid #fff;
+   background-color: inherit;
+ }

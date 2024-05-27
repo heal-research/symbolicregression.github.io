@@ -1,0 +1,69 @@
+nav#main-nav {
+   background-color: transparent !important;
+   border-bottom: 5px solid transparent;
+   height:90px !important;
+
+   a.nav-link {
+      font-family:$base-font-family;
+      font-weight:600;
+      padding: 1rem 0px;
+      margin: 0px 1rem;
+      position: relative;
+      opacity: 0.75;
+      color:$brand-light;
+      transition: opacity 200ms ease-in;
+   }
+
+   a:hover{
+      text-decoration: none;
+   }
+
+   .nav-link:hover{
+      opacity: 1;
+   }
+
+   .navbar-brand{
+      height:100%;
+      width:100%;
+      padding: 10px;
+      // padding:10px 0 0 10px;
+      display: block;;
+    }
+
+    .brand-container {
+      float:left;
+      margin: 0;
+      padding: 0;
+    }
+
+    .pull-right {
+      float:right !important;
+    }
+
+    .navbar-toggler {
+      border-radius: 0;
+      border: transparent;
+      background-color: transparent;
+      // color: $brand-text-light !important;
+     }
+
+     .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+     }
+
+     .navbar-toggler:focus {
+      box-shadow: none;
+      // background-color: $brand-primary;
+     }
+
+     .navbar-toggler.collapsed {
+      box-shadow: none;
+      background-color: transparent;
+     }
+
+     @media (max-width: 767px) {
+      .navbar-collapse {
+        background-color: $brand-primary;
+      }
+    }
+}

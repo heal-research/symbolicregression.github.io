@@ -1,0 +1,45 @@
+- id: gkronberger
+  prefix: FH-Prof. DI Dr.
+  first_name: Gabriel
+  last_name: Kronberger
+  role: Professor for Business Intelligence/Data Engineering
+  mail: gabirel.kronberger@fh-hagenberg.at
+  phone: +43 5 0804 22320
+  desc: Is professor for data engineering and business intelligence. His research interests are symbolic regression and machine learning as well as probabilistic graphical models.
+  img: gkronber.png
+- id: bburlacu
+  prefix: FH-Prof. Dipl.-Ing. Dr.
+  first_name: Bogdan
+  last_name: Burlacu
+  role: Professor for Data Analytics and Machine Learning
+  mail: bogdan.burlacu@fh-hagenberg.at
+  phone: +43 5 0804 27134
+  desc: Is a research assistant. His main focus is the study of genetic programming evolutionary dynamics in symbolic regression scenarios.
+  img: bburlacu.png
+- id: mkommenda
+  prefix: DI(FH) Dr.
+  first_name: Michael
+  last_name: Kommenda
+  role: Professor for Data Analytics and Machine Learning
+  mail: michael.kommenda@fh-hagenberg.at
+  phone:
+  desc: Is a research assistant. He has been applying symbolic regression methods in various industrial projects and application scenarios.
+  img: mkommend.jpg
+- id: swinkler
+  prefix: FH-Prof. PD DI Dr.
+  first_name: Stephan
+  last_name: Winkler
+  role: Professor for Bioinformatic/Machine Learning/Evolutionary Algorithms
+  mail: stephan.winkler@fh-hagenberg.at
+  phone: +43 5 0804 22720
+  desc: Is professor for medical and bioinformatics and head of the bioinformatics research group. His research interests despite bioinformatics include genetic programming, nonlinear model identification and machine learning.
+  img: swinkler.png
+- id: maffenzeller
+  prefix: FH-Prof. PD DI Dr.
+  first_name: Michael
+  last_name: Affenzeller
+  role: Professor for Heuristic Optimization/Machine Learning
+  mail: michael.affenzeller@fh-hagenberg.at
+  phone: +43 5 0804 22031
+  desc: Is professor for heuristic optimization and machine learning and head of the Heuristic and Evolutionary Algorithms Laboratory. Furthermore, he is the vice dean for research and overall head of the COMET project for heuristic optimization in production and logistics (HOPL).
+  img: maffenze.png

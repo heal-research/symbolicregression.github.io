@@ -1,9 +1,9 @@
 ---
-title: Publications
+title: Book
 layout: subpage
 lang: en
 permalink: /book/
-description: List of all publicated scientific contributions
+description: Detailed information about the Symbolic Regression book
 ---
 
 <header id="book-presentation">
@@ -216,132 +216,31 @@ description: List of all publicated scientific contributions
             </div>
         </div>
     </article>
+
+
     <article id="book-authors" class="container text-justify">
         <div class="row">
             <div class="section-heading col-md-12 text-center">
                 <h2>Who did this?</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                <div class="author-feature">
-                    <div class="pic">
-                        <img src="../assets/img/gkronber.png" alt />
-                    </div>
-                    <div class="content">
-                        <h3></h3>
-                        <span>Gabriel Kronberger</span>
-                        <p class="text-justify">is professor for data engineering and business intelligence. His
-                            research interests are symbolic regression and machine learning as well as probabilistic
-                            graphical models.</p>
-                    </div>
-                    <div class="social">
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-solid fa-globe"></i></a>
-                    </div>
-                </div>
+        {% for author in site.data.authors %}
+        <div class="row author-card">
+            <div class="col-md-3">
+                <img class="author-img img-thumbnail img-fluid mx-auto d-block" src="../assets/img/{{author.img}}" alt=""/>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                <div class="author-feature">
-                    <div class="pic">
-                        <img src="../assets/img/bburlacu.png" alt />
-                    </div>
-                    <div class="content">
-                        <h3></h3>
-                        <span>Bogdan Burlacu</span>
-                        <p class="text-justify">is a research assistant. His main focus is the study of genetic
-                            programming evolutionary dynamics in symbolic regression scenarios.</p>
-                    </div>
-                    <div class="social">
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-solid fa-globe"></i></a>
-                    </div>
-                </div>
+            <div class="col-md-9">
+                <h5>{{author.first_name}} {{author.last_name}}</h5>
+                <p class="author-desc">{{author.desc}}</p>
+                <p class="author-contact"><b>Email:</b> <a href="mailto:{{author.mail}}">{{author.mail}}</a></p>
+                <p class="author-contact"><b>Phone:</b> <a href="tel:{{author.phone}}">{{author.phone}}</a></p>
+                <p class="author-social">
+                    <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                    <a href=""><i class="fa-solid fa-globe fa-2xl"></i></a>
+                </p>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                <div class="author-feature">
-                    <div class="pic">
-                        <img src="../assets/img/mkommend.jpg" alt />
-                    </div>
-                    <div class="content">
-                        <h3></h3>
-                        <span>Michael Kommenda</span>
-                        <p class="text-justify">is a research assistant. He has been applying symbolic regression
-                            methods in various industrial projects and application scenarios.</p>
-                    </div>
-                    <div class="social">
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-solid fa-globe"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                <div class="author-feature">
-                    <div class="pic">
-                        <img src="../assets/img/maffenze.png" alt />
-                    </div>
-                    <div class="content">
-                        <h3></h3>
-                        <span>Michael Affenzeller</span>
-                        <p class="text-justify">is professor for heuristic optimization and machine learning and head of
-                            the Heuristic and Evolutionary Algorithms Laboratory. Furthermore, he is the vice dean for
-                            research and overall head of the COMET project for heuristic optimization in production and
-                            logistics (HOPL).</p>
-                    </div>
-                    <div class="social">
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-solid fa-globe"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                <div class="author-feature">
-                    <div class="pic">
-                        <img src="../assets/img/swinkler.png" alt />
-                    </div>
-                    <div class="content">
-                        <h3></h3>
-                        <span>Stefan Winkler</span>
-                        <p class="text-justify">is professor for medical and bioinformatics and head of the
-                            bioinformatics research group. His research interests despite bioinformatics include genetic
-                            programming, nonlinear model identification and machine learning.</p>
-                    </div>
-                    <div class="social">
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-solid fa-globe"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                <div class="author-feature">
-                    <div class="pic">
-                        <img src="../assets/img/gkronber.png" alt />
-                    </div>
-                    <div class="content">
-                        <h3></h3>
-                        <span>Gabriel Kronberger</span>
-                        <p class="text-justify">is professor for data engineering and business intelligence. His
-                            research interests are symbolic regression and machine learning as well as probabilistic
-                            graphical models.</p>
-                    </div>
-                    <div class="social">
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-solid fa-globe"></i></a>
-                    </div>
-                </div>
-            </div>
+        </div>
+        {% endfor %}
     </article>
 </section>

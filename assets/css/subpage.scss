@@ -85,71 +85,52 @@ section#book {
    }
 
    //authors
-   .author-feature {
-     position: relative;
-     width:360px;
-     height:480px;
-     border-radius: 10px;
-     overflow: hidden;
-     background: #fff;
-     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-     margin-bottom:50px;
-     text-align: center;
+   #book-authors {
+      .author-card {
+         padding-bottom: 30px;
+      }
 
-    .social {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 100%;
-      height: 70px;
-      text-align: center;
-      background-image: linear-gradient(180deg, $brand-primary-lighter, $brand-primary);
-      a {
-         position: relative;
-         top:30%;
-        text-decoration: none;
-        color: #2d3436;
-        padding: 8px;
-        font-size: 18px;
-        color: #fff;
+      .author-img {
+         width:200px;
+         height:250px;
+         padding:15px;
+      }
 
-        i {
-         font-size:1.5rem;
-        }
+      h5 {
+         padding:0;
+         margin:0;
+         font-size: 2rem;
+         color: #D86E05;
+         font-weight: 500;
+         padding-bottom: 20px;
       }
-    }
-    .pic {
-      position: relative;
-      left: 50%;
-      top: 5%;
-      transform: translateX(-50%);
-      width: 160px; height: 160px;
-      overflow: hidden;
-      border-radius: 50%;
-      background: #fff;
-      img {
-        width: 100%; height: 100%;
-        border-radius: 50%;
+
+      p.author-contact {
+         padding:0;
+         margin:0; 
+         
+         a {
+            color: $brand-text-dark;
+            text-decoration: underline
+         }
+
+         a:hover {
+            color: $brand-primary
+         }
       }
-    }
-    .content {
-      margin-top: 40px;
-      text-align: center;
-      padding: 0 30px;
-      color: $base-text-color;
-      span {
-        font-size: 1.1rem;
-        font-weight:500;
-        letter-spacing: 1.5px;
+
+      p.author-social {
+         padding-top:25px;
+
+         a {
+            color: $brand-text-dark;
+            margin-right:40px;
+         }
+
+         a:hover{
+            color:$brand-primary;
+         }
       }
-      p {
-        margin: 20px 0;
-        font-size: 0.8rem;
-        line-height: 1.6;
-        color: $base-text-color;
-      }
-    }
    }
 
    //content

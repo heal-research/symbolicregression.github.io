@@ -67,3 +67,34 @@ nav#main-nav {
       }
     }
 }
+
+nav#main-nav.navbar-top.scrolled,
+nav#main-nav.navbar-top.nav-page {
+  scroll-margin-top: 100px!important;
+  background-color: #fff !important;
+  transition: background-color 200ms linear;   
+
+ .nav-link {
+  color:$brand-primary !important;
+  opacity: 0.75;
+  transition: opacity 200ms ease-in;
+}
+
+ .nav-link:hover{
+  opacity: 1;
+}
+
+ .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+ }
+
+ @media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: $brand-light;
+  }
+}
+}
+
+nav#main-nav.navbar-top.scrolled {
+  border-bottom: 5px solid $brand-primary;
+ }

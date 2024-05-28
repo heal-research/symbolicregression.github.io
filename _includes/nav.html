@@ -1,4 +1,17 @@
+
+{% if page.url == "/" %}
+    {% capture ishome %}true{% endcapture %}
+{% endif %}
+{% if page.url == "/book/" %}
+    {% capture isbook %}true{% endcapture %}
+{% endif %}
+
+
+{%if ishome or isbook %}
 <nav id="main-nav" class="navbar fixed-top navbar-expand-md navbar-top my-nav">
+{% else %}
+<nav id="main-nav" class="navbar fixed-top navbar-expand-md navbar-top my-nav nav-page">
+{% endif %}
    <div class="container-fluid">
       <div class="brand-container">
          <a href="/" class="navbar-brand nav-home-brand">LOGO</a>

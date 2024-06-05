@@ -9,9 +9,34 @@ header{
    position: relative;
    overflow: hidden;
 
-   background-color: $brand-primary;
+   background-image: linear-gradient(180deg, #D86E05, #fcbb7a);
 
   .svg-container {
+
+  }
+  .header-info-container {
+    height: 100%;
+    position:absolute;
+    padding:120px 0 60px 0;
+
+    h2 {
+      font-weight:700;
+      font-size:3.2rem;
+      color:$base-text-color-light;
+    }
+
+    h3 {
+      font-weight:500;
+      font-size:2.6rem;
+      color:$base-text-color-light;
+    }
+
+    .header-btn {
+      padding-left: 25px;
+      padding-right: 25px;
+      color: #fff;
+      opacity: 0.85;
+    }
 
   }
 }

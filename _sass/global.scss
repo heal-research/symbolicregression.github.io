@@ -61,9 +61,13 @@ p {
    transition: all 0.3s;
  }
 
- .btn:hover {
+ .btn-slim-primary:hover {
    border:2px solid;
  }
+
+ .btn-fat-primary:hover {
+  border:5px solid;
+}
 
  .btn-xl{
    padding:15px;
@@ -72,4 +76,11 @@ p {
  .btn-slim-primary {
    border:2px solid #fff;
    background-color: inherit;
+ }
+
+ .btn-fat-primary {
+  border:5px solid #fff;
+  background-color: inherit;
+  font-weight:900;
+  font-size:1.2rem;
  }

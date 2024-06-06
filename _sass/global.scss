@@ -84,3 +84,83 @@ p {
   font-weight:900;
   font-size:1.2rem;
  }
+
+ .btn-fat-primary:hover {
+  border:5px solid #fff;
+  background-color: inherit;
+  font-weight:900;
+  font-size:1.2rem;
+  text-decoration: underline;
+  text-decoration-thickness: 0.3rem;
+ }
+
+ .arrow {
+  cursor: pointer;
+  height: 50px;
+  left: 50%;
+  position: relative;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  transition: transform .1s;
+  width: 40px;
+
+  $transition-time: .15s;
+
+  &-top,
+  &-bottom {
+    background-color: #fff;
+    height: 4px;
+    left: -5px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+    &:after {
+      background-color: #eee;
+      content: '';
+      height: 100%;
+      position: absolute;
+      top: 0;
+      transition: all $transition-time;
+    }
+  }
+
+  &-top {
+    transform: rotate(135deg);
+    transform-origin: bottom right;
+
+    &:after {
+      left: 100%;
+      right: 0;
+      transition-delay: 0s;
+    }
+  }
+
+  &-bottom {
+
+    transform-origin: right bottom;
+    transform: rotate(45deg);
+    &:after {
+      left: 0;
+      right: 100%;
+      transition-delay: $transition-time;
+    }
+  }
+
+  &:hover & {
+
+    &-top:after {
+      left: 0;
+      transition-delay: $transition-time;
+    }
+
+    &-bottom:after {
+      right: 0;
+      transition-delay: 0s;
+    }
+  }
+
+  &:active {
+    transform: translateX(-50%) translateY(-50%) scale(0.9);
+  }
+}

@@ -5,14 +5,8 @@
             <h4>Get in touch with us</h4>
          </div>
          <div class="socials">
-            {% assign twitter_item = site.data.nav.Socials | where: "item", "twitter" | first %}
-            <a href="{{twitter_item.link}}" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-            {% assign linkedin_item = site.data.nav.Socials | where: "item", "linkedin" | first %}
-            <a href="{{linkedin_item.link}}" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             {% assign github_item = site.data.nav.Socials | where: "item", "github" | first %}
             <a href="{{github_item.link}}" target="_blank"><i class="fa-brands fa-github"></i></a>
-            {% assign rss_item = site.data.nav.Socials | where: "item", "rss" | first %}
-            <a href="{{rss_item.link | relative_url}}" target="_blank"><i class="fa-solid fa-rss"></i></a>
          </div>
       </div>
       <div class="row">
@@ -31,7 +25,8 @@
    <div class="container disclaimer">
       <div class="row">
          <div class="col-md-12">
-            &copy; {{ 'now' | date: "%Y" }} University of Applied Sciences Upper Austria<div class="rowbreak"></div>Our Research Partners are
+            &copy; {{ 'now' | date: "%Y" }} University of Applied Sciences Upper Austria<div class="rowbreak"></div>Our
+            Research Partners are
          </div>
       </div>
       <div class="row">
@@ -40,14 +35,14 @@
          {% assign heal = site.data.nav.Partners | where: "item", "heal" | first %}
          <div class="col-md-3"></div>
          <div class="col-md-2"><a href="{{fhooe.link}}" alt="{{fhooe.name.en}}" target="_blank">
-            <div id="logo-uasua" class="footer-logo"></div>
-         </a></div>
+               <div id="logo-uasua" class="footer-logo"></div>
+            </a></div>
          <div class="col-md-2"><a href="{{swph.link}}" alt="{{swph.name.en}}" target="_blank">
-            <div id="logo-swph" class="footer-logo"></div>
-         </a></div>
+               <div id="logo-swph" class="footer-logo"></div>
+            </a></div>
          <div class="col-md-2"><a href="{{heal.link}}" alt="{{looe.name.en}}" target="_blank">
-            <div id="logo-ua" class="footer-logo"></div>
-         </a></div>
+               <div id="logo-ua" class="footer-logo"></div>
+            </a></div>
 
          <div class="col-md-3"></div>
       </div>

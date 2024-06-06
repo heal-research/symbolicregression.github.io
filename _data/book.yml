@@ -1,0 +1,15 @@
+Contents:
+  - chapter: Introduction
+    page: 1
+  - chapter: Basics of Supervised Learning
+    page: 5
+    sections:
+      - section: Introduction
+        page: 5
+      - section: Regression
+        page: 7
+        subsections:
+          - subsection: Linear Models
+            page: 7
+          - subsection: Nonlinear Models
+            page: 8

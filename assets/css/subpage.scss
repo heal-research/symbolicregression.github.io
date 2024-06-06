@@ -38,7 +38,7 @@ section {
       text-decoration: underline;
     }
 
-    
+
    h2 {
       font-size: 2rem;
       font-weight:700;
@@ -72,7 +72,7 @@ section {
    position: relative;
    padding-top:70px;
    height:700px;
-   background-image: linear-gradient(180deg, $brand-primary, $brand-primary-lighter);
+   background-image: linear-gradient(180deg, $brand-secondary, $brand-primary);
 
    .book-presentation-heading {
       margin-bottom:100px;
@@ -105,10 +105,11 @@ section {
       position: absolute;
       width:30%;
       right:6%;
-      bottom:-5%;
+      bottom:-7%;
 
       img {
          width:250px;
+         height:320px;
       }
    }
 }
@@ -152,8 +153,8 @@ section#book {
 
       p.author-contact {
          padding:0;
-         margin:0; 
-         
+         margin:0;
+
          a {
             color: $brand-text-dark;
             text-decoration: underline

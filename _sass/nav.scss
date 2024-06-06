@@ -81,6 +81,7 @@ nav#main-nav.navbar-top.nav-page {
 }
 
  .nav-link:hover{
+  color:$brand-secondary !important;
   opacity: 1;
 }
 
@@ -96,5 +97,5 @@ nav#main-nav.navbar-top.nav-page {
 }
 
 nav#main-nav.navbar-top.scrolled {
-  border-bottom: 5px solid $brand-primary;
+  border-bottom: 5px solid $brand-secondary;
  }

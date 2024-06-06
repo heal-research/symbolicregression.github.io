@@ -9,7 +9,7 @@ header{
    position: relative;
    overflow: hidden;
 
-   background-image: linear-gradient(180deg, #D86E05, #fcbb7a);
+   background-image: linear-gradient(180deg, $brand-primary, $brand-primary-lighter);
 
   .svg-container {
 

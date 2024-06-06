@@ -29,3 +29,72 @@ MainNav:
       en: Publications
     link: "/publications/"
     hardlink: false
+Socials:
+  - item: twitter
+    name:
+      de: Twitter
+      en: Twitter
+    link: "https://twitter.com/"
+    hardlink: true
+  - item: rss
+    name:
+      de: RSS
+      en: RSS
+    link: "feed.xml"
+    hardlink: true
+  - item: github
+    name:
+      de: GitHub
+      en: GitHub
+    link: "https://github.com/heal-research"
+    hardlink: true
+  - item: linkedin
+    name:
+      de: LinkedIn
+      en: LinkedIn
+    link: "#"
+    hardlink: true
+Information:
+  - item: imprint
+    name:
+      de: "Impressum"
+      en: "Imprint"
+    link: "/imprint/"
+    hardlink: false
+  - item: dataprotect
+    name:
+      de: Datenschutz
+      en: Data Protection
+    link: "/dataprotection/"
+    hardlink: false
+  - item: press
+    name:
+      de: Presse Material
+      en: Press
+    link: "/press/"
+    hardlink: false
+  - item: sitemap
+    name:
+      de: Sitemap
+      en: Sitemap
+    link: "/sitemap/"
+    hardlink: false
+Partners:
+  - item: fhooe
+    name:
+      de: Fachhochschule Oberösterreich
+      en: University of Applied Sciences Upper Austria
+    link: "https://www.fh-ooe.at/en/"
+    hardlink: true
+  - item: swph
+    name:
+      de: Softwarepark Hagenberg
+      en: Softwarepark Hagenberg
+    link: "https://www.softwarepark-hagenberg.com/en/"
+    hardlink: true
+  - item: heal
+    name:
+      de: Heuristic and Evolutionary Algorithms Laboratory
+      en: Heuristic and Evolutionary Algorithms Laboratory
+    link: "https://heal.heuristiclab.com/"
+    hardlink: true

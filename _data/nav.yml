@@ -5,12 +5,6 @@ MainNav:
       en: Home
     link: "/"
     hardlink: false
-  - item: team
-    name:
-      de: Team
-      en: Team
-    link: "/team/"
-    hardlink: false
   - item: book
     name:
       de: Book
@@ -28,6 +22,12 @@ MainNav:
       de: Publikationen
       en: Publications
     link: "/publications/"
+    hardlink: false
+  - item: book_links
+    name:
+      de: BookLinks
+      en: BookLinks
+    link: "/bookLinks/"
     hardlink: false
 Socials:
   - item: twitter

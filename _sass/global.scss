@@ -78,47 +78,52 @@ p {
    min-height:100%;
  }
 
- .btn {
-   border-radius: 0;
-   text-transform: uppercase;
-   font-family: $base-font-family;
-   font-weight:700;
-   color:$base-text-color-light;
-   transition: all 0.3s;
- }
+.btn {
+  display:inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: $base-font-family;
+  font-weight:500;
+  color:$base-text-color-light;
+  transition: all 0.5s;
+  border:2px solid #fff;
+}
 
- .btn-slim-primary:hover {
-   border:2px solid;
- }
-
- .btn-fat-primary:hover {
+.btn-fat {
+  font-weight:700;
+  padding: 1rem 1.5rem;
   border:5px solid;
 }
 
- .btn-xl{
-   padding:15px;
- }
+.btn-slim {
+  font-weight:500;
+  border:2px solid;
+}
 
- .btn-slim-primary {
-   border:2px solid #fff;
-   background-color: inherit;
- }
+.btn-primary {
+  border-color: $brand-primary;
+  background-color: rgba($brand-primary, 0.7);
+  color: rgba(255, 255, 255, 0.7);
+}
 
- .btn-fat-primary {
-  border:5px solid #fff;
+.btn-primary:hover{
+  border-color: $brand-primary;
+  background-color: rgba($brand-primary, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.btn-light {
+  border-color: #fff;
   background-color: inherit;
-  font-weight:900;
-  font-size:1.2rem;
- }
+  color: rgba(255, 255, 255, 0.7);
+}
 
- .btn-fat-primary:hover {
-  border:5px solid #fff;
+.btn-light:hover {
+  border-color: #fff;
   background-color: inherit;
-  font-weight:900;
-  font-size:1.2rem;
-  text-decoration: underline;
-  text-decoration-thickness: 0.3rem;
- }
+  color: rgba(255, 255, 255, 1);
+}
 
  .arrow {
   cursor: pointer;

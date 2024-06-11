@@ -22,7 +22,7 @@ description: Detailed information about the Symbolic Regression book
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <a href="/" class="btn btn-slim-primary btn-xl book-btn">Get the book</a>
+                            <a href="/" class="btn btn-fat btn-light">Get the book</a>
                         </div>
                     </div>
                 </div>
@@ -159,17 +159,17 @@ description: Detailed information about the Symbolic Regression book
                                     <span class="toc-page">{{section.page}}</span>
                                 </a>
                                 {% if section.subsections %}
-                                    <ol class="toc-subsec">
-                                        {% for subsection in section.subsections %}
-                                        <li>
-                                            <a class="toc-subsec">
-                                                <span class="toc-title">{{subsection.subsection}}</span>
-                                                <span class="toc-dots"></span>
-                                                <span class="toc-page">{{subsection.page}}</span>
-                                            </a>
-                                        </li>
-                                        {% endfor %}
-                                    </ol>
+                                <ol class="toc-subsec">
+                                    {% for subsection in section.subsections %}
+                                    <li>
+                                        <a class="toc-subsec">
+                                            <span class="toc-title">{{subsection.subsection}}</span>
+                                            <span class="toc-dots"></span>
+                                            <span class="toc-page">{{subsection.page}}</span>
+                                        </a>
+                                    </li>
+                                    {% endfor %}
+                                </ol>
                                 {% endif %}
                             </li>
                             {% endfor %}
@@ -177,6 +177,11 @@ description: Detailed information about the Symbolic Regression book
                     </li>
                     {% endfor %}
                 </ol>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-md-12">
+                <a href="" class="btn btn-fat btn-primary">Get the TOC PDF</a>
             </div>
         </div>
     </article>
@@ -191,7 +196,8 @@ description: Detailed information about the Symbolic Regression book
         {% for author in site.data.authors %}
         <div class="row author-card">
             <div class="col-md-3">
-                <img class="author-img img-thumbnail img-fluid mx-auto d-block" src="../assets/img/{{author.img}}" alt=""/>
+                <img class="author-img img-thumbnail img-fluid mx-auto d-block" src="../assets/img/{{author.img}}"
+                    alt="" />
             </div>
             <div class="col-md-9">
                 <h5>{{author.first_name}} {{author.last_name}}</h5>

@@ -8,8 +8,127 @@ Contents:
         page: 5
       - section: Regression
         page: 7
-        subsections:
-          - subsection: Linear Models
-            page: 7
-          - subsection: Nonlinear Models
-            page: 8
+        #subsections:
+        #  - subsection: Linear Models
+        #    page: 7
+        #  - subsection: Nonlinear Models
+        #    page: 8
+      - section: Classification
+        page: 11
+      - section: Time Series Prediction
+        page: 13
+      - section: Model Selection
+        page: 14
+      - section: Cross-validation
+        page: 18
+      - section: Further Reading
+        page: 19
+  - chapter: Basics of Symbolic Regression
+    page: 21
+    sections:
+      - section: "Example: Identification of a Polynomial"
+        page: 21
+      - section: "Example: Discovery of Laws of Physics from Data"
+        page: 26
+      - section: "Example: Approximation of the Gamma Function"
+        page: 29
+      - section: "Extending Symbolic Regression to Classification"
+        page: 32
+      - section: Further Reading
+        page: 24
+  - chapter: Evolutionary Computation and Genetic Programming
+    page: 35
+    sections:
+      - section: General Concepts
+        page: 39
+      - section: Population Initialization
+        page: 42
+      - section: Fitness Calculation
+        page: 45
+      - section: Parent Selection
+        page: 45
+      - section: Bloat and Introns
+        page: 47
+      - section: Crossover and Mutation
+        page: 49
+      - section: Power of the Hypothesis Space
+        page: 50
+      - section: GP Dynamics
+        page: 54
+      - section: Algorithmic Extensions
+        page: 64
+      - section: Conclusions
+        page: 77
+      - section: Further Reading
+        page: 78
+  - chapter: Model Validation, Inspection, Simplification, and Selection
+    page: 81
+    sections:
+      - section: Model Validation
+        page: 82
+      - section: Model Selection
+        page: 100
+      - section: Model Simplification
+        page: 108
+      - section: "Example: Boston Housing"
+        page: 113
+      - section: Conclusions
+        page: 125
+      - section: Further Reading
+        page: 125
+  - chapter: Advanced Techniques
+    page: 127
+    sections:
+      - section: Integration of Knowledge
+        page: 127
+      - section: Optimization of Coefficients
+        page: 138
+      - section: Prediction Intervals
+        page: 143
+      - section: Modeling System Dynamics
+        page: 153
+      - section: Non-numeric Data
+        page: 166
+      - section: Non-evolutionary Symbolic Regression
+        page: 168
+  - chapter: Examples and Applications
+    page: 173
+    sections:
+      - section: Yacht Hydrodynamics
+        page: 173
+      - section: Industrial Chemical Processes
+        page: 179
+      - section: Interatomic Potentials
+        page: 187
+      - section: Friction
+        page: 189
+      - section: Lithium-ion Batteries
+        page: 197
+      - section: Biomedical Problems
+        page: 214
+      - section: Function Approximation
+        page: 219
+      - section: Atmospheric CO2 Concentration
+        page: 223
+      - section: Flow Stress
+        page: 225
+      - section: Dynamics of Simple Mechanical Systems
+        page: 229
+      - section: Conclusions
+        page: 247
+  - chapter: Conclusion
+    page: 249
+    sections:
+      - section: Unique Selling Points of Symbolic Regression
+        page: 249
+      - section: Limitations and Caveats
+        page: 250
+  - chapter: Apendix
+    page: 253
+    sections:
+      - section: Benchmarks
+        page: 253
+      - section: Open-source Software for Genetic Programming
+        page: 254
+      - section: Commercial Software for Genetic Programming
+        page: 258

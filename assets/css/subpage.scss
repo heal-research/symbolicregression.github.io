@@ -180,8 +180,8 @@ section#book {
    }
 
    //content
-   ol {
-    counter-reset: item;
+ol {
+   counter-reset: item;
 }
 
 li {
@@ -210,14 +210,26 @@ li:before {
 .toc-dots {
     flex-grow: 1;
     border-bottom: 1px dotted #000;
+    line-height:2rem;
+    position:relative;
+    top:5px;
 }
 
 .toc-page {
     text-align: right;
-    padding-left: 5px; /* Adjusted for tighter spacing */
+    padding-left: 10px; /* Adjusted for tighter spacing */
+    min-width: 20px;
 }
 
 .toc-sec, .toc-subsec {
     margin-left: 20px;
+}
+
+ol.toc-sec {
+   padding-left:5px;
+}
+
+a.toc-sec {
+   color: $brand-black;
 }
 }

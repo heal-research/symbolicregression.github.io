@@ -29,6 +29,18 @@ MainNav:
       en: BookLinks
     link: "/bookLinks/"
     hardlink: false
+    dropdown: true
+    items:
+      - name:
+          de: "Subpage 1"
+          en: "Subpage 1"
+        link: "/bookLinks/"
+        hardlink: false
+      - name:
+          de: "Subpage 2"
+          en: "Subpage 2"
+        link: "/bookLinks/"
+        hardlink: false
 Socials:
   - item: twitter
     name:

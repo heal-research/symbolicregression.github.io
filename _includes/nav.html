@@ -23,18 +23,32 @@
       </button>
 
       <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-         {% for nav_item in site.data.nav.MainNav %}
-             {% if nav_item.hardlink %}
-                 {% capture baseurl %}/{% endcapture %}            
-             {% else %}
-                 {% capture baseurl %}{% endcapture %}
-             {% endif %}
-             {% if ishome and forloop.first %}
-                 <a href="{{baseurl}}/#{{nav_item.item}}" class="nav-item nav-link">{{nav_item.name["en"]}}</a>
-             {% else %}
-                 <a href="{{baseurl}}{{nav_item.link}}" class="nav-item nav-link">{{nav_item.name["en"]}}</a>
-             {% endif %}    
-         {% endfor %}
+        <ul class="navbar-nav mb-lg-0">
+        {% for nav_item in site.data.nav.MainNav %}
+            {% if nav_item.hardlink %}
+                {% capture baseurl %}/{% endcapture %}            
+            {% else %}
+                {% capture baseurl %}{% endcapture %}
+            {% endif %}
+            
+            {% if nav_item.dropdown %}
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                    {% for item in nav_item.items %}
+                        <li><a class="dropdown-item" href="{{ item.link }}">{{ item.name["en"] }}</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% else %}
+            <li class="nav-item">
+                <a class="nav-link" href="{{baseurl}}{{nav_item.link}}">{{nav_item.name["en"]}}</a>
+            </li>
+            {% endif %}
+        {% endfor %}
+        </ul>
      </div>
    </div>
 </nav>

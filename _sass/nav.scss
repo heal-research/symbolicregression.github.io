@@ -97,13 +97,41 @@ nav#main-nav {
         margin-left: 0.5em;
       }
     }
+
+    .nav-home-brand #heal-logo {
+      height:60px;
+      position: realtive;
+      display: inline-block;
+
+      .cls-2, .cls-1, .cls-3 {
+        fill:#fff;
+      }
+     }
+
+     .nav-sub-brand #heal-logo {
+      height:60px;
+      position: realtive;
+      display: inline-block;
+
+      .cls-1 {
+        fill: $brand-secondary;
+      }
+
+      .cls-2 {
+
+      }
+
+      .cls-3 {
+        fill: $brand-primary;
+      }
+     }
 }
 
 nav#main-nav.navbar-top.scrolled,
 nav#main-nav.navbar-top.nav-page {
   scroll-margin-top: 100px!important;
   background-color: #fff !important;
-  transition: background-color 200ms linear;   
+  transition: background-color 200ms linear;
 
  .nav-link {
   color:$brand-primary !important;
@@ -129,5 +157,22 @@ nav#main-nav.navbar-top.nav-page {
 
 nav#main-nav.navbar-top.scrolled {
   border-bottom: 5px solid $brand-secondary;
- }
 
+  #heal-logo {
+    height:60px;
+    position: realtive;
+    display: inline-block;
+
+    .cls-1 {
+      fill: $brand-secondary;
+    }
+
+    .cls-2 {
+      fill: #fff;
+    }
+
+    .cls-3 {
+      fill: $brand-primary;
+    }
+   }
+ }

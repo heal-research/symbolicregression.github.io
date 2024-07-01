@@ -1,54 +1,60 @@
-
 {% if page.url == "/" %}
-    {% capture ishome %}true{% endcapture %}
+{% capture ishome %}true{% endcapture %}
 {% endif %}
 {% if page.url == "/book/" %}
-    {% capture isbook %}true{% endcapture %}
+{% capture isbook %}true{% endcapture %}
 {% endif %}
 
 
 {%if ishome or isbook %}
 <nav id="main-nav" class="navbar fixed-top navbar-expand-md navbar-top my-nav">
-{% else %}
-<nav id="main-nav" class="navbar fixed-top navbar-expand-md navbar-top my-nav nav-page">
-{% endif %}
-   <div class="container-fluid">
-      <div class="brand-container">
-         <a href="/" class="navbar-brand nav-home-brand">LOGO</a>
-      </div>
+    {% else %}
+    <nav id="main-nav" class="navbar fixed-top navbar-expand-md navbar-top my-nav nav-page">
+        {% endif %}
+        <div class="container-fluid">
+            <div class="brand-container">
+                {%if ishome or isbook %}
+                <a href="/" class="navbar-brand nav-home-brand">
+                    {% else %}
+                    <a href="/" class="navbar-brand nav-sub-brand">
+                        {% endif %}
+                        {% include svg/heal_logo.svg %}
+                    </a>
+            </div>
 
-      <button type="button" class="navbar-toggler pull-right" data-bs-toggle="collapse"
-         data-bs-target="#navbarCollapse">
-         <span class="navbar-toggler-icon"></span>
-      </button>
+            <button type="button" class="navbar-toggler pull-right" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-      <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-        <ul class="navbar-nav mb-lg-0">
-        {% for nav_item in site.data.nav.MainNav %}
-            {% if nav_item.hardlink %}
-                {% capture baseurl %}/{% endcapture %}            
-            {% else %}
-                {% capture baseurl %}{% endcapture %}
-            {% endif %}
-            
-            {% if nav_item.dropdown %}
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                    {% for item in nav_item.items %}
-                        <li><a class="dropdown-item" href="{{ item.link }}">{{ item.name["en"] }}</a></li>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav mb-lg-0">
+                    {% for nav_item in site.data.nav.MainNav %}
+                    {% if nav_item.hardlink %}
+                    {% capture baseurl %}/{% endcapture %}
+                    {% else %}
+                    {% capture baseurl %}{% endcapture %}
+                    {% endif %}
+
+                    {% if nav_item.dropdown %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            {% for item in nav_item.items %}
+                            <li><a class="dropdown-item" href="{{ item.link }}">{{ item.name["en"] }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{baseurl}}{{nav_item.link}}">{{nav_item.name["en"]}}</a>
+                    </li>
+                    {% endif %}
                     {% endfor %}
                 </ul>
-            </li>
-            {% else %}
-            <li class="nav-item">
-                <a class="nav-link" href="{{baseurl}}{{nav_item.link}}">{{nav_item.name["en"]}}</a>
-            </li>
-            {% endif %}
-        {% endfor %}
-        </ul>
-     </div>
-   </div>
-</nav>
+            </div>
+        </div>
+    </nav>

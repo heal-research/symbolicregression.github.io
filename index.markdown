@@ -91,8 +91,12 @@ description: SymReg Homepage
                 <div class="col-md-8">Genetic programming page by John Koza</div>
             </div>
             <div class="row">
-                <div class="col-md-4"><a href="https://heal.heurististiclab.com" target="_blank">https://heal.heuristiclab.com</a></div>
-                <div class="col-md-8">Heuristic and Evolutionary Algorithms Laboratory</div>
+                <div class="col-md-4"><a href="https://www.geneticprogramming.com" target="_blank">https://www.geneticprogramming.com</a></div>
+                <div class="col-md-8">More recent page on genetic programming by the GP community</div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"><a href="https://heal.heuristiclab.com" target="_blank">https://heal.heuristiclab.com</a></div>
+                <div class="col-md-8">Research Group - Heuristic and Evolutionary Algorithms Laboratory</div>
             </div>
         </div>
     </section>

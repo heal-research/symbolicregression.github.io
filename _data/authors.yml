@@ -2,44 +2,35 @@
   prefix: FH-Prof. DI Dr.
   first_name: Gabriel
   last_name: Kronberger
-  role: Professor for Business Intelligence/Data Engineering
-  mail: gabirel.kronberger@fh-hagenberg.at
-  phone: +43 5 0804 22320
-  desc: Is professor for data engineering and business intelligence. His research interests are symbolic regression and machine learning as well as probabilistic graphical models.
+  role: Professor for Business Intelligence and Data Engineering
+  mail: gabriel.kronberger@fh-hagenberg.at
+  desc:  His research is focused on symbolic regression algorithms and their application in science and engineering. From 2018 until the end of 2022, he headed the Josef Ressel Center for Symbolic Regression in which he developed symbolic regression methods for semi-analytical modelling to improve interpretability, trustworthiness, and extrapolation capabilities. 
   img: gkronber.png
 - id: bburlacu
   prefix: FH-Prof. Dipl.-Ing. Dr.
   first_name: Bogdan
   last_name: Burlacu
   role: Professor for Data Analytics and Machine Learning
-  mail: bogdan.burlacu@fh-hagenberg.at
-  phone: +43 5 0804 27134
-  desc: Is a research assistant. His main focus is the study of genetic programming evolutionary dynamics in symbolic regression scenarios.
+  desc: He has been an active researcher in the symbolic regression community for over a decade and his main area of expertise is the development of new symbolic regression algorithms and software.
   img: bburlacu.png
 - id: mkommenda
   prefix: DI(FH) Dr.
   first_name: Michael
   last_name: Kommenda
-  role: Professor for Data Analytics and Machine Learning
-  mail: michael.kommenda@fh-hagenberg.at
-  phone:
-  desc: Is a research assistant. He has been applying symbolic regression methods in various industrial projects and application scenarios.
+  role: Consultant for Aritficial Intelligence Solutions
+  desc: He authored several papers on symbolic regression and genetic programming and organized the workshop for symbolic regression at the Genetic and Evolutionary Computation Conference (GECCO).
   img: mkommend.jpg
 - id: swinkler
   prefix: FH-Prof. PD DI Dr.
   first_name: Stephan
   last_name: Winkler
-  role: Professor for Bioinformatic/Machine Learning/Evolutionary Algorithms
-  mail: stephan.winkler@fh-hagenberg.at
-  phone: +43 5 0804 22720
-  desc: Is professor for medical and bioinformatics and head of the bioinformatics research group. His research interests despite bioinformatics include genetic programming, nonlinear model identification and machine learning.
+  role: Professor for Bioinformatics, Machine Learning, and Evolutionary Algorithms
+  desc: He is head of the Department of Medical and Bioinformatics as well as the Bioinformatics Research Group. For more than 20 years, he has been an active researcher in genetic programming and symbolic regression. Stephan Winkler has published numerous articles and books on data science and bioinformatics, and is member of the organization team of the Genetic Programming in Theory and Practice Workshop (GPTP).
   img: swinkler.png
 - id: maffenzeller
   prefix: FH-Prof. PD DI Dr.
   first_name: Michael
   last_name: Affenzeller
-  role: Professor for Heuristic Optimization/Machine Learning
-  mail: michael.affenzeller@fh-hagenberg.at
-  phone: +43 5 0804 22031
-  desc: Is professor for heuristic optimization and machine learning and head of the Heuristic and Evolutionary Algorithms Laboratory. Furthermore, he is the vice dean for research and overall head of the COMET project for heuristic optimization in production and logistics (HOPL).
+  role: Professor for Heuristic Optimization and Machine Learning
+  desc: He has published several papers, journal articles and books dealing with theoretical and practical aspects of evolutionary computation, genetic algorithms, and meta-heuristics in general. In 2001 he received his PhD in engineering sciences and in 2004 he received his habilitation in applied systems engineering, both from the Johannes Kepler University of Linz, Austria. He is head of the research group HEAL.
   img: maffenze.png

@@ -79,12 +79,6 @@ Information:
       en: Data Protection
     link: "/dataprotection/"
     hardlink: false
-  - item: press
-    name:
-      de: Presse Material
-      en: Press
-    link: "/press/"
-    hardlink: false
   - item: sitemap
     name:
       de: Sitemap

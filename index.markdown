@@ -10,19 +10,18 @@ description: SymReg Homepage
 
 <section id="info">
     <div class="container">
-        <h2 class="section-header">What is Symbolic Regression (SymReg)?</h2>
+        <h2 class="section-header">What is Symbolic Regression?</h2>
         <div class=row>
             <div class="col-lg-5 col-md-12">
                 <p class="text-justify">
-                    Symbolic regression is a data-based modelling method where the goal is to find a formula that describes given data. Similarly to other regression methods, the model allows to predict one or multiple variables given known values of the input variables. However, in symbolic regression one does not merely fit parameters to a fixed model structure. Instead, the goal is to identify the necessary model structure as well as optimal model parameters for the given dataset.
+                    Symbolic regression is a supervised learning task where the goal is to find equations that fit data (equation learning). Symbolic regression models allow to predict one or multiple variables from known variables. In contrast to other regression methods, the task is not only to identify fitting parameter values for a fixed equation structure, but instead to find the complete equation including fitting parameter values.
                     <br/>
-                    The term symbolic regression was coined by John Koza in the context of genetic programming. In later developments, different algorithm variants for symbolic regression have been proposed, many of which are based on evolutionary algorithms.<br />
-                    When using genetic programming, the user specifies which operators and basic functions are allowed to be used in the model. The algorithm starts with a set of random expressions. Through selection and random recombination the algorithm evolves a well-fitting model.
+                    Symbolic regression was coined by <a href="https://genetic-programming.org/">John Koza</a> in the context of <a href="https://geneticprogramming.com/">genetic programming</a> (GP). GP is an evolutionary algorithm for symbolic regression. It manages a set of equations (population) and recombines parts from well-fitting equations to produce new equations. This processes is repeated over many generations to produce better and better solutions starting from a set of randomly initialiezd equations.
                 </p>
             </div>
             <div class="col-lg-7 col-md-12 text-center">
                 <figure class="image-box">
-                    <img src="/assets/img/symreg-explaination.png" id="symreg-explaination">
+                    <img src="/assets/img/symreg-explanation.png" id="symreg-explanation">
                 </figure>
             </div>
         </div>
@@ -30,14 +29,12 @@ description: SymReg Homepage
         <div class=row>
             <div class="col-lg-7 col-md-12 text-center">
                 <figure class="image-box">
-                    <img src="/assets/img/symreg-grammar.png" id="symreg-explaination">
+                    <img src="/assets/img/symreg-grammar.png" id="symreg-explanation">
                 </figure>
             </div>
             <div class="col-lg-5 col-md-12">
                 <p class="text-justify">
-                    A drawback of evolutionary algorithms is that they are non-deterministic. For industrial applications we need deterministic and efficient parameter-less solvers for symbolic regression problems. In the Josef Ressel Centre we develop and implement such algorithms.
-                    <br />
-                    We take up the idea of “Prioritized Grammar Enumeration” (Worm and Chiu, 2013) which uses dynamic programming to create symbolic regression models. The algorithm uses a formal grammar as input which describes the structure of the symbolic regression models and is then able to produce all models for this structure up to a certain maximum size. The approach has potentially exponential asymptotic runtime for increasing formula sizes or number of variables. Therefore, heuristics are necessary to guide the search process to potentially more interesting parts of the search tree.
+                    Many different algorithms for symbolic regression have been described as alternatives to GP. One approach that can be useful to find short equations is systematic enumeration of the set of equations as in <a href="https://arxiv.org/abs/2109.13895">Grammar Enumeration</a> or <a href="https://arxiv.org/abs/2211.11461">Exhaustive Symbolic Regression</a>. 
                 </p>
             </div>
         </div>
@@ -45,39 +42,61 @@ description: SymReg Homepage
 
     <section id="projects" class="bg-light-grey">
         <div class=container>
-            <h2 class="section-header">Projects</h2>
+            <h2 class="section-header">Our projects</h2>
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-subheading"><a href="">ProMetHEus - Production and processing of metals for high-performance, energy efficiency, environmental protection and sustainability</a></h3>
+                    <h3 class="section-subheading">AstroSymReg - Accelerating the Physical Sciences with Symbolic Regression</h3>
                     <p class="text-justify">
-                    The project, lead by LKR Light Metal Competence Center Ranshofen, Austrian Institute of Technology (AIT), supports companies in the materials processing industries to produce sustainably and efficiently. We develop symbolic regression algorithms and models for new process routes.
+                    We develop and apply symbolic regression algorithms to create models for astrophysics, such as <a href="https://arxiv.org/abs/2311.15865">cosmology models</a>.<br />
                     Project duration: 2024 - ongoing<br />
-		    <a href=https://www.ait.ac.at/en/research-topics/forming-technologies/projects/prometheus>Project details</a><br />
-                    <br /><br />
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-subheading"><a href="">TransMet - Fundamentals and tools for engineering of high quality recycled and CO2 reduced strip steels</a></h3>
+                    <h3 class="section-subheading"><a href="https://www.ait.ac.at/en/research-topics/forming-technologies/projects/prometheus">ProMetHEus - Production and processing of metals for high-performance, energy efficiency, environmental protection and sustainability</a></h3>
                     <p class="text-justify">
-                    Project duration from 2021-04-01 to 2024-03-31<br />
-                    <br /><br />
-                    In this project which is part of the COMET Center MCL (Material Center Leoben) we work on algorithms for the adaptation of material models. Focus of our activities are the combination of physics-based models with purely data-driven models.
+                    The project, lead by <a href="https://www.ait.ac.at/en/about-the-ait/center/center-for-transport-technologies/lkr-leichtmetallkompetenzzentrum-ranshofen">LKR Light Metal Competence Center Ranshofen, Austrian Institute of Technology (AIT)</a>, supports companies in the materials processing industries to produce sustainably and efficiently. We develop symbolic regression algorithms and models for new process routes.<br />
+                    Project duration: 2024 - ongoing<br />
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-subheading"><a href="">Josef Ressel Center for Symbolic Regression</a></h3>
+                    <h3 class="section-subheading"><a href="https://www.mcl.at/en/funding-programs/comet/areas/#c1467">TransMet - Fundamentals and tools for engineering of high quality recycled and CO2 reduced strip steels</a></h3>
                     <p class="text-justify">
-                    Project duration from 2018-01-01 to 2022-12-31<br />
-                    Within the Josef Ressel Centre for Symbolic Regression we developed new symbolic regression algorithms as well as a methodological and technical framework for incremental model adaptation for handling concept drift. We used symbolic regression for modelling components of powertrains, friction systems, and plastics recycling plants.
+                    We develop algorithms for the adaptation of material models in this project which is lead by the <a href="https://mcl.at">Materials Center Leoben</a>. Focus of our activities are the combination of physics-based models with data-driven models using symbolic regression.<br />
+                    Project duration: 2021 - 2024<br />
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-subheading"><a href="https://heal.heuristiclab.com/projects/jrc-symreg">Josef Ressel Center for Symbolic Regression</a></h3>
+                    <p class="text-justify">
+                    Within the Josef Ressel Centre for Symbolic Regression we developed new symbolic regression algorithms as well as a methodological and technical framework for incremental model adaptation for handling concept drift. We used symbolic regression for modelling components of powertrains, friction systems, and plastics recycling plants. <br />
+                    Project duration: 2018 - 2022<br/>
                     </p>
                 </div>
             </div>
         </div>
     </section>
+    
+
+    <section id="links">
+        <div class="container">
+            <h2 class="section-header">Links</h2>
+            <div class="row">
+                <div class="col-md-4"><a href="https://www.genetic-programming.org" target="_blank">https://www.genetic-programming.org</a></div>
+                <div class="col-md-8">Genetic programming page by John Koza</div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"><a href="https://heal.heurististiclab.com" target="_blank">https://heal.heuristiclab.com</a></div>
+                <div class="col-md-8">Heuristic and Evolutionary Algorithms Laboratory</div>
+            </div>
+        </div>
+    </section>
+
     <section id="contact" class="bg-brand-secondary">
         <div class="container">
             <div class="row">
@@ -96,25 +115,14 @@ description: SymReg Homepage
                                 <td>University of Applied Sciences Upper Austria (FH OÖ)</td>
                             </tr>
                             <tr>
-                                <td>Phone:</td>
-                                <td>+43 50804 22320</td>
+                                <td>Phone: +43 80484 22320</td>
                             </tr>
                             <tr>
-                                <td>Mail:</td>
-                                <td>gabriel.kronberger@fh-hagenberg.at</td>
+                                <td>Mail: <a href="mailto:gabriel.kronberger@fh-hagenberg.at">gabriel.kronberger@fh-hagenberg.at</a></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="links">
-        <div class="container">
-            <h2 class="section-header">Useful links</h2>
-            <div class="row">
-
             </div>
         </div>
     </section>

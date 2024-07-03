@@ -118,6 +118,10 @@ section#book {
    //features
    .feature {
       margin-bottom: 50px;
+      text-justify: none;
+      p {
+         text-justify: auto;
+      }
    }
 
    .feature h5 > i {

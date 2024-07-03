@@ -11,7 +11,7 @@
       }
 
       .cls-2 {
-        font-family: OpenSans-Regular, 'Open Sans';
+        font-family: 'Open Sans';
         font-size: 89.24px;
         font-variation-settings: 'wght' 400, 'wdth' 100;
       }

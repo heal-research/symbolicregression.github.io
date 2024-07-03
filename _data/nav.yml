@@ -15,7 +15,7 @@ MainNav:
     name:
       de: Projekte
       en: Projects
-    link: "/projects/"
+    link: "#projects"
     hardlink: false
   - item: publications
     name:
@@ -32,14 +32,14 @@ MainNav:
     dropdown: true
     items:
       - name:
-          de: "Subpage 1"
-          en: "Subpage 1"
-        link: "/bookLinks/"
+          de: "Software"
+          en: "Software"
+        link: "/software/"
         hardlink: false
       - name:
-          de: "Subpage 2"
-          en: "Subpage 2"
-        link: "/bookLinks/"
+          de: "Datasets"
+          en: "Datasets"
+        link: "/datasets/"
         hardlink: false
 Socials:
   - item: twitter

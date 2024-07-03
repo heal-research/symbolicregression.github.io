@@ -27,7 +27,7 @@ nav#main-nav {
       width:100%;
       padding: 10px;
       // padding:10px 0 0 10px;
-      display: block;;
+      display: block;
     }
 
     .brand-container {
@@ -65,6 +65,10 @@ nav#main-nav {
       .navbar-collapse {
         background-color: $brand-primary;
       }
+    }
+
+    .navbar-nav {
+      padding-right:20px;
     }
 
     .navbar-nav .nav-link {

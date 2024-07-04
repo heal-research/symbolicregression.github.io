@@ -104,31 +104,38 @@ description: SymReg Homepage
         </div>
     </div>
 </section>
-<section id="contact" class="bg-brand-primary">
+<section id="contact" class="bg-brand-secondary">
     <div class="container">
         <h2 class="section-header">Contact</h2>
-        <div class="row">
-            <div class="col-md-5">
-                <h4>FH-Prof. DI Dr. Gabriel Kronberger</h4>
-                <table class="contact-table">
-                    <tbody>
-                        <tr>
-                            <td>Professor for Business Intelligence and Data Engineering</td>
-                        </tr>
-                        <tr>
-                            <td>Heuristic and Evolutionary Algorithms Laboratory (HEAL)</td>
-                        </tr>
-                        <tr>
-                            <td>University of Applied Sciences Upper Austria (FH OÖ)</td>
-                        </tr>
-                        <tr>
-                            <td>Phone: +43 80484 22320</td>
-                        </tr>
-                        <tr>
-                            <td>Mail: <a href="mailto:gabriel.kronberger@fh-hagenberg.at">gabriel.kronberger@fh-hagenberg.at</a></td>
-                        </tr>
-                    </tbody>
-                </table>
+        <div class="row d-flex">
+            <div class="col-lg-6">
+                <div class="contact-container">
+                    <h4>FH-Prof. DI Dr. Gabriel Kronberger</h4>
+                    <table class="contact-table">
+                        <tbody>
+                            <tr>
+                                <td>Professor for Business Intelligence and Data Engineering</td>
+                            </tr>
+                            <tr>
+                                <td>Heuristic and Evolutionary Algorithms Laboratory (HEAL)</td>
+                            </tr>
+                            <tr>
+                                <td>University of Applied Sciences Upper Austria (FH OÖ)</td>
+                            </tr>
+                            <tr>
+                                <td>Phone: +43 80484 22320</td>
+                            </tr>
+                            <tr>
+                                <td>Mail: <a href="mailto:gabriel.kronberger@fh-hagenberg.at">gabriel.kronberger@fh-hagenberg.at</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-lg-6 d-none d-md-block">
+                <div id="map-container">
+                    <div id="map"></div>
+                </div>
             </div>
         </div>
     </div>

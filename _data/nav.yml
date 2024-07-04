@@ -16,7 +16,7 @@ MainNav:
       de: Projekte
       en: Projects
     link: "#projects"
-    hardlink: false
+    hardlink: true
   - item: publications
     name:
       de: Publikationen

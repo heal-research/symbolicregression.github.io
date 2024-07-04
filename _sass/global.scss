@@ -74,6 +74,15 @@ p {
   }
  }
 
+ .bg-brand-primary{
+  background-color: $brand-primary;
+  color:#fff;
+
+  h2.section-header{
+    color:#fff;
+  }
+ }
+
  .h-100{
    min-height:100%;
  }

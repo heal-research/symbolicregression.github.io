@@ -25,8 +25,7 @@ description: SymReg Homepage
                 </figure>
             </div>
         </div>
-
-        <div class=row>
+        <div class="row">
             <div class="col-lg-7 col-md-12 text-center">
                 <figure class="image-box">
                     <img src="/assets/img/symreg-grammar.png" id="symreg-explanation">
@@ -34,100 +33,103 @@ description: SymReg Homepage
             </div>
             <div class="col-lg-5 col-md-12">
                 <p class="text-justify">
-                    Many different algorithms for symbolic regression have been described as alternatives to GP. One approach that can be useful to find short equations is systematic enumeration of the set of equations as in <a href="https://arxiv.org/abs/2109.13895">Grammar Enumeration</a> or <a href="https://arxiv.org/abs/2211.11461">Exhaustive Symbolic Regression</a>. 
+                    Many different algorithms for symbolic regression have been described as alternatives to GP. One approach that can be useful to find short equations is systematic enumeration of the set of equations as in <a href="https://arxiv.org/abs/2109.13895">Grammar Enumeration</a> or <a href="https://arxiv.org/abs/2211.11461">Exhaustive Symbolic Regression</a>.
                 </p>
             </div>
         </div>
     </div>
+</section>
 
-    <section id="projects" class="bg-light-grey">
-        <div class=container>
-            <h2 class="section-header">Our projects</h2>
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-subheading">AstroSymReg - Accelerating the Physical Sciences with Symbolic Regression</h3>
-                    <p class="text-justify">
-                    We develop and apply symbolic regression algorithms to create models for astrophysics, such as <a href="https://arxiv.org/abs/2311.15865">cosmology models</a>.<br />
-                    Project duration: 2024 - ongoing<br />
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-subheading"><a href="https://www.ait.ac.at/en/research-topics/forming-technologies/projects/prometheus">ProMetHEus - Production and processing of metals for high-performance, energy efficiency, environmental protection and sustainability</a></h3>
-                    <p class="text-justify">
-                    The project, lead by <a href="https://www.ait.ac.at/en/about-the-ait/center/center-for-transport-technologies/lkr-leichtmetallkompetenzzentrum-ranshofen">LKR Light Metal Competence Center Ranshofen, Austrian Institute of Technology (AIT)</a>, supports companies in the materials processing industries to produce sustainably and efficiently. We develop symbolic regression algorithms and models for new process routes.<br />
-                    Project duration: 2024 - ongoing<br />
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-subheading"><a href="https://www.mcl.at/en/funding-programs/comet/areas/#c1467">TransMet - Fundamentals and tools for engineering of high quality recycled and CO2 reduced strip steels</a></h3>
-                    <p class="text-justify">
-                    We develop algorithms for the adaptation of material models in this project which is lead by the <a href="https://mcl.at">Materials Center Leoben</a>. Focus of our activities are the combination of physics-based models with data-driven models using symbolic regression.<br />
-                    Project duration: 2021 - 2024<br />
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-subheading"><a href="https://heal.heuristiclab.com/projects/jrc-symreg">Josef Ressel Center for Symbolic Regression</a></h3>
-                    <p class="text-justify">
-                    Within the Josef Ressel Centre for Symbolic Regression we developed new symbolic regression algorithms as well as a methodological and technical framework for incremental model adaptation for handling concept drift. We used symbolic regression for modelling components of powertrains, friction systems, and plastics recycling plants. <br />
-                    Project duration: 2018 - 2022<br/>
-                    </p>
-                </div>
+<section id="projects" class="bg-light-grey">
+    <div class="container">
+        <h2 class="section-header">Our projects</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-subheading">AstroSymReg - Accelerating the Physical Sciences with Symbolic Regression</h3>
+                <p class="text-justify">
+                We develop and apply symbolic regression algorithms to create models for astrophysics, such as <a href="https://arxiv.org/abs/2311.15865">cosmology models</a>.<br />
+                Project duration: 2024 - ongoing<br />
+                </p>
             </div>
         </div>
-    </section>
-    
-
-    <section id="links">
-        <div class="container">
-            <h2 class="section-header">Links</h2>
-            <div class="row">
-                <div class="col-md-4"><a href="https://www.genetic-programming.org" target="_blank">https://www.genetic-programming.org</a></div>
-                <div class="col-md-8">Genetic programming page by John Koza</div>
-            </div>
-            <div class="row">
-                <div class="col-md-4"><a href="https://www.geneticprogramming.com" target="_blank">https://www.geneticprogramming.com</a></div>
-                <div class="col-md-8">More recent page on genetic programming by the GP community</div>
-            </div>
-            <div class="row">
-                <div class="col-md-4"><a href="https://heal.heuristiclab.com" target="_blank">https://heal.heuristiclab.com</a></div>
-                <div class="col-md-8">Research Group - Heuristic and Evolutionary Algorithms Laboratory</div>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-subheading"><a href="https://www.ait.ac.at/en/research-topics/forming-technologies/projects/prometheus">ProMetHEus - Production and processing of metals for high-performance, energy efficiency, environmental protection and sustainability</a></h3>
+                <p class="text-justify">
+                The project, lead by <a href="https://www.ait.ac.at/en/about-the-ait/center/center-for-transport-technologies/lkr-leichtmetallkompetenzzentrum-ranshofen">LKR Light Metal Competence Center Ranshofen, Austrian Institute of Technology (AIT)</a>, supports companies in the materials processing industries to produce sustainably and efficiently. We develop symbolic regression algorithms and models for new process routes.<br />
+                Project duration: 2024 - ongoing<br />
+                </p>
             </div>
         </div>
-    </section>
-
-    <section id="contact" class="bg-brand-secondary">
-        <div class="container">
-            <div class="row">
-                <h2 class="section-header">Contact</h2>
-                <div class="col-md-12">
-                    <h4>FH-Prof. DI Dr. Gabriel Kronberger</h4>
-                    <table class="contact-table">
-                        <tbody>
-                            <tr>
-                                <td>Professor for Business Intelligence and Data Engineering</td>
-                            </tr>
-                            <tr>
-                                <td>Heuristic and Evolutionary Algorithms Laboratory (HEAL)</td>
-                            </tr>
-                            <tr>
-                                <td>University of Applied Sciences Upper Austria (FH OÖ)</td>
-                            </tr>
-                            <tr>
-                                <td>Phone: +43 80484 22320</td>
-                            </tr>
-                            <tr>
-                                <td>Mail: <a href="mailto:gabriel.kronberger@fh-hagenberg.at">gabriel.kronberger@fh-hagenberg.at</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-subheading"><a href="https://www.mcl.at/en/funding-programs/comet/areas/#c1467">TransMet - Fundamentals and tools for engineering of high quality recycled and CO2 reduced strip steels</a></h3>
+                <p class="text-justify">
+                We develop algorithms for the adaptation of material models in this project which is lead by the <a href="https://mcl.at">Materials Center Leoben</a>. Focus of our activities are the combination of physics-based models with data-driven models using symbolic regression.<br />
+                Project duration: 2021 - 2024<br />
+                </p>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-subheading"><a href="https://heal.heuristiclab.com/projects/jrc-symreg">Josef Ressel Center for Symbolic Regression</a></h3>
+                <p class="text-justify">
+                Within the Josef Ressel Centre for Symbolic Regression we developed new symbolic regression algorithms as well as a methodological and technical framework for incremental model adaptation for handling concept drift. We used symbolic regression for modelling components of powertrains, friction systems, and plastics recycling plants. <br />
+                Project duration: 2018 - 2022<br/>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="links">
+    <div class="container">
+        <h2 class="section-header">Links</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="https://www.genetic-programming.org" target="_blank">https://www.genetic-programming.org</a>
+            </div>
+            <div class="col-md-8">Genetic programming page by John Koza</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="https://www.geneticprogramming.com" target="_blank">https://www.geneticprogramming.com</a>
+            </div>
+            <div class="col-md-8">More recent page on genetic programming by the GP community</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="https://heal.heuristiclab.com" target="_blank">https://heal.heuristiclab.com</a>
+            </div>
+            <div class="col-md-8">Research Group - Heuristic and Evolutionary Algorithms Laboratory</div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="bg-brand-primary">
+    <div class="container">
+        <h2 class="section-header">Contact</h2>
+        <div class="row">
+            <div class="col-md-5">
+                <h4>FH-Prof. DI Dr. Gabriel Kronberger</h4>
+                <table class="contact-table">
+                    <tbody>
+                        <tr>
+                            <td>Professor for Business Intelligence and Data Engineering</td>
+                        </tr>
+                        <tr>
+                            <td>Heuristic and Evolutionary Algorithms Laboratory (HEAL)</td>
+                        </tr>
+                        <tr>
+                            <td>University of Applied Sciences Upper Austria (FH OÖ)</td>
+                        </tr>
+                        <tr>
+                            <td>Phone: +43 80484 22320</td>
+                        </tr>
+                        <tr>
+                            <td>Mail: <a href="mailto:gabriel.kronberger@fh-hagenberg.at">gabriel.kronberger@fh-hagenberg.at</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </section>

@@ -10,7 +10,7 @@
          </div>
       </div>
       <div class="row">
-         <div class="col-md-2"></div>
+         <div class="col-md-3"></div>
          {% for it in site.data.nav.Information %}
          {% if it.hardlink %}
          {% capture baseurl %}/{% endcapture %}
@@ -19,7 +19,7 @@
          {% endif %}
          <div class="col-md-2"><a href="{{baseurl}}{{it.link}}">{{it.name["en"]}}</a></div>
          {% endfor %}
-         <div class="col-md-2"></div>
+         <div class="col-md-3"></div>
       </div>
    </div>
    <div class="container disclaimer">

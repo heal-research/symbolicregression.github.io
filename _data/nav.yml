@@ -9,37 +9,37 @@ MainNav:
     name:
       de: Book
       en: Book
-    link: "/book/"
+    link: "/symbolicregression.github.io/book/"
     hardlink: false
   - item: projects
     name:
       de: Projekte
       en: Projects
-    link: "#projects"
+    link: "/symbolicregression.github.io/#projects"
     hardlink: true
   - item: publications
     name:
       de: Publikationen
       en: Publications
-    link: "/publications/"
+    link: "/symbolicregression.github.io/publications/"
     hardlink: false
   - item: book_links
     name:
       de: BookLinks
       en: BookLinks
-    link: "/bookLinks/"
+    link: "/symbolicregression.github.io/bookLinks/"
     hardlink: false
     dropdown: true
     items:
       - name:
           de: "Software"
           en: "Software"
-        link: "/software/"
+        link: "/symbolicregression.github.io/software/"
         hardlink: false
       - name:
           de: "Datasets"
           en: "Datasets"
-        link: "/datasets/"
+        link: "/symbolicregression.github.io/datasets/"
         hardlink: false
 Socials:
   - item: twitter
@@ -71,19 +71,19 @@ Information:
     name:
       de: "Impressum"
       en: "Imprint"
-    link: "/imprint/"
+    link: "/symbolicregression.github.io/imprint/"
     hardlink: false
   - item: dataprotect
     name:
       de: Datenschutz
       en: Data Protection
-    link: "/dataprotection/"
+    link: "/symbolicregression.github.io/dataprotection/"
     hardlink: false
   - item: sitemap
     name:
       de: Sitemap
       en: Sitemap
-    link: "/sitemap/"
+    link: "/symbolicregression.github.io/sitemap/"
     hardlink: false
 Partners:
   - item: fhooe

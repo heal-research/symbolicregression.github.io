@@ -21,14 +21,14 @@ description: SymReg Homepage
             </div>
             <div class="col-lg-7 col-md-12 text-center">
                 <figure class="image-box">
-                    <img src="/assets/img/symreg-explanation.png" id="symreg-explanation">
+                    <img src="/symbolicregression.github.io/assets/img/symreg-explanation.png" id="symreg-explanation">
                 </figure>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-7 col-md-12 text-center">
                 <figure class="image-box">
-                    <img src="/assets/img/symreg-grammar.png" id="symreg-explanation">
+                    <img src="/symbolicregression.github.io/assets/img/symreg-grammar.png" id="symreg-explanation">
                 </figure>
             </div>
             <div class="col-lg-5 col-md-12">

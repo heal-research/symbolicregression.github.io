@@ -31,7 +31,7 @@
                 <ul class="navbar-nav mb-lg-0">
                     {% for nav_item in site.data.nav.MainNav %}
                     {% if nav_item.hardlink %}
-                    {% capture baseurl %}/{% endcapture %}
+                    {% capture baseurl %}{% endcapture %}
                     {% else %}
                     {% capture baseurl %}{% endcapture %}
                     {% endif %}

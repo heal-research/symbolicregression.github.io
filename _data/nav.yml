@@ -3,7 +3,7 @@ MainNav:
     name:
       de: Home
       en: Home
-    link: "/"
+    link: "/symbolicregression.github.io"
     hardlink: false
   - item: book
     name:

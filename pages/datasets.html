@@ -7,147 +7,172 @@ description: List of datasets using the symbolic regression book
 ---
 
 <section id="datasets">
-   <div class="container text-justify">
-      <h2>Datasets</h2>
-      <p>These are some of the datasets used in the <a href="/book/">Symbolic Regression book</a></p>
-      <div class="row">
-         <div class="col-md-11 col-sm-12">
-            <h5><a href="/assets/datasets/friedman.csv">Friedman</a></h5>
-            <p>Sample of 100 rows from the Friedman equation. Target variable is y, input variables are x1 to x10. 
-               <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="f(x)=10\sin(\pi x_{1}x_{2})+20\left(x_{3}-\frac{1}{2}\right)^{2}+10x_{4}+5x_{5}" display="block">
-               <mrow>
-                 <mrow>
-                   <mi>f</mi>
-                   <mo>⁢</mo>
-                   <mrow>
-                     <mo stretchy="false">(</mo>
-                     <mi>x</mi>
-                     <mo stretchy="false">)</mo>
-                   </mrow>
-                 </mrow>
-                 <mo>=</mo>
-                 <mrow>
-                   <mrow>
-                     <mn>10</mn>
-                     <mo>⁢</mo>
-                     <mrow>
-                       <mi>sin</mi>
-                       <mo>⁡</mo>
-                       <mrow>
-                         <mo stretchy="false">(</mo>
-                         <mrow>
-                           <mi>π</mi>
-                           <mo>⁢</mo>
-                           <msub>
-                             <mi>x</mi>
-                             <mn>1</mn>
-                           </msub>
-                           <mo>⁢</mo>
-                           <msub>
-                             <mi>x</mi>
-                             <mn>2</mn>
-                           </msub>
-                         </mrow>
-                         <mo stretchy="false">)</mo>
-                       </mrow>
-                     </mrow>
-                   </mrow>
-                   <mo>+</mo>
-                   <mrow>
-                     <mn>20</mn>
-                     <mo>⁢</mo>
-                     <msup>
-                       <mrow>
-                         <mo>(</mo>
-                         <mrow>
-                           <msub>
-                             <mi>x</mi>
-                             <mn>3</mn>
-                           </msub>
-                           <mo>-</mo>
-                           <mfrac>
-                             <mn>1</mn>
-                             <mn>2</mn>
-                           </mfrac>
-                         </mrow>
-                         <mo>)</mo>
-                       </mrow>
-                       <mn>2</mn>
-                     </msup>
-                   </mrow>
-                   <mo>+</mo>
-                   <mrow>
-                     <mn>10</mn>
-                     <mo>⁢</mo>
-                     <msub>
-                       <mi>x</mi>
-                       <mn>4</mn>
-                     </msub>
-                   </mrow>
-                   <mo>+</mo>
-                   <mrow>
-                     <mn>5</mn>
-                     <mo>⁢</mo>
-                     <msub>
-                       <mi>x</mi>
-                       <mn>5</mn>
-                     </msub>
-                   </mrow>
-                 </mrow>
-               </mrow>
-             </math>
-            </p>
-         </div>
-         <div class="col-md-11 col-sm-12">
-            <h5><a href="/assets/datasets/housing_corrected_prep.csv">Boston Housing</a></h5>
-            <p>Preprocessed Boston housing dataset (taken from: <a href="https://lib.stat.cmu.edu/datasets/boston_corrected.txt">StatLib</a>)
-               Target variable is log(CMEDV) or NOX.
-            </p>
-         </div>
-         <div class="col-md-11 col-sm-12">
-            <h5><a href="/assets/datasets/yacht_shuffled.csv">Yacht</a></h5>
-            <p>Yacht dataset from Gerritsma, Onnink, and Versluis, "Geometry, Resistance and Stability of The Delft Systematic Yacht Hull Series, International Shipbuilding Progress, Vol. 28, No. 328, Dec. 1981. 
-            </br>
-            (taken from <a href="https://archive.ics.uci.edu/dataset/243/yacht+hydrodynamics">UCI Machine Learning Repository</a>)
-            </p>
-         </div>
-         <div class="col-md-11 col-sm-12">
-            <h5><a href="/assets/datasets/friction.zip">Friction coefficient (static and dynamic)</a></h5>            
-            <p> 
-               Predict mu_dyn_avg (dynamic friction coefficient from Exp (categorical), pressure, velocity, and initial temperature (T_0)).</br>
-               Predict mu_stat (static friction coefficient from Exp (categorical), pressure, and initial temperature (T_0)).</br>
-            </br>
-            (data provided by <a href="https://miba.com">Miba frictec GmbH</a>)
-            </p>
-         </div>
-         <div class="col-md-11 col-sm-12">
-            <h5><a href="/assets/datasets/tide_prediction_prep.csv">Water Level Prediction</a></h5>
-            <p>Preprocessed water level dataset including features for harmonics (original source: <a href="https://tidesandcurrents.noaa.gov/waterlevels.html?id=9452634&units=standard&bdate=20210701&edate=20220630&timezone=GMT&datum=MLLW&interval=h&action=data">NOAA, Station S452634 Elfin Cove, AK</a>).</p>
-         </div>
-         <div class="col-md-11 col-sm-12">
-            <h5><a href="/assets/datasets/battery_1.csv">Battery: State of charge (dataset 1)</a></h5>
-            <p>Preprocessed dataset containing data from four cells (original source: <a href="https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/">NASA Ames Research Center</a>)</br>
-               Citation: B. Saha and K. Goebel (2007). “Battery Data Set”, NASA Prognostics Data Repository, NASA Ames Research Center, Moffett Field, CA. </br>
-
-               Use data from B0005, B0006, B0007 for training and B0018 for testing.
-               Predict the remaining discharge time from the inital capacity, number of discharge cycles and current voltage.</p>
-         </div>
-         <div class="col-md-11 col-sm-12">
-            <h5><a href="/assets/datasets/battery_2.csv">Battery: State of charge (dataset 2)</a></h5>
-            <p>Preprocessed dataset containing data from multiple cells (original source: <a href="https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/">NASA Ames Research Center</a>)</br>
-               Citation: B. Saha and K. Goebel (2007). “Battery Data Set”, NASA Prognostics Data Repository, NASA Ames Research Center, Moffett Field, CA. </br>
-
-               Data for multiple cells with different discharge currents.  Find a model that predicts the remaining discharge time from the inital capacity, number of discharge cycles, current voltage, and discharge current.
-               </p>
-         </div>
-         <div class="col-md-11 col-sm-12">
-            <h5><a href="/assets/datasets/battery_3.csv">Battery: State of charge (dataset 3)</a></h5>
-            <p>Preprocessed dataset containing data from multiple cells (original source: <a href="https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/">NASA Ames Research Center</a>)</br>
-               Citation: B. Saha and K. Goebel (2007). “Battery Data Set”, NASA Prognostics Data Repository, NASA Ames Research Center, Moffett Field, CA. </br>
-
-               Uses only a single cell (to reduce amount of data).
-               Find a regression model structure that can be fit to the first part of the voltage curve and predict the remaining curve until end of discharge.</p>
-         </div>
+  <div class="container text-justify">
+    <h2>Datasets</h2>
+    <p>These are some of the datasets used in the <a href="/book/">Symbolic Regression book</a></p>
+    <div class="row">
+      <div class="col-md-11 col-sm-12">
+        <h5><a href="/symbolicregression.github.io/assets/datasets/friedman.csv">Friedman</a></h5>
+        <p>Sample of 100 rows from the Friedman equation. Target variable is y, input variables are x1 to x10.
+          <math xmlns="http://www.w3.org/1998/Math/MathML"
+            alttext="f(x)=10\sin(\pi x_{1}x_{2})+20\left(x_{3}-\frac{1}{2}\right)^{2}+10x_{4}+5x_{5}" display="block">
+            <mrow>
+              <mrow>
+                <mi>f</mi>
+                <mo>⁢</mo>
+                <mrow>
+                  <mo stretchy="false">(</mo>
+                  <mi>x</mi>
+                  <mo stretchy="false">)</mo>
+                </mrow>
+              </mrow>
+              <mo>=</mo>
+              <mrow>
+                <mrow>
+                  <mn>10</mn>
+                  <mo>⁢</mo>
+                  <mrow>
+                    <mi>sin</mi>
+                    <mo>⁡</mo>
+                    <mrow>
+                      <mo stretchy="false">(</mo>
+                      <mrow>
+                        <mi>π</mi>
+                        <mo>⁢</mo>
+                        <msub>
+                          <mi>x</mi>
+                          <mn>1</mn>
+                        </msub>
+                        <mo>⁢</mo>
+                        <msub>
+                          <mi>x</mi>
+                          <mn>2</mn>
+                        </msub>
+                      </mrow>
+                      <mo stretchy="false">)</mo>
+                    </mrow>
+                  </mrow>
+                </mrow>
+                <mo>+</mo>
+                <mrow>
+                  <mn>20</mn>
+                  <mo>⁢</mo>
+                  <msup>
+                    <mrow>
+                      <mo>(</mo>
+                      <mrow>
+                        <msub>
+                          <mi>x</mi>
+                          <mn>3</mn>
+                        </msub>
+                        <mo>-</mo>
+                        <mfrac>
+                          <mn>1</mn>
+                          <mn>2</mn>
+                        </mfrac>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                    <mn>2</mn>
+                  </msup>
+                </mrow>
+                <mo>+</mo>
+                <mrow>
+                  <mn>10</mn>
+                  <mo>⁢</mo>
+                  <msub>
+                    <mi>x</mi>
+                    <mn>4</mn>
+                  </msub>
+                </mrow>
+                <mo>+</mo>
+                <mrow>
+                  <mn>5</mn>
+                  <mo>⁢</mo>
+                  <msub>
+                    <mi>x</mi>
+                    <mn>5</mn>
+                  </msub>
+                </mrow>
+              </mrow>
+            </mrow>
+          </math>
+        </p>
       </div>
-   </div>
+      <div class="col-md-11 col-sm-12">
+        <h5><a href="/symbolicregression.github.io/assets/datasets/housing_corrected_prep.csv">Boston Housing</a></h5>
+        <p>Preprocessed Boston housing dataset (taken from: <a
+            href="https://lib.stat.cmu.edu/datasets/boston_corrected.txt">StatLib</a>)
+          Target variable is log(CMEDV) or NOX.
+        </p>
+      </div>
+      <div class="col-md-11 col-sm-12">
+        <h5><a href="/symbolicregression.github.io/assets/datasets/yacht_shuffled.csv">Yacht</a></h5>
+        <p>Yacht dataset from Gerritsma, Onnink, and Versluis, "Geometry, Resistance and Stability of The Delft
+          Systematic Yacht Hull Series, International Shipbuilding Progress, Vol. 28, No. 328, Dec. 1981.
+          </br>
+          (taken from <a href="https://archive.ics.uci.edu/dataset/243/yacht+hydrodynamics">UCI Machine Learning
+            Repository</a>)
+        </p>
+      </div>
+      <div class="col-md-11 col-sm-12">
+        <h5><a href="/symbolicregression.github.io/assets/datasets/friction.zip">Friction coefficient (static and
+            dynamic)</a></h5>
+        <p>
+          Predict mu_dyn_avg (dynamic friction coefficient from Exp (categorical), pressure, velocity, and initial
+          temperature (T_0)).</br>
+          Predict mu_stat (static friction coefficient from Exp (categorical), pressure, and initial temperature
+          (T_0)).</br>
+          </br>
+          (data provided by <a href="https://miba.com">Miba frictec GmbH</a>)
+        </p>
+      </div>
+      <div class="col-md-11 col-sm-12">
+        <h5><a href="/symbolicregression.github.io/assets/datasets/tide_prediction_prep.csv">Water Level Prediction</a>
+        </h5>
+        <p>Preprocessed water level dataset including features for harmonics (original source: <a
+            href="https://tidesandcurrents.noaa.gov/waterlevels.html?id=9452634&units=standard&bdate=20210701&edate=20220630&timezone=GMT&datum=MLLW&interval=h&action=data">NOAA,
+            Station S452634 Elfin Cove, AK</a>).</p>
+      </div>
+      <div class="col-md-11 col-sm-12">
+        <h5><a href="/symbolicregression.github.io/assets/datasets/battery_1.csv">Battery: State of charge (dataset
+            1)</a></h5>
+        <p>Preprocessed dataset containing data from four cells (original source: <a
+            href="https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/">NASA
+            Ames Research Center</a>)</br>
+          Citation: B. Saha and K. Goebel (2007). “Battery Data Set”, NASA Prognostics Data Repository, NASA Ames
+          Research Center, Moffett Field, CA. </br>
+
+          Use data from B0005, B0006, B0007 for training and B0018 for testing.
+          Predict the remaining discharge time from the inital capacity, number of discharge cycles and current voltage.
+        </p>
+      </div>
+      <div class="col-md-11 col-sm-12">
+        <h5><a href="/symbolicregression.github.io/assets/datasets/battery_2.csv">Battery: State of charge (dataset
+            2)</a></h5>
+        <p>Preprocessed dataset containing data from multiple cells (original source: <a
+            href="https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/">NASA
+            Ames Research Center</a>)</br>
+          Citation: B. Saha and K. Goebel (2007). “Battery Data Set”, NASA Prognostics Data Repository, NASA Ames
+          Research Center, Moffett Field, CA. </br>
+
+          Data for multiple cells with different discharge currents. Find a model that predicts the remaining discharge
+          time from the inital capacity, number of discharge cycles, current voltage, and discharge current.
+        </p>
+      </div>
+      <div class="col-md-11 col-sm-12">
+        <h5><a href="/symbolicregression.github.io/assets/datasets/battery_3.csv">Battery: State of charge (dataset
+            3)</a></h5>
+        <p>Preprocessed dataset containing data from multiple cells (original source: <a
+            href="https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/">NASA
+            Ames Research Center</a>)</br>
+          Citation: B. Saha and K. Goebel (2007). “Battery Data Set”, NASA Prognostics Data Repository, NASA Ames
+          Research Center, Moffett Field, CA. </br>
+
+          Uses only a single cell (to reduce amount of data).
+          Find a regression model structure that can be fit to the first part of the voltage curve and predict the
+          remaining curve until end of discharge.</p>
+      </div>
+    </div>
+  </div>
 </section>

@@ -23,7 +23,7 @@ email: gabriel.kronberger@fh-hagenberg.at
 description: >- # this means to ignore newlines until "baseurl:"
   Website about Symbolic Regression (SymReg) and our group and book.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://heal-research.heuristiclab.com/symbolicregression.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 author: SymReg
 lang: "en"
 twitter_username: symreg

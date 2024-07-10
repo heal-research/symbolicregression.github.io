@@ -17,7 +17,7 @@
   prefix: DI(FH) Dr.
   first_name: Michael
   last_name: Kommenda
-  role: Consultant for Aritficial Intelligence Solutions
+  role: Consultant for Artificial Intelligence Solutions
   desc: He authored several papers on symbolic regression and genetic programming and organized the workshop for symbolic regression at the Genetic and Evolutionary Computation Conference (GECCO).
   img: mkommend.jpg
 - id: swinkler

@@ -21,14 +21,14 @@ description: SymReg Homepage
             </div>
             <div class="col-lg-7 col-md-12 text-center">
                 <figure class="image-box">
-                    <img src="/symbolicregression.github.io/assets/img/symreg-explanation.png" id="symreg-explanation">
+                    <img src="/assets/img/symreg-explanation.png" id="symreg-explanation">
                 </figure>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-7 col-md-12 text-center">
                 <figure class="image-box">
-                    <img src="/symbolicregression.github.io/assets/img/symreg-grammar.png" id="symreg-explanation">
+                    <img src="/assets/img/symreg-grammar.png" id="symreg-explanation">
                 </figure>
             </div>
             <div class="col-lg-5 col-md-12">
@@ -47,7 +47,7 @@ description: SymReg Homepage
             <div class="col-md-12">
                 <h3 class="section-subheading">AstroSymReg - Accelerating the Physical Sciences with Symbolic Regression</h3>
                 <p class="text-justify">
-                We develop and apply symbolic regression algorithms to create models for astrophysics, such as <a href="https://arxiv.org/abs/2311.15865">cosmology models</a>.<br />
+                We develop and apply symbolic regression algorithms to create models for astrophysics, such as emulators for the <a href="https://arxiv.org/abs/2311.15865">linear</a> and the <a href="https://arxiv.org/abs/2402.17492">nonlinear</a> mass power spectrum.<br />
                 Project duration: 2024 - ongoing<br />
                 </p>
             </div>

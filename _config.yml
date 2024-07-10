@@ -21,7 +21,7 @@
 title: SymReg
 email: gabriel.kronberger@fh-hagenberg.at
 description: >- # this means to ignore newlines until "baseurl:"
-  Website about Symbolic Regression (SymReg) and our group and book.
+  Website about Symbolic Regression (SymReg).
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://symreg.at" # the base hostname & protocol for your site, e.g. http://example.com
 author: SymReg

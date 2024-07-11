@@ -44,7 +44,7 @@ nav#main-nav {
       border-radius: 0;
       border: transparent;
       background-color: transparent;
-      // color: $brand-text-light !important;
+
      }
 
      .navbar-toggler-icon {
@@ -75,7 +75,7 @@ nav#main-nav {
       color: #fff;
     }
     .dropend .dropdown-toggle {
-      color: $brand-primary;;
+      color: $brand-primary;
       margin-left: 1em;
     }
     .dropdown-item:hover {
@@ -145,7 +145,7 @@ nav#main-nav.navbar-top.nav-page {
 
  @media (max-width: 767px) {
   .navbar-collapse {
-    background-color: $brand-light;
+    //background-color: $brand-light;
   }
 }
 }

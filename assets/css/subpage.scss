@@ -112,6 +112,12 @@ section {
          height:40%;
       }
    }
+
+   @media only screen and (max-width: 600px) {
+      .book-thumb {
+         display: none;
+      }
+    }
 }
 
 section#book {

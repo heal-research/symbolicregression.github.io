@@ -3,7 +3,7 @@ papers:
     year: 2024
     title: Symbolic Regression
     authors: G. Kronberger, B. Burlacu, M. Kommenda, S.M. Winkler & M. Affenzeller
-    publisher CRC Press
+    publisher: CRC Press
     link: https://doi.org/10.1201/9781315166407
   - id: shape-multi
     year: 2023

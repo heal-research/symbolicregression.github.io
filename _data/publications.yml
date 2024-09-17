@@ -1,29 +1,3 @@
-thesis:
-  - id: thesis_winkler
-    author: Stephan Winkler
-    year: 2008
-    title: "Evolutionary System Identification - Modern Concepts and Practical Applications"
-    link: "/assets/thesis/thesis_winkler.pdf"
-  - id: thesis_kronberger
-    author: Gabriel Kronberger
-    year: 2010
-    title: "Symbolic Regression for Knowledge Discovery - Bloat, Overfitting, and Variable Interaction Networks"
-    link: "/assets/thesis/thesis_kronberger.pdf"
-  - id: thesis_burlacu
-    author: Bogdan Burlacu
-    year: 2017
-    title: "Tracing of Evolutionary Search Trajectories in Complex Hypothesis Spaces"
-    link: "/assets/thesis/thesis_burlacu.pdf"
-  - id: thesis_kommenda
-    author: Michael Kommenda
-    year: 2018
-    title: "Local Optimization and Complexity Control for Symbolic Regression"
-    link: "/assets/thesis/thesis_kommenda.pdf"
-  - id: thesis_krauss
-    author: Oliver Krauss
-    year: 2022
-    title: "Pattern Mining and Genetic Improvement in Compilers and Interpreters"
-    link: "/assets/thesis/thesis_krauss.pdf"
 papers:
   - id: shape-multi
     year: 2023
@@ -169,3 +143,33 @@ papers:
     authors: B. Burlacu, G. Kronberger & M. Kommenda
     publisher: "Proceedings of the 2020 Genetic and Evolutionary Computation Conference Companion (GECCO ’20), pp. 1562–1570, (July 2020)"
     link: https://dl.acm.org/doi/10.1145/3377929.3398099
+  - id: thesis_winkler
+    author: Stephan Winkler
+    year: 2008
+    title: "Evolutionary System Identification - Modern Concepts and Practical Applications"
+    link: "/assets/thesis/thesis_winkler.pdf"
+    type: thesis
+  - id: thesis_kronberger
+    author: Gabriel Kronberger
+    year: 2010
+    title: "Symbolic Regression for Knowledge Discovery - Bloat, Overfitting, and Variable Interaction Networks"
+    link: "/assets/thesis/thesis_kronberger.pdf"
+    type: thesis
+  - id: thesis_burlacu
+    author: Bogdan Burlacu
+    year: 2017
+    title: "Tracing of Evolutionary Search Trajectories in Complex Hypothesis Spaces"
+    link: "/assets/thesis/thesis_burlacu.pdf"
+    type: thesis
+  - id: thesis_kommenda
+    author: Michael Kommenda
+    year: 2018
+    title: "Local Optimization and Complexity Control for Symbolic Regression"
+    link: "/assets/thesis/thesis_kommenda.pdf"
+    type: thesis
+  - id: thesis_krauss
+    author: Oliver Krauss
+    year: 2022
+    title: "Pattern Mining and Genetic Improvement in Compilers and Interpreters"
+    link: "/assets/thesis/thesis_krauss.pdf"
+    type: thesis

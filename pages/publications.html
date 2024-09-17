@@ -8,21 +8,35 @@ description: List of all publicated scientific contributions
 
 <section id="publications">
    <div class="container text-justify">
-      <h2>Publications</h2>
-      {% assign publications = site.data.publications | sort: 'year' | reverse %}
-      {% for publication in publications%}
-      {% assign link = publication.link | strip_newlines %}
+      <h2>Doctoral Thesis</h2>
+      {% assign thesis = site.data.publications.thesis | sort: 'year' %}
+      {% for th in thesis%}
+      {% assign thlink = th.link | strip_newlines %}
       <div class="row">
          <div class="col-md-1 col-sm-12">
-            <h6>{{ publication.year }}</h6>
+            <h6>{{ th.year }}</h6>
+         </div>
+         <div class="col-md-11 col-sm-12">
+            <h5><a href="{{thlink}}" alt="Link to thesis" target="_blank">{{th.title}}</a></h5>
+            <p>{{th.author}}</p>
+         </div>
+      </div>
+      {% endfor %}
+      <h2>Publications</h2>
+      {% assign papers = site.data.publications.papers | sort: 'year' | reverse %}
+      {% for paper in papers%}
+      {% assign link = paper.link | strip_newlines %}
+      <div class="row">
+         <div class="col-md-1 col-sm-12">
+            <h6>{{ paper.year }}</h6>
          </div>
          <div class="col-md-11 col-sm-12">
             {% if link == "" %}
-            <h5>{{ publication.title }}</h5>
+            <h5>{{ paper.title }}</h5>
             {% else %}
-            <h5><a href="{{ link }}" alt="Link to publication" target="_blank">{{ publication.title }}</a></h5>
+            <h5><a href="{{ link }}" alt="Link to publication" target="_blank">{{ paper.title }}</a></h5>
             {% endif %}
-            <p>{{ publication.authors }} - {{ publication.title }} - {{ publication.publisher }}</p>
+            <p>{{ paper.authors }} - {{ paper.title }} - {{ paper.publisher }}</p>
          </div>
       </div>
       {% endfor %}

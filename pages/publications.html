@@ -9,7 +9,7 @@ description: List of all publicated scientific contributions
 <section id="publications">
    <div class="container text-justify">
       <h2>Publications</h2>
-      {% assign papers = site.data.publications.papers | sort: 'year' | reverse %}
+      {% assign papers = site.data.publications.papers %}
       {% for paper in papers%}
       {% assign link = paper.link | strip_newlines %}
       <div class="row">

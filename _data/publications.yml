@@ -7,43 +7,43 @@ papers:
     link: https://doi.org/10.1201/9781315166407
   - id: symreg-gp-inefficiency
     year: 2024
-    title: The Inefficiency of Genetic Programming for Symbolic Regression
+    title: "The Inefficiency of Genetic Programming for Symbolic Regression"
     authors: G. Kronberger, F. Olivetti de Franca, H. Desmond, D.J. Bartlett, L. Kammerer    
     publisher: "LNCS Vol. 15148, Parallel Problem Solving from Nature (PPSN XVIII), Springer"
     link: https://doi.org/10.1007/978-3-031-70055-2_17
   - id: comparing-symreg-models
     year: 2024
-    title: Comparing Methods for Estimating Marginal Likelihood in Symbolic Regression
+    title: "Comparing Methods for Estimating Marginal Likelihood in Symbolic Regression"
     authors: P. Leser, G. Bomarito, G. Kronberger, F. Olivetti de Franca
     publisher: "GECCO '24 Companion: Proceedings of the Genetic and Evolutionary Computation Conference Companion, ACM"
     link: https://doi.org/10.1145/3638530.3664142
   - id: comparison-symreg-eurocast
     year: 2024
-    title: A Comparison of Recent Algorithms for Symbolic Regression to Genetic Programming
+    title: "A Comparison of Recent Algorithms for Symbolic Regression to Genetic Programming"
     authors: Y.A. Radwan, G. Kronberger, S. Winkler
     publisher: arXiv preprint, 2406.03585
     link: https://arxiv.org/abs/2406.03585
   - id: linear-p-of-k-emulator
     year: 2024
-    title: A precise symbolic emulator of the linear matter power spectrum
+    title: "A precise symbolic emulator of the linear matter power spectrum"
     authors: D.J. Bartlett, L. Kammerer, G. Kronberger, H. Desmond, P.G. Ferreira, B.D. Wandelt, B. Burlacu, D. Alonso, M. Zennaro
     publisher: "Astronomy & Astrophysics 686 A209"
     link: https://doi.org/10.1051/0004-6361/202348811
   - id: glycaemia-parra
     year: 2024
-    title: Learning Difference Equations with Structured Grammatical Evolution for Postprandial Glycaemia Prediction
+    title: "Learning Difference Equations with Structured Grammatical Evolution for Postprandial Glycaemia Prediction"
     authors: D. Parra, D. Jödicke, J.M. Velasco, G. Kronberger, J.I. Hidalgo
     publisher: "IEEE Journal of Biomedical and Health Informatics"
     link: https://doi.org/10.1109/JBHI.2024.3371108
   - id: shape-constraints-gptp-haider
     year: 2024
-    title: Shape-constrained Symbolic Regression: Real-world Applications in Magnetization, Extrusion and Data Validation
+    title: "Shape-constrained Symbolic Regression: Real-world Applications in Magnetization, Extrusion and Data Validation"
     authors: C. Haider, F. Olivetti de Franca, B. Burlacu, F. Bachinger, G. Kronberger, M. Affenzeller
     publisher: "Genetic Programming Theory and Practice XX, Springer"
     link: https://doi.org/10.1007/978-981-99-8413-8_12
   - id: data-validation-bachinger-acm
     year: 2024
-    title: Data Validation Utilizing Expert Knowledge and Shape Constraints
+    title: "Data Validation Utilizing Expert Knowledge and Shape Constraints"
     authors: F. Bachinger, L. Ehrlinger, G. Kronberger, W. Wöß
     publisher: "Journal of Data and Information Quality, ACM"
     link: https://doi.org/10.1145/366182

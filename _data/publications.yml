@@ -53,6 +53,72 @@ papers:
     authors: C. Haider, F.O. de Franca, B. Burlacu & G. Kronberger
     publisher: Applied Soft Computing, Volume 132, 2023
     link: https://doi.org/10.1016/j.asoc.2022.109855
+  - id: micro-RS
+    year: 2023
+    title: Prediction of microscopic residual stresses using genetic programming
+    authors: "L. Millán, G. Kronberger, R. Fernández, G. Bokuchava, P. Halodova, A. Sáez-Maderuelo, G. González-Doncel, J.I. Hidalgo"
+    publisher: "Applications in Engineering Sciences, 15, 100141, Elsevier"
+    link: https://doi.org/10.1016/j.apples.2023.100141
+  - id: overparameterization
+    year: 2023
+    title: "Reducing Overparameterization of Symbolic Regression Models with Equality Saturation"
+    authors: "F. Olivetti de Franca, G. Kronberger"
+    publisher: "Proceedings of the Genetic and Evolutionary Conference (GECCO'24), pp. 1064 - 1072, ACM"
+    link: https://doi.org/10.1145/3583131.359034
+  - id: potentials
+    year: 2023
+    title: "Symbolic regression in materials science: Discovering interatomic potentials from data"
+    authors: "B. Burlacu, M. Kommenda, G. Kronberger, S.M. Winkler, M. Affenzeller"
+    publisher: "Genetic Programming Theory and Practice XIX, pp. 1-30, Springer"
+    link: https://doi.org/10.1007/978-981-19-8460-0_1
+  - id: symreg-surrogates
+    year: 2023
+    title: "Identification of Surrogate Models for the Prediction of Degrees of Freedom within a Tolerance Chain"
+    authors: "H. Janout, T. Paier, C. Ringelhahn, M. Heckmann, A. Haghofer, G. Kronberger, S.M. Winkler"
+    publisher: "Procedia Computer Science, Vol. 217, pp. 796-805, Elsevier"
+    link: https://doi.org/10.1016/j.procs.2022.12.276
+  - id: benchmarks-sigevo
+    year: 2022
+    title: "Genetic programming benchmarks: looking back and looking forward"
+    authors: "J. McDermott, G. Kronberger, P. Orzechowski, L. Vanneschi, L. Manzoni, R. Kalkreuth, M. Castelli"
+    publisher: "SIGEVOlution, Vol. 15, Nr. 3, pp. 1-19, ACM"
+    link: https://doi.org/10.1145/3578482.3578483
+  - id: prediction-intervals
+    year: 2022
+    title: "Prediction Intervals and Confidence Regions for Symbolic Regression Models based on Likelihood Profiles"
+    authors: "F. Olivetti de Franca, G. Kronberger"
+    publisher: "arXiv preprint 2209.06454"
+    link: https://arxiv.org/abs/2209.06454
+  - id: nonlinear-dynamics
+    year: 2022
+    title: "Identification of Non-Linear Dynamics of a Radio-Frequency Power Amplifier Circuit using Symbolic Regression"
+    authors: "M. Steiger, H.G. Brachtendorf, G. Kronberger"
+    publisher: "2022 24th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC), pp. 297 - 303, IEEE"
+    link: https://doi.org/10.1109/SYNASC57785.2022.00054
+  - id: steel-phase-kinetics
+    year: 2022
+    title: "Steel phase kinetics modeling using symbolic regression"
+    authors: "D. Piringer, B. Bloder, G. Kronberger"
+    publisher: "2022 24th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC), pp. 327 - 330, IEEE"
+    link: https://doi.org/10.1109/SYNASC57785.2022.00059
+  - id: gp-overparameterization-synasc
+    year: 2022
+    title: "Local Optimization Often is Ill-conditioned in Genetic Programming for Symbolic Regression"
+    authors: "G. Kronberger"
+    publisher:  "2022 24th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC), pp. 304 - 310, IEEE"
+    link: https://doi.org/10.1109/SYNASC57785.2022.00055
+  - id: pessimistic-vs-optimistic-shape-constraints
+    year: 2022
+    title: "Comparing optimistic and pessimistic constraint evaluation in shape-constrained symbolic regression"
+    authors: "C. Haider, F. Olivetti de Franca, G. Kronberger, B. Burlacu"
+    publisher: "GECCO '22: Proceedings of the Genetic and Evolutionary Computation Conference, pp. 938 - 945, ACM
+    link: https://doi.org/10.1145/3512290.3528714
+  - id: mRS-fem
+    year: 2022
+    title: "Genetic programming and FEM simulation for a microscopic residual stress description in polycrystals using neutron diffraction and EBSD data"
+    authors: "L. Millán, G. Carro-Sevillano, G. Kronberger, O. Garnica, I. Collado, G. Bokuchava, R. Fernándes, J.I. Hidalgo, P. Halodova, A. Sáez-Maderuelo, G. Gonzáles-Doncel"
+    publisher: "ICRS 11-The 11th International Conference of Residual Stresses, SF2M, IJL"
+    link: https://hal.science/hal-04059076/
   - id: physics-constitutive-models
     year: 2022
     title: Extending a physics-based constitutive model using genetic programming
@@ -73,7 +139,7 @@ papers:
     link: https://heal.heuristiclab.com/storage/app/media/uploaded-files/eurocast2022_haider.pdf
   - id: diff-equations-blood-glucose
     year: 2022
-    title: Identifying Differential Equations to predict Blood Glucose using Sparse Identification of Nonlinear Systems.
+    title: Identifying Differential Equations to Predict Blood Glucose using Sparse Identification of Nonlinear Systems.
     authors: D. Jödicke,  D. Parra, G. Kronberger & S.M. Winkler
     publisher: Proceedings of the 18th International Conference on Computer Aided Systems Theory - EUROCAST 2022, Las Palmas de Gran Canaria, Spain (2022)
     link: https://heal.heuristiclab.com/storage/app/media/uploaded-files/eurocast2022_joedicke.pdf

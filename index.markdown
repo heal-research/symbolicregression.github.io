@@ -72,13 +72,47 @@ description: SymReg Homepage
         </div>
         <div class="row">
             <div class="col-md-12">
-                <h3 class="section-subheading"><a href="https://heal.heuristiclab.com/projects/jrc-symreg">Josef Ressel Center for Symbolic Regression</a></h3>
+                <h3 class="section-subheading"><a href="https://www.cdg.ac.at/en/research-units/labor/symbolic-regression">Josef Ressel Center for Symbolic Regression</a></h3>
                 <p class="text-justify">
                 Within the Josef Ressel Centre for Symbolic Regression we developed new symbolic regression algorithms as well as a methodological and technical framework for incremental model adaptation for handling concept drift. We used symbolic regression for modelling components of powertrains, friction systems, and plastics recycling plants. <br />
                 Project duration: 2018 - 2022<br/>
                 </p>
             </div>
         </div>
+	        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-subheading"><a href="https://heal.heuristiclab.com/projects/hopl"></a>Heuristic Optimization in Production and Logistics (HOPL)</h3>
+                <p class="text-justify">In this COMET project supported by the Austrian Research Promotion Agency we developed novel algorithms that use additional optimization potential by integrative modeling and optimizing of interrelated logistics and production processes. Many existing problem models are abstracted and isolated formulations of real world situations in order to make existing optimization techniques applicable. Consequently, the optimized solutions are often hard to transfer into the real world as the inherent complexity and volatility of the problem situations have been lost.
+One of the goals was using symbolic regression to produce models for design and dimensioning of friction systems.
+		  <br />
+                Project duration: 2014 - 2018<br />
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-subheading">Heureka! - Josef Ressel Center for Heuristic Optimization</h3>
+                <p class="text-justify">
+		  A part of this project was development of improved symbolic regression methods and application to real-world tasks.
+		  In this project we developed a new approach to the optimization of parameters of symbolic regression models and implemented
+		  several improvements in our open-source software system HeuristicLab.
+		  We used symbolic regression algorithms for example for modeling blast furnace processes as well as temper-rolling processes together with our partner voestalpine Stahl in Linz.
+		  Supported by the Austrian Research Promotion Agency (FFG).<br />
+                Project duration: 2008 - 2013<br />
+                </p>
+            </div>
+        </div>
+	<!-- template:
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-subheading"><a href="XXX"></a>XXX</h3>
+                <p class="text-justify">
+		  XXX<br />
+                Project duration: XXXX - XXXX<br />
+                </p>
+            </div>
+        </div>
+-->
     </div>
 </section>
 <section id="links">

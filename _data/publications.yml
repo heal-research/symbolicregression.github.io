@@ -105,13 +105,13 @@ papers:
     year: 2022
     title: "Local Optimization Often is Ill-conditioned in Genetic Programming for Symbolic Regression"
     authors: "G. Kronberger"
-    publisher:  "2022 24th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC), pp. 304 - 310, IEEE"
+    publisher: "2022 24th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC), pp. 304 - 310, IEEE"
     link: https://doi.org/10.1109/SYNASC57785.2022.00055
   - id: pessimistic-vs-optimistic-shape-constraints
     year: 2022
     title: "Comparing optimistic and pessimistic constraint evaluation in shape-constrained symbolic regression"
     authors: "C. Haider, F. Olivetti de Franca, G. Kronberger, B. Burlacu"
-    publisher: "GECCO '22: Proceedings of the Genetic and Evolutionary Computation Conference, pp. 938 - 945, ACM
+    publisher: "GECCO '22: Proceedings of the Genetic and Evolutionary Computation Conference, pp. 938 - 945, ACM"
     link: https://doi.org/10.1145/3512290.3528714
   - id: mRS-fem
     year: 2022

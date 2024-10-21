@@ -8,7 +8,7 @@ papers:
   - id: symreg-gp-inefficiency
     year: 2024
     title: "The Inefficiency of Genetic Programming for Symbolic Regression"
-    authors: G. Kronberger, F. Olivetti de Franca, H. Desmond, D.J. Bartlett, L. Kammerer    
+    authors: G. Kronberger, F. Olivetti de Franca, H. Desmond, D.J. Bartlett, L. Kammerer
     publisher: "LNCS Vol. 15148, Parallel Problem Solving from Nature (PPSN XVIII), Springer"
     link: https://doi.org/10.1007/978-3-031-70055-2_17
   - id: comparing-symreg-models
@@ -287,3 +287,495 @@ papers:
     title: "Evolutionary System Identification - Modern Concepts and Practical Applications"
     link: "/assets/thesis/thesis_winkler.pdf"
     type: thesis
+  - id: empirical-variance-genetic-programming
+    year: 2021
+    title: "Empirical analysis of variance for genetic programming based symbolic regression"
+    authors: "L. Kammerer, G. Kronberger, S.M. Winkler"
+    publisher: "GECCO '21: Proceedings of the Genetic and Evolutionary Computation Conference Companion"
+    link: https://doi.org/10.1145/3449726.3459486
+  - id: parameter-symbolic-regression-nonlinear
+    year: 2020
+    title: "Parameter identification for symbolic regression using nonlinear least squares"
+    authors: "M. Kommenda, B. Burlacu, G. Kronberger, M. Affenzeller"
+    publisher: "Genetic Programming and Evolvable Machines 21 (3), 471-501"
+    link: https://doi.org/10.1007/s10710-019-09371-3
+  - id: performance-genetic-programming-glucose
+    year: 2020
+    title: "Analysis of the performance of Genetic Programming on the Blood Glucose Level Prediction Challenge 2020"
+    authors: "D. Jödicke, G. Kronberger, J.M. Colmenar, S.M. Winkler, J.M. Velasco, S. Contador, J. I. Hidalgo"
+    publisher: "CEUR Workshop Proceedings, 2675, 141-145"
+    link: https://ceur-ws.org/Vol-2675/paper25.pdf
+  - id: parsimony-genetic-programming-symbolic
+    year: 2019
+    title: "Parsimony measures in multi-objective genetic programming for symbolic regression"
+    authors: "B. Burlacu, G. Kronberger, M. Kommenda, M. Affenzeller"
+    publisher: "GECCO '19: Proceedings of the Genetic and Evolutionary Computation Conference Companion"
+    link: https://doi.org/10.1145/3319619.3322087
+  - id: prediction-stress-strain-aluminium
+    year: 2019
+    title: "Prediction of stress-strain curves for aluminium alloys using symbolic regression"
+    authors: "E. Kabliman, A.H. Kolody, M. Kommenda, G. Kronberger"
+    publisher: "AIP Conference Proceedings 2113"
+    link: https://doi.org/10.1063/1.5112747
+  - id: online-diversity-control-symbolic
+    year: 2019
+    title: "Online diversity control in symbolic regression via a fast hash-based tree similarity measure"
+    authors: "B. Burlacu, M. Affenzeller, G. Kronberger, M. Kommenda"
+    publisher: "2019 IEEE congress on evolutionary computation (CEC), 2175-2182"
+    link: https://doi.org/10.1109/CEC.2019.8790162
+  - id: ontologies-prior-knowledge-genetic
+    year: 2019
+    title: "Using ontologies to express prior knowledge for genetic programming"
+    authors: "S. Prieschl, D. Girardi, G. Kronberger"
+    publisher: "Machine Learning and Knowledge Extraction: Third IFIP TC 5, TC 12, WG 8.4"
+    link: https://doi.org/10.1007/978-3-030-29726-8_23
+  - id: cluster-analysis-symbolic-regression
+    year: 2019
+    title: "Cluster analysis of a symbolic regression search space"
+    authors: "G. Kronberger, L. Kammerer, B. Burlacu, S.M. Winkler, M. Kommenda, M. Affenzeller"
+    publisher: "Genetic Programming Theory and Practice XVI, 85-102"
+    link: https://doi.org/10.1007/978-3-030-04735-1_5
+  - id: fuzzy-modeling-symbolic-regression-tribological
+    year: 2018
+    title: "Using robust generalized fuzzy modeling and enhanced symbolic regression to model tribological systems"
+    authors: "G. Kronberger, M. Kommenda, E. Lughofer, S. Saminger-Platz, A. Promberger, F. Nickel, S.M. Winkler, M. Affenzeller"
+    publisher: "Applied Soft Computing 69, 610-624"
+    link: https://doi.org/10.1016/j.asoc.2018.04.048
+  - id: friction-system-performance-symbolic
+    year: 2018
+    title: "Predicting friction system performance with symbolic regression and genetic programming with factor variables"
+    authors: "G. Kronberger, M. Kommenda, A. Promberger, F. Nickel"
+    publisher: "Proceedings of the Genetic and Evolutionary Computation Conference, 1278-1285"
+    link: https://doi.org/10.1145/3205455.3205522
+  - id: similarity-population-dynamics-genetic
+    year: 2018
+    title: "Similarity-based analysis of population dynamics in genetic programming performing symbolic regression"
+    authors: "S.M. Winkler, M. Affenzeller, B. Burlacu, G. Kronberger, M. Kommenda, P. Fleck"
+    publisher: "Genetic Programming Theory and Practice XIV, 1-17"
+    link: https://doi.org/10.1007/978-3-319-97088-2_1
+  - id: glucose-blood-values-grammatical
+    year: 2018
+    title: "Identification of models for glucose blood values in diabetics by grammatical evolution"
+    authors: "J.I. Hidalgo, J.M. Colmenar, J.M. Velasco, G. Kronberger, S.M. Winkler, O. Garnica, J. Lanchares"
+    publisher: "Handbook of Grammatical Evolution, 367-393"
+    link: https://doi.org/10.1007/978-3-319-78717-6_15
+  - id: schema-tree-genetic-programming
+    year: 2018
+    title: "Schema analysis in tree-based genetic programming"
+    authors: "B. Burlacu, M. Affenzeller, M. Kommenda, G. Kronberger, S.M. Winkler"
+    publisher: "Genetic programming theory and practice XV, 17-37"
+    link: https://doi.org/10.1007/978-3-319-90512-9_2
+  - id: evaluation-graphical-model-structures
+    year: 2018
+    title: "Measures for the evaluation and comparison of graphical model structures"
+    authors: "G. Kronberger, B. Burlacu, M. Kommenda, S.M. Winkler, M. Affenzeller"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2017"
+    link: https://doi.org/10.1007/978-3-319-74718-7_34
+  - id: optimization-networks-machine-learning
+    year: 2018
+    title: "Optimization networks for integrated machine learning"
+    authors: "M. Kommenda, J Karder, A. Beham, B. Burlacu, G. Kronberger, S. Wagner, M. Affenzeller"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2017"
+    link: https://doi.org/10.1007/978-3-319-74718-7_47
+  - id: offspring-selection-genetic-algorithm
+    year: 2018
+    title: "Offspring selection genetic algorithm revisited: improvements in efficiency by early stopping criteria in the evaluation of unsuccessful individuals"
+    authors: "M. Affenzeller, B. Burlacu, S.M. Winkler, M. Kommenda, G. Kronberger, S. Wagner"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2017"
+    link: https://doi.org/10.1007/978-3-319-74718-7_51
+  - id: glucose-prognosis-grammatical-evolution
+    year: 2018
+    title: "Glucose Prognosis by Grammatical Evolution"
+    authors: "J.I. Hidalgo, J.M. Colmenar, G. Kronberger, S.M. Winkler"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2017"
+    link: https://doi.org/10.1007/978-3-319-74718-7_55
+  - id: schema-frequencies-genetic-programming
+    year: 2018
+    title: "Analysis of schema frequencies in genetic programming"
+    authors: "B. Burlacu, M. Affenzeller, M. Kommenda, G. Kronberger, S.M. Winkler"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2017"
+    link: https://doi.org/10.1007/978-3-319-74718-7_52
+  - id: prediction-blood-glucose-evolutionary
+    year: 2017
+    title: "Data based prediction of blood glucose concentrations using evolutionary methods"
+    authors: "J.I. Hidalgo, J.M. Colmenar, G. Kronberger, S.M. Winkler, O. Garnica, J. Lanchares"
+    publisher: "Journal of medical systems 41, 1-20"
+    link: https://doi.org/10.1007/s10916-017-0788-2
+  - id: genotypic-phenotypic-diversity-symbolic
+    year: 2017
+    title: "Dynamic observation of genotypic and phenotypic diversity for different symbolic regression gp variants"
+    authors: "M. Affenzeller, S.M. Winkler, B. Burlacu, G. Kronberger, M. Kommenda, S. Wagner"
+    publisher: "GECCO '17: Proceedings of the Genetic and Evolutionary Computation Conference Companion"
+    link: https://doi.org/10.1145/3067695.3082530
+  - id: fuzzy-modeling-prediction-tribological
+    year: 2016
+    title: "Robust fuzzy modeling and symbolic regression for establishing accurate and interpretable prediction models in supervising tribological systems"
+    authors: "E. Lughofer, G. Kronberger, M. Kommenda, S. Saminger-Platz, A. Promberger, F. Nickel, S.M. Winkler, M. Affenzeller"
+    publisher: "International Conference on Fuzzy Computation Theory and Applications 3, 51-63"
+    link: https://doi.org/10.5220/0006068400510063
+  - id: glycemia-prediction-evolutionary-computation
+    year: 2016
+    title: "Predicting glycemia in diabetic patients by evolutionary computation and continuous glucose monitoring"
+    authors: "J.M. Colmenar, S.M. Winkler, G. Kronberger, E. Maqueda, M. Botella, J. I. Hidalgo"
+    publisher: "GECCO '16 Companion: Proceedings of the 2016 on Genetic and Evolutionary Computation Conference Companion"
+    link: https://doi.org/10.1145/2908961.2931734
+  - id: model-ensembles-stock-market-prediction
+    year: 2016
+    title: "Heterogeneous model ensembles for short-term prediction of stock market trends"
+    authors: "S.M. Winkler, B. Castaño, S. Luengo, S. Schaller, G. Kronberger, M. Affenzeller"
+    publisher: "International Journal of Simulation and Process Modelling 11 (6), 504-513"
+    link: https://doi.org/10.1504/IJSPM.2016.082914
+  - id: evolving-symbolic-regression-genetic
+    year: 2016
+    title: "Evolving simple symbolic regression models by multi-objective genetic programming"
+    authors: "M. Kommenda, G. Kronberger, M. Affenzeller, S.M. Winkler, B. Burlacu"
+    publisher: "Genetic Programming Theory and Practice XIII, 1-19"
+    link: https://doi.org/10.1007/978-3-319-34223-8_1
+  - id: smooth-symbolic-regression-optimization
+    year: 2015
+    title: "Smooth Symbolic Regression: Transformation of Symbolic Regression into a Real-Valued Optimization Problem"
+    authors: "E. Pitzer, G. Kronberger"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2015"
+    link: https://doi.org/10.1007/978-3-319-27340-2_47
+  - id: contextual-sequential-search-grammatical
+    year: 2015
+    title: "Using Contextual Information in Sequential Search for Grammatical Optimization Problems"
+    authors: "G. Kronberger, M. Kommenda, S.M. Winkler, M. Affenzeller"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2015"
+    link: https://doi.org/10.1007/978-3-319-27340-2_52
+  - id: predictability-variable-influences-financial
+    year: 2015
+    title: "Dynamics of predictability and variable influences identified in financial data using sliding window machine learning"
+    authors: "S.M. Winkler, G. Kronberger, M. Kommenda, S. Fink, M. Affenzeller"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2015"
+    link: https://doi.org/10.1007/978-3-319-27340-2_41
+  - id: complexity-measures-symbolic-regression
+    year: 2015
+    title: "Complexity measures for multi-objective symbolic regression"
+    authors: "M. Kommenda, A. Beham, M. Affenzeller, G. Kronberger"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2015"
+    link: https://doi.org/10.1007/978-3-319-27340-2_51
+  - id: sliding-window-symbolic-regression-dynamics
+    year: 2015
+    title: "Sliding window symbolic regression for detecting changes of system dynamics"
+    authors: "S.M. Winkler, M. Affenzeller, G. Kronberger, M. Kommenda, B. Burlacu, S. Wagner"
+    publisher: "Genetic Programming Theory and Practice XII, 91-107"
+    link: https://doi.org/10.1007/978-3-319-16030-6_6
+  - id: simulation-heuristiclab-optimization-applications
+    year: 2015
+    title: "Simulation-based optimization with HeuristicLab: practical guidelines and real-world applications"
+    authors: "M. Affenzeller, A. Beham, S. Vonolfen, E. Pitzer, S.M. Winkler, S. Hutterer, M. Kommenda, M. Kofler, G. Kronberger, S. Wagner"
+    publisher: "Applied Simulation and Optimization: In Logistics, Industrial and Aeronautical Practice"
+    link: https://doi.org/10.1007/978-3-319-15033-8_1
+  - id: multi-population-genetic-symbolic-regression
+    year: 2015
+    title: "Multi-population genetic programming with data migration for symbolic regression"
+    authors: "M. Kommenda, M. Affenzeller, G. Kronberger, B. Burlacu, S.M. Winkler"
+    publisher: "Computational Intelligence and Efficiency in Engineering Systems, 75-87"
+    link: https://doi.org/10.1007/978-3-319-15720-7_6
+  - id: search-strategies-grammatical-genetic
+    year: 2015
+    title: "Search strategies for grammatical optimization problems - alternatives to grammar-guided genetic programming"
+    authors: "G. Kronberger, M. Kommenda"
+    publisher: "Computational Intelligence and Efficiency in Engineering Systems, 89-102"
+    link: https://doi.org/10.1007/978-3-319-15720-7_7
+  - id: genealogy-building-block-genetic-programming
+    year: 2015
+    title: "Methods for genealogy and building block analysis in genetic programming"
+    authors: "B. Burlacu, M. Affenzeller, S.M. Winkler, M. Kommenda, G. Kronberger"
+    publisher: "Computational Intelligence and Efficiency in Engineering Systems, 61-74"
+    link: https://doi.org/10.1007/978-3-319-15720-7_5
+  - id: supply-chain-simulation-logistic-optimization
+    year: 2015
+    title: "Concise Supply-Chain Simulation Optimization for Large Scale Logistic Networks"
+    authors: "E. Pitzer, G. Kronberger"
+    publisher: "Computational Intelligence and Efficiency in Engineering Systems, 429-442"
+    link: https://doi.org/10.1007/978-3-319-15720-7_30
+  - id: genetic-programming-data-migration
+    year: 2014
+    title: "Genetic programming with data migration for symbolic regression"
+    authors: "M. Kommenda, M. Affenzeller, B. Burlacu, G. Kronberger, S.M. Winkler"
+    publisher: "GECCO Comp '14: Proceedings of the Companion Publication of the 2014 Annual Conference on Genetic and Evolutionary Computation"
+    link: https://doi.org/10.1145/2598394.2609857
+  - id: scripting-framework-integration-heuristic
+    year: 2014
+    title: "Scripting and framework integration in heuristic optimization environments"
+    authors: "A. Beham, J Karder, G. Kronberger, S. Wagner, M. Kommenda, A. Scheibenpflug"
+    publisher: "GECCO Comp '14: Proceedings of the Companion Publication of the 2014 Annual Conference on Genetic and Evolutionary Computation"
+    link: https://doi.org/10.1145/2598394.2605690
+  - id: fe-calculations-nonlinear-pmsms
+    year: 2014
+    title: "Using FE calculations and data-based system identification techniques to model the nonlinear behavior of PMSMs"
+    authors: "G. Bramerdorfer, S.M. Winkler, M. Kommenda, G. Weidenholzer, S. Silber, G. Kronberger, M. Affenzeller, W. Amrhein"
+    publisher: "IEEE Transactions on Industrial Electronics 61 (11), 6454-6462"
+    link: https://doi.org/10.1109/TIE.2014.2303785
+  - id: deeper-insights-symbolic-regression
+    year: 2014
+    title: "Gaining deeper insights in symbolic regression"
+    authors: "M. Affenzeller, S.M. Winkler, G. Kronberger, M. Kommenda, B. Burlacu, S. Wagner"
+    publisher: "Genetic Programming Theory and Practice XI, 175-190"
+    link: https://doi.org/10.1007/978-1-4939-0375-7_10
+  - id: tumor-markers-diagnosis-evolutionary
+    year: 2014
+    title: "On the Identification of Virtual Tumor Markers and Tumor Diagnosis Predictors Using Evolutionary Algorithms"
+    authors: "S.M. Winkler, M. Affenzeller, G. Kronberger, M. Kommenda, S. Wagner, W. Jacak, H. Stekel"
+    publisher: "Advanced Methods and Applications in Computational Intelligence, 95-122"
+    link: https://doi.org/10.1007/978-3-319-01436-4_6
+  - id: heuristiclab-optimization-architecture
+    year: 2014
+    title: "Architecture and design of the HeuristicLab optimization environment"
+    authors: "S. Wagner, G. Kronberger, A. Beham, M. Kommenda, A. Scheibenpflug, E. Pitzer, S. Vonolfen, M. Kofler, S. M. Winkler, V. Dorfer, M. Affenzeller"
+    publisher: "Advanced methods and applications in computational intelligence, 197-261"
+    link: https://doi.org/10.1007/978-3-319-01436-4_10
+  - id: constant-optimization-least-squares-symbolic
+    year: 2013
+    title: "Effects of constant optimization by nonlinear least squares minimization in symbolic regression"
+    authors: "M. Kommenda, G. Kronberger, S.M. Winkler, M. Affenzeller, S. Wagner"
+    publisher: "GECCO '13 Companion: Proceedings of the 15th annual conference companion on Genetic and evolutionary computation"
+    link: https://doi.org/10.1145/2464576.2482691
+  - id: visualization-genetic-lineages-inheritance
+    year: 2013
+    title: "Visualization of genetic lineages and inheritance information in genetic programming"
+    authors: "B. Burlacu, M. Affenzeller, M. Kommenda, S.M. Winkler, G. Kronberger"
+    publisher: "GECCO '13 Companion: Proceedings of the 15th annual conference companion on Genetic and evolutionary computation"
+    link: https://doi.org/10.1145/2464576.2482714
+  - id: gpdl-framework-grammar-genetic
+    year: 2013
+    title: "Gpdl: A framework-independent problem definition language for grammar-guided genetic programming"
+    authors: "G. Kronberger, M. Kommenda, S. Wagner, H. Dobler"
+    publisher: "GECCO '13 Companion: Proceedings of the 15th annual conference companion on Genetic and evolutionary computation"
+    link: https://doi.org/10.1145/2464576.2482713
+  - id: variable-interaction-networks-medical
+    year: 2013
+    title: "Variable interaction networks in medical data"
+    authors: "S.M. Winkler, G. Kronberger, M. Affenzeller, H. Stekel"
+    publisher: "International Journal of Privacy and Health Information Management (IJPHIM)"
+    link: https://doi.org/10.4018/ijphim.2013070101
+  - id: better-gp-benchmarks-survey-proposals
+    year: 2013
+    title: "Better GP benchmarks: community survey results and proposals"
+    authors: "D.R. White, J. McDermott, M. Castelli, L. Manzoni, B.W. Goldman, G. Kronberger, W. Ja?kowski, U.-M. O'Reilly , S. Luke"
+    publisher: "Genetic Programming and Evolvable Machines 14, 3-29"
+    link: https://doi.org/10.1007/s10710-012-9177-2
+  - id: nonlinear-least-squares-optimization-symbolic
+    year: 2013
+    title: "Nonlinear least squares optimization of constants in symbolic regression"
+    authors: "M. Kommenda, M. Affenzeller, G. Kronberger, S.M. Winkler"
+    publisher: "Computer Aided Systems Theory-EUROCAST 2013"
+    link: https://doi.org/10.1007/978-3-642-53856-8_53
+  - id: tumor-marker-diagnosis-breast-cancer
+    year: 2013
+    title: "On the use of estimated tumour marker classifications in tumour diagnosis prediction - a case study for breast cancer"
+    authors: "S.M. Winkler, M. Affenzeller, G. Kronberger, M. Kommenda, S. Wagner, V. Dorfer, W. Jacak, H. Stekel"
+    publisher: "International Journal of Simulation and Process Modelling 8 (1), 29-41"
+    link: https://doi.org/10.1504/IJSPM.2013.055192
+  - id: declarative-bayesian-dark-matter
+    year: 2013
+    title: "Declarative Modeling and Bayesian Inference of Dark Matter Halos"
+    authors: "G. Kronberger"
+    publisher: "Computer Aided Systems Theory-EUROCAST 2013"
+    link: https://doi.org/10.1007/978-3-642-53856-8_25
+  - id: covariance-functions-gaussian-process-genetic
+    year: 2013
+    title: "Evolution of covariance functions for gaussian process regression using genetic programming"
+    authors: "G. Kronberger, M. Kommenda"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2013"
+    link: https://doi.org/10.1007/978-3-642-53856-8_39
+  - id: architecture-tree-based-genetic-heuristiclab
+    year: 2012
+    title: "On the architecture and implementation of tree-based genetic programming in HeuristicLab"
+    authors: "M. Kommenda, G. Kronberger, S. Wagner, S.M. Winkler, M. Affenzeller"
+    publisher: "GECCO '12: Proceedings of the 14th annual conference companion on Genetic and evolutionary computation"
+    link: https://doi.org/10.1145/2330784.2330801
+  - id: algorithm-experiment-heuristiclab
+    year: 2012
+    title: "Algorithm and experiment design with heuristic lab: An open source optimization environment for research and education"
+    authors: "S. Wagner, G. Kronberger"
+    publisher: "GECCO '12: Proceedings of the 14th annual conference companion on Genetic and evolutionary computation"
+    link: https://doi.org/10.1145/2330784.2330941
+  - id: constants-optimization-symbolic-regression
+    year: 2012
+    title: "Constants Optimization in Symbolic Regression"
+    authors: "M. Kommenda, G. Kronberger, M. Affenzeller, S.M. Winkler, S. Wagner"
+    publisher: "1st Australian Conference on the Applications of Systems Engineering ACASE'12"
+    link: tbd
+  - id: heuristiclab-hive-parallel-distributed
+    year: 2012
+    title: "Heuristiclab hive-an open source environment for parallel and distributed execution of heuristic optimization algorithms"
+    authors: "A. Scheibenpflug, S. Wagner, G. Kronberger, M. Affenzeller"
+    publisher: "1st Australian Conference on the Applications of Systems Engineering ACASE'12"
+    link: tbd
+  - id: data-mining-ontology-linked
+    year: 2012
+    title: "Combining data mining and ontology engineering to enrich ontologies and linked data"
+    authors: "M. C. Suárez-Figueroa, M. D'Aquin, G. Kronberger"
+    publisher: "Informatica"
+    link: https://oa.upm.es/id/eprint/19551
+  - id: enhanced-confidence-gp-ensemble
+    year: 2012
+    title: "Enhanced confidence interpretations of gp-based ensemble modeling results"
+    authors: "M. Affenzeller, S.M. Winkler, S Forstenlechner, G. Kronberger, M. Kommenda, S. Wagner, H. Stekel"
+    publisher: "Proceedings of the 24th European Modeling & Simulation Symposium, 340-345"
+    link: https://www.msc-les.org/proceedings/emss/2012/EMSS2012_340.pdf
+  - id: knowledge-discovery-symbolic-heuristiclab
+    year: 2012
+    title: "Knowledge discovery through symbolic regression with heuristiclab"
+    authors: "G. Kronberger, S. Wagner, M. Kommenda, A. Beham, A. Scheibenpflug, M. Affenzeller"
+    publisher: "Machine Learning and Knowledge Discovery in Databases: European Conference on Machine Learning and Knowledge Discovery in Databases"
+    link: https://doi.org/10.1007/978-3-642-33486-3_56
+  - id: parsimony-regression-genetic-programming
+    year: 2012
+    title: "Improving the parsimony of regression models for an enhanced genetic programming process"
+    authors: "AC Z?voianu, G. Kronberger, M. Kommenda, D. Zaharie, M. Affenzeller"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2011"
+    link: https://doi.org/10.1007/978-3-642-27549-4_34
+  - id: symbolic-regression-blast-furnace
+    year: 2012
+    title: "Application of symbolic regression on blast furnace and temper mill datasets"
+    authors: "M. Kommenda, G. Kronberger, C. Feilmayr, L Schickmair, M. Affenzeller, S. M. Winkler, S. Wagner"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2011"
+    link: https://doi.org/10.1007/978-3-642-27549-4_51
+  - id: parameter-meta-optimization
+    year: 2012
+    title: "Parameter meta-optimization of metaheuristic optimization algorithms"
+    authors: "C. Neumüller, S. Wagner, G. Kronberger, M. Affenzeller"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2011"
+    link: https://doi.org/10.1007/978-3-642-27549-4_47
+  - id: genetic-programming-nonlinear-automotive
+    year: 2012
+    title: "Using genetic programming in nonlinear model identification"
+    authors: "S.M. Winkler, M. Affenzeller, S. Wagner, G. Kronberger, M. Kommenda"
+    publisher: "Identification for automotive systems. Springer, 89-109"
+    link: https://doi.org/10.1007/978-1-4471-2221-0.pdf#page=99
+  - id: market-basket-analysis-retail
+    year: 2012
+    title: "Market basket analysis of retail data: supervised learning approach"
+    authors: "G. Kronberger, M. Affenzeller"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2011"
+    link: https://doi.org/10.1007/978-3-642-27549-4_59
+  - id: evolutionary-algorithms-tumor-marker
+    year: 2012
+    title: "Analysis of selected evolutionary algorithms in feature selection and parameter optimization for data based tumor marker modeling"
+    authors: "S.M. Winkler, M. Affenzeller, G. Kronberger, M. Kommenda, S. Wagner, W. Jacak, H. Stekel"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2011"
+    link: https://doi.org/10.1007/978-3-642-27549-4_43
+  - id: overfitting-adaptive-parsimony-symbolic
+    year: 2011
+    title: "Overfitting detection and adaptive covariant parsimony pressure for symbolic regression"
+    authors: "G. Kronberger, M. Kommenda, M. Affenzeller"
+    publisher: "GECCO '11: Proceedings of the 13th annual conference companion on Genetic and evolutionary computation"
+    link: https://doi.org/10.1145/2001858.2002060
+  - id: data-mining-symbolic-blast-furnace
+    year: 2011
+    title: "Data mining using unguided symbolic regression on a blast furnace dataset"
+    authors: "M. Kommenda, G. Kronberger, C. Feilmayr, M. Affenzeller"
+    publisher: "Applications of Evolutionary Computation: EvoApplications 2011"
+    link: https://doi.org/10.1007/978-3-642-20525-5_28
+  - id: macro-economic-time-series-modeling
+    year: 2011
+    title: "Macro-economic time series modeling and interaction networks"
+    authors: "G. Kronberger, S. Fink, M. Kommenda, M. Affenzeller"
+    publisher: "Applications of Evolutionary Computation: EvoApplications 2011"
+    link: https://doi.org/10.1007/978-3-642-20520-0_11
+  - id: heuristiclab-3.3-metaheuristic-optimization
+    year: 2010
+    title: "HeuristicLab 3.3: A unified approach to metaheuristic optimization"
+    authors: "S. Wagner, A. Beham, G. Kronberger, M. Kommenda, E. Pitzer, M Kofler, S. Vonolfen, S. M. Winkler, V. Dorfer, M. Affenzeller"
+    publisher: "Proceedings of the seventh Spanish conference on Metaheuristics, Evolutionary and Bioinspired Algorithms (MAEB'2010)"
+    link: https://scholar.google.com/scholar?cluster=18292712595794174620&hl=en&oi=scholarr
+  - id: mutation-effects-offspring-combinatorial-optimization
+    year: 2010
+    title: "Mutation effects in genetic algorithms with offspring selection applied to combinatorial optimization problems"
+    authors: "S. Wagner, M. Affenzeller, A. Beham, G. Kronberger, S.M. Winkler"
+    publisher: "Proceeding of 22nd European modeling and simulation symposium EMSS"
+    link: https://scholar.google.com/scholar?cluster=7947574911882616524&hl=en&oi=scholarr
+  - id: feature-selection-tumor-marker-evolutionary-algorithms
+    year: 2010
+    title: "Feature selection in the analysis of tumor marker data using evolutionary algorithms"
+    authors: "S.M. Winkler, M. Affenzeller, G. Kronberger, M. Kommenda, S. Wagner, W. Jacak, H. Stekel"
+    publisher: "22th European Modeling and Simulation Symposium, EMSS 2010"
+    link: https://scholar.google.com/scholar?cluster=11968752856190562229&hl=en&oi=scholarr
+  - id: system-identification-blast-furnace-genetic-programming
+    year: 2009
+    title: "System identification of blast furnace processes with genetic programming"
+    authors: "G. Kronberger, C. Feilmayr, M. Kommenda, S.M. Winkler, M. Affenzeller, T. Burgler"
+    publisher: "2009 2nd International Symposium on Logistics and Industrial Informatics, 1-6"
+    link: https://doi.org/10.1109/LINDI.2009.5258751
+  - id: enetic-programming-temper-mill-datasets
+    year: 2009
+    title: "Application of genetic programming on temper mill datasets"
+    authors: "M. Kommenda, G. Kronberger, S.M. Winkler, M. Affenzeller, S. Wagner, M. Affenzeller, T. Burgler"
+    publisher: "2009 2nd International Symposium on Logistics and Industrial Informatics, 1-5"
+    link: https://doi.org/10.1109/LINDI.2009.5258751
+  - id: crossover-success-rate-genetic-programming-offspring
+    year: 2009
+    title: "On crossover success rate in genetic programming with offspring selection"
+    authors: "G. Kronberger, S.M. Winkler, M. Affenzeller, S. Wagner"
+    publisher: "European Conference on Genetic Programming, 232-243"
+    link: https://doi.org/10.1007/978-3-642-01181-8_20
+  - id: metaheuristic-optimization-hagenberg
+    year: 2009
+    title: "Metaheuristic optimization"
+    authors: "M. Affenzeller, A. Beham, M. Kofler, G. Kronberger, SA Wagner, S.M. Winkler"
+    publisher: "Hagenberg Research, 103-155"
+    link: https://doi.org/10.1007/978-3-642-02127-5_4
+  - id: success-rate-crossover-genetic-programming-offspring
+    year: 2009
+    title: "On the success rate of crossover operators for genetic programming with offspring selection"
+    authors: "G. Kronberger, S.M. Winkler, M. Affenzeller, A. Beham, S. Wagner"
+    publisher: "Computer Aided Systems Theory-EUROCAST 2009"
+    link: https://doi.org/10.1007/978-3-642-04772-5_102
+  - id: riority-rule-genetic-algorithm-setup-costs
+    year: 2009
+    title: "Priority rule generation with a genetic algorithm to minimize sequence dependent setup costs"
+    authors: "M. Kofler, S. Wagner, A. Beham, G. Kronberger, M. Affenzeller"
+    publisher: "Computer Aided Systems Theory-EUROCAST 2009"
+    link: https://doi.org/10.1007/978-3-642-04772-5_105
+  - id: model-driven-rapid-prototyping-heuristic-algorithms
+    year: 2009
+    title: "Model driven rapid prototyping of heuristic optimization algorithms"
+    authors: "S. Wagner, G. Kronberger, A. Beham, S.M. Winkler, M. Affenzeller"
+    publisher: "Computer Aided Systems Theory-EUROCAST 2009"
+    link: https://doi.org/10.1007/978-3-642-04772-5_94
+  - id: simulation-optimization-heuristiclab
+    year: 2008
+    title: "Simulation optimization with HeuristicLab"
+    authors: "A. Beham, M. Affenzeller, S. Wagner, G. Kronberger"
+    publisher: "Proceedings of the 20th European Modeling and Simulation Symposium, 75-80"
+    link: https://www.academia.edu/download/57062506/Simulation_Optimization_with_HeuristicLa20180724-14052-ezauiv.pdf
+  - id: data-mining-distributed-genetic-programming
+    year: 2008
+    title: "Data mining via distributed genetic programming agents"
+    authors: "G. Kronberger, S.M. Winkler, M. Affenzeller, S. Wagner"
+    publisher: "Proceedings of the 20th European Modeling and Simulation Symposium, 95-99"
+    link: https://scholar.google.com/scholar?cluster=8285391818793694144&hl=en&oi=scholarr
+  - id: modeling-heuristic-optimization-algorithms
+    year: 2008
+    title: "Modeling of heuristic optimization algorithms"
+    authors: "S. Wagner, G. Kronberger, A. Beham, S.M. Winkler, M. Affenzeller"
+    publisher: "Proceedings of the 20th European Modeling and Simulation Symposium, 106-111"
+    link: https://www.msc-les.org/proceedings/emss/2008/EMSS2008_106.pdf
+  - id: heuristic-optimization-input-parameters
+    year: 2007
+    title: "Heuristic optimization methods for the tuning of input parameters of simulation models"
+    authors: "M. Affenzeller, G. Kronberger, S.M. Winkler, M. Ionescu, S. Wagner"
+    publisher: "Proceedings of I3M 2007, 278-283"
+    link: https://scholar.google.com/scholar?cluster=16905602682078561217&hl=en&oi=scholarr
+  - id: bandit-monte-carlo-planning-scheduling
+    year: 2007
+    title: "Bandit-based Monte-Carlo planning for the single-machine total weighted tardiness scheduling problem"
+    authors: "G. Kronberger, R. Braune"
+    publisher: "International Conference on Computer Aided Systems Theory, 837-844"
+    link: https://doi.org/10.1007/978-3-540-75867-9_105
+  - id: plugin-based-heuristic-software-systems
+    year: 2007
+    title: "Benefits of plugin-based heuristic optimization software systems"
+    authors: "S. Wagner, S.M. Winkler, E. Pitzer, G. Kronberger, A. Beham, R. Braune, M. Affenzeller"
+    publisher: "Computer Aided Systems Theory - EUROCAST 2007"
+    link: https://doi.org/10.1007/978-3-540-75867-9_94
+  - id: automated-simulation-scheduler-manufacturing
+    year: 2006
+    title: "Automated simulation model generation for scheduler-benchmarking in manufacturing"
+    authors: "G. Kronberger, A Weidenhiller, B. Kerschbaumer, H. Jodlbauer"
+    publisher: "Proceedings of the International Mediterranean Modelling Multiconference (I3M 2006)"
+    link: https://scholar.google.com/citations?view_op=view_citation&hl=de&user=1uFIkkEAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=1uFIkkEAAAAJ:9yKSN-GCB0IC

@@ -203,6 +203,12 @@ papers:
     authors: F. Bachinger, G. Kronberger & M. Affenzeller
     publisher: "IET Collaborative Intelligent Manufacturing, Vol. 3, Iss. 1, Special Issue: Selected Papers from Collaborative and Intelligent Manufacturing in Industry 4.0 (ISM @SMM 2019), pp. 48-63, (March 2021)"
     link: https://doi.org/10.1049/cim2.12009
+  - id: empirical-variance-genetic-programming
+    year: 2021
+    title: "Empirical analysis of variance for genetic programming based symbolic regression"
+    authors: "L. Kammerer, G. Kronberger, S.M. Winkler"
+    publisher: "GECCO '21: Proceedings of the Genetic and Evolutionary Computation Conference Companion"
+    link: https://doi.org/10.1145/3449726.3459486
   - id: smart-manufactoring
     year: 2020
     title: Smart Manufacturing and Continuous Improvement and Adaptation of Predictive Models
@@ -263,36 +269,6 @@ papers:
     authors: B. Burlacu, G. Kronberger & M. Kommenda
     publisher: "Proceedings of the 2020 Genetic and Evolutionary Computation Conference Companion (GECCO ’20), pp. 1562–1570, (July 2020)"
     link: https://dl.acm.org/doi/10.1145/3377929.3398099
-  - id: thesis_kommenda
-    author: Michael Kommenda
-    year: 2018
-    title: "Local Optimization and Complexity Control for Symbolic Regression"
-    link: "/assets/thesis/thesis_kommenda.pdf"
-    type: thesis
-  - id: thesis_burlacu
-    author: Bogdan Burlacu
-    year: 2017
-    title: "Tracing of Evolutionary Search Trajectories in Complex Hypothesis Spaces"
-    link: "/assets/thesis/thesis_burlacu.pdf"
-    type: thesis
-  - id: thesis_kronberger
-    author: Gabriel Kronberger
-    year: 2010
-    title: "Symbolic Regression for Knowledge Discovery - Bloat, Overfitting, and Variable Interaction Networks"
-    link: "/assets/thesis/thesis_kronberger.pdf"
-    type: thesis
-  - id: thesis_winkler
-    author: Stephan Winkler
-    year: 2008
-    title: "Evolutionary System Identification - Modern Concepts and Practical Applications"
-    link: "/assets/thesis/thesis_winkler.pdf"
-    type: thesis
-  - id: empirical-variance-genetic-programming
-    year: 2021
-    title: "Empirical analysis of variance for genetic programming based symbolic regression"
-    authors: "L. Kammerer, G. Kronberger, S.M. Winkler"
-    publisher: "GECCO '21: Proceedings of the Genetic and Evolutionary Computation Conference Companion"
-    link: https://doi.org/10.1145/3449726.3459486
   - id: parameter-symbolic-regression-nonlinear
     year: 2020
     title: "Parameter identification for symbolic regression using nonlinear least squares"
@@ -395,6 +371,12 @@ papers:
     authors: "B. Burlacu, M. Affenzeller, M. Kommenda, G. Kronberger, S.M. Winkler"
     publisher: "Computer Aided Systems Theory - EUROCAST 2017"
     link: https://doi.org/10.1007/978-3-319-74718-7_52
+  - id: thesis_kommenda
+    author: Michael Kommenda
+    year: 2018
+    title: "Local Optimization and Complexity Control for Symbolic Regression"
+    link: "/assets/thesis/thesis_kommenda.pdf"
+    type: thesis
   - id: prediction-blood-glucose-evolutionary
     year: 2017
     title: "Data based prediction of blood glucose concentrations using evolutionary methods"
@@ -407,6 +389,12 @@ papers:
     authors: "M. Affenzeller, S.M. Winkler, B. Burlacu, G. Kronberger, M. Kommenda, S. Wagner"
     publisher: "GECCO '17: Proceedings of the Genetic and Evolutionary Computation Conference Companion"
     link: https://doi.org/10.1145/3067695.3082530
+  - id: thesis_burlacu
+    author: Bogdan Burlacu
+    year: 2017
+    title: "Tracing of Evolutionary Search Trajectories in Complex Hypothesis Spaces"
+    link: "/assets/thesis/thesis_burlacu.pdf"
+    type: thesis
   - id: fuzzy-modeling-prediction-tribological
     year: 2016
     title: "Robust fuzzy modeling and symbolic regression for establishing accurate and interpretable prediction models in supervising tribological systems"
@@ -598,13 +586,7 @@ papers:
     title: "Constants Optimization in Symbolic Regression"
     authors: "M. Kommenda, G. Kronberger, M. Affenzeller, S.M. Winkler, S. Wagner"
     publisher: "1st Australian Conference on the Applications of Systems Engineering ACASE'12"
-    link: tbd
-  - id: heuristiclab-hive-parallel-distributed
-    year: 2012
-    title: "Heuristiclab hive-an open source environment for parallel and distributed execution of heuristic optimization algorithms"
-    authors: "A. Scheibenpflug, S. Wagner, G. Kronberger, M. Affenzeller"
-    publisher: "1st Australian Conference on the Applications of Systems Engineering ACASE'12"
-    link: tbd
+    link: https://d1wqtxts1xzle7.cloudfront.net/43906456/Structural_Analysis_of_Vehicle_Routing_P20160319-18193-f6rgh1-libre.pdf?1458443284=&response-content-disposition=inline%3B+filename%3DStructural_analysis_of_vehicle_routing_p.pdf&Expires=1729601843&Signature=aXL3NzH9iHVJfUd1DiPlAqGb3mMpjJ6kJiE2qQB2ZzYSbvK6JhwPOUGs10G~PUhEBChJFqeuvLqUwH8sma1ijGazbWPYxMqiMjbbCXxuC8v~8EahzIyFQnGVL3g-~szM7X~D3e8BJCnsaX~dLhVM-ofqJfGuaJ6ogDFiR0N~M7l4HMDKkd9wiJ4PvVCPhxAGt41aY~AqyWaFhSDmCcWXPkLK8VM7cvO9CSjPv~sixQKJCRnCjn53VvbQhM6pjNS-gzlEIurBOjfyEtTcwDw6YxYkGH7uzRuMIoUKJnf5WVyvN3pkTb7~A6bcwomloLJP8IEh2Y-IZcefAFlKM4WLsg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
   - id: data-mining-ontology-linked
     year: 2012
     title: "Combining data mining and ontology engineering to enrich ontologies and linked data"
@@ -695,6 +677,12 @@ papers:
     authors: "S.M. Winkler, M. Affenzeller, G. Kronberger, M. Kommenda, S. Wagner, W. Jacak, H. Stekel"
     publisher: "22th European Modeling and Simulation Symposium, EMSS 2010"
     link: https://scholar.google.com/scholar?cluster=11968752856190562229&hl=en&oi=scholarr
+  - id: thesis_kronberger
+    author: Gabriel Kronberger
+    year: 2010
+    title: "Symbolic Regression for Knowledge Discovery - Bloat, Overfitting, and Variable Interaction Networks"
+    link: "/assets/thesis/thesis_kronberger.pdf"
+    type: thesis
   - id: system-identification-blast-furnace-genetic-programming
     year: 2009
     title: "System identification of blast furnace processes with genetic programming"
@@ -755,6 +743,12 @@ papers:
     authors: "S. Wagner, G. Kronberger, A. Beham, S.M. Winkler, M. Affenzeller"
     publisher: "Proceedings of the 20th European Modeling and Simulation Symposium, 106-111"
     link: https://www.msc-les.org/proceedings/emss/2008/EMSS2008_106.pdf
+  - id: thesis_winkler
+    author: Stephan Winkler
+    year: 2008
+    title: "Evolutionary System Identification - Modern Concepts and Practical Applications"
+    link: "/assets/thesis/thesis_winkler.pdf"
+    type: thesis
   - id: heuristic-optimization-input-parameters
     year: 2007
     title: "Heuristic optimization methods for the tuning of input parameters of simulation models"

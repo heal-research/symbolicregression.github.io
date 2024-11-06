@@ -799,7 +799,7 @@ papers:
     link: https://doi.org/10.1145/2330784.2330801
   - id: algorithm-experiment-heuristiclab
     year: 2012
-    title: "Algorithm and experiment design with heuristic lab: An open source optimization environment for research and education"
+    title: "Algorithm and experiment design with HeuristicLab: An open source optimization environment for research and education"
     authors: "S. Wagner, G. Kronberger"
     publisher: "GECCO '12: Proceedings of the 14th annual conference companion on Genetic and evolutionary computation"
     link: https://doi.org/10.1145/2330784.2330941
@@ -823,14 +823,14 @@ papers:
     link: https://www.msc-les.org/proceedings/emss/2012/EMSS2012_340.pdf
   - id: knowledge-discovery-symbolic-heuristiclab
     year: 2012
-    title: "Knowledge discovery through symbolic regression with heuristiclab"
+    title: "Knowledge discovery through symbolic regression with HeuristicLab"
     authors: "G. Kronberger, S. Wagner, M. Kommenda, A. Beham, A. Scheibenpflug, M. Affenzeller"
     publisher: "Machine Learning and Knowledge Discovery in Databases: European Conference on Machine Learning and Knowledge Discovery in Databases"
     link: https://doi.org/10.1007/978-3-642-33486-3_56
   - id: parsimony-regression-genetic-programming
     year: 2012
     title: "Improving the parsimony of regression models for an enhanced genetic programming process"
-    authors: "AC Z?voianu, G. Kronberger, M. Kommenda, D. Zaharie, M. Affenzeller"
+    authors: "C. Zavoianu, G. Kronberger, M. Kommenda, D. Zaharie, M. Affenzeller"
     publisher: "Computer Aided Systems Theory - EUROCAST 2011"
     link: https://doi.org/10.1007/978-3-642-27549-4_34
   - id: symbolic-regression-blast-furnace
@@ -977,27 +977,9 @@ papers:
     title: "Evolutionary System Identification - Modern Concepts and Practical Applications"
     link: "/assets/thesis/thesis_winkler.pdf"
     type: thesis
-  - id: heuristic-optimization-input-parameters
-    year: 2007
-    title: "Heuristic optimization methods for the tuning of input parameters of simulation models"
-    authors: "M. Affenzeller, G. Kronberger, S. M. Winkler, M. Ionescu, S. Wagner"
-    publisher: "Proceedings of I3M 2007, 278-283"
-    link: https://scholar.google.com/scholar?cluster=16905602682078561217&hl=en&oi=scholarr
-  - id: bandit-monte-carlo-planning-scheduling
-    year: 2007
-    title: "Bandit-based Monte-Carlo planning for the single-machine total weighted tardiness scheduling problem"
-    authors: "G. Kronberger, R. Braune"
-    publisher: "International Conference on Computer Aided Systems Theory, 837-844"
-    link: https://doi.org/10.1007/978-3-540-75867-9_105
   - id: plugin-based-heuristic-software-systems
     year: 2007
     title: "Benefits of plugin-based heuristic optimization software systems"
     authors: "S. Wagner, S. M. Winkler, E. Pitzer, G. Kronberger, A. Beham, R. Braune, M. Affenzeller"
     publisher: "Computer Aided Systems Theory - EUROCAST 2007"
     link: https://doi.org/10.1007/978-3-540-75867-9_94
-  - id: automated-simulation-scheduler-manufacturing
-    year: 2006
-    title: "Automated simulation model generation for scheduler-benchmarking in manufacturing"
-    authors: "G. Kronberger, A Weidenhiller, B. Kerschbaumer, H. Jodlbauer"
-    publisher: "Proceedings of the International Mediterranean Modelling Multiconference (I3M 2006)"
-    link: https://scholar.google.com/citations?view_op=view_citation&hl=de&user=1uFIkkEAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=1uFIkkEAAAAJ:9yKSN-GCB0IC

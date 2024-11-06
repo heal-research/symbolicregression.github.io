@@ -16,19 +16,19 @@ description: SymReg Homepage
                 <p class="text-justify">
                     Symbolic regression is a supervised learning task where the goal is to find equations that fit data (equation learning). Symbolic regression models allow to predict one or multiple variables from known variables. In contrast to other regression methods, the task is not only to identify fitting parameter values for a fixed equation structure, but instead to find the complete equation including fitting parameter values.
                     <br/>
-                    Symbolic regression was coined by <a href="https://genetic-programming.org/">John Koza</a> in the context of <a href="https://geneticprogramming.com/">genetic programming</a> (GP). GP is an evolutionary algorithm for symbolic regression. It manages a set of equations (population) and recombines parts from well-fitting equations to produce new equations. This processes is repeated over many generations to produce better and better solutions starting from a set of randomly initialiezd equations.
+                    Symbolic regression was coined by <a href="https://genetic-programming.org/">John Koza</a> in the context of <a href="https://geneticprogramming.com/">genetic programming</a> (GP). GP is an evolutionary algorithm for symbolic regression. It manages a set of equations (population) and recombines parts from well-fitting equations to produce new equations. This processes is repeated over many generations to produce better and better solutions starting from a set of random equations.
                 </p>
             </div>
             <div class="col-lg-7 col-md-12 text-center">
                 <figure class="image-box">
-                    <img src="/assets/img/symreg-explanation.png" id="symreg-explanation">
+                    <img src="/assets/img/symreg-explanation.png" id="symreg-example">
                 </figure>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-7 col-md-12 text-center">
                 <figure class="image-box">
-                    <img src="/assets/img/symreg-grammar.png" id="symreg-explanation">
+                    <img src="/assets/img/gp-cycle.svg" id="gp-cycle">
                 </figure>
             </div>
             <div class="col-lg-5 col-md-12">

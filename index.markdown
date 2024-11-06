@@ -28,7 +28,7 @@ description: SymReg Homepage
         <div class="row">
             <div class="col-lg-7 col-md-12 text-center">
                 <figure class="image-box">
-                    <img src="/assets/img/gp-cycle.svg" id="gp-cycle">
+                    <img src="/assets/img/gp_cycle.svg" id="gp-cycle">
                 </figure>
             </div>
             <div class="col-lg-5 col-md-12">

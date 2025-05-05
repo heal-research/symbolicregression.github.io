@@ -1,9 +1,15 @@
 MainNav:
-  - item: homme
+  - item: home
     name:
       de: Home
       en: Home
     link: "/"
+    hardlink: false
+  - item: blog
+    name:
+      de: Blog
+      en: Blog
+    link: "/blog/"
     hardlink: false
   - item: book
     name:

@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 lang: en
 permalink: /
@@ -14,7 +11,7 @@ description: SymReg Homepage
         <div class=row>
             <div class="col-lg-5 col-md-12">
                 <p class="text-justify">
-                    Symbolic regression is a supervised learning task where the goal is to find equations that fit data (equation learning). Symbolic regression models allow to predict one or multiple variables from known variables. In contrast to other regression methods, the task is not only to identify fitting parameter values for a fixed equation structure, but instead to find the complete equation including fitting parameter values.
+                    The goal of symbolic regression is finding equations that fit data (equation learning). In contrast to other regression methods, the task is not only to identify fitting parameter values for a fixed equation structure, but instead to find the complete equation including fitting parameter values.
                     <br/>
                     Symbolic regression was coined by <a href="https://genetic-programming.org/">John Koza</a> in the context of <a href="https://geneticprogramming.com/">genetic programming</a> (GP). GP is an evolutionary algorithm for symbolic regression. It manages a set of equations (population) and recombines parts from well-fitting equations to produce new equations. This processes is repeated over many generations to produce better and better solutions starting from a set of random equations.
                 </p>
@@ -45,9 +42,27 @@ description: SymReg Homepage
         <h2 class="section-header">Our projects</h2>
         <div class="row">
             <div class="col-md-12">
+                <h3 class="section-subheading"><a href="https://www.tuwien.at/en/doc/futurethz">FutureTHz</a> - Future Wireless THz Communication Devices and Systems</h3>
+                <p class="text-justify">
+                The <a href="https://www.tuwien.at/en/doc/futurethz">doctoral program FutureTHz</a> lead by <a href="https://www.tuwien.at/en/">TU Wien</a> is centered around one of the most promising THz sources: resonant-tunneling-diode (RTD) oscillators. This project systematically investigates the nonlinearities in RTD oscillators, develops accurate analytical and numerical models, validates them experimentally, and explores the use of RTD oscillators in certain application scenarios. A key focus is on in-depth understanding of a technique known as injection locking for achieving precise frequency and phase control of RTD oscillators.<br />
+                Project duration: 2025 - ongoing<br />
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-subheading"><a href="https://ai4lab2plant.github.io/">AI4Lab2Plant</a></h3>
+                <p class="text-justify">
+                In collaboration with <a href="https://www.k1-met.com/en/non_comet/ai4lab2plant">K1-MET</a> and <a href="https://www.voestalpine.com/stahl/en/Companies/voestalpine-Stahl-GmbH">voestalpine Stahl</a>, we leverage symbolic regression to develop predictive models for steel casting processes. Specifically, the integration of domain knowledge (e.g., through shape constraints) and the application of transfer learning will ensure the models’ applicability beyond laboratory setups, extending its feasibility to large-scale production environments.<br />
+                Project duration: 2025 - ongoing<br />
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
                 <h3 class="section-subheading">AstroSymReg - Accelerating the Physical Sciences with Symbolic Regression</h3>
                 <p class="text-justify">
-                We develop and apply symbolic regression algorithms to create models for astrophysics, such as emulators for the <a href="https://arxiv.org/abs/2311.15865">linear</a> and the <a href="https://arxiv.org/abs/2402.17492">nonlinear</a> mass power spectrum.<br />
+                We develop and apply symbolic regression algorithms to create models for astrophysics, such as emulators for the <a href="https://arxiv.org/abs/2311.15865">linear</a> and the <a href="https://arxiv.org/abs/2402.17492">nonlinear</a> mass power spectrum together with colleagues from University of Oxford and University of Portsmouth.<br />
                 Project duration: 2024 - ongoing<br />
                 </p>
             </div>
@@ -93,11 +108,10 @@ One of the goals was using symbolic regression to produce models for design and 
             <div class="col-md-12">
                 <h3 class="section-subheading">Heureka! - Josef Ressel Center for Heuristic Optimization</h3>
                 <p class="text-justify">
-		  A part of this project was development of improved symbolic regression methods and application to real-world tasks.
-		  In this project we developed a new approach to the optimization of parameters of symbolic regression models and implemented
-		  several improvements in our open-source software system HeuristicLab.
-		  We used symbolic regression algorithms for example for modeling blast furnace processes as well as temper-rolling processes together with our partner voestalpine Stahl in Linz.
-		  Supported by the Austrian Research Promotion Agency (FFG).<br />
+                    A part of this project was development of improved symbolic regression methods and application to real-world tasks.
+                    In this project we developed a new approach to the optimization of parameters of symbolic regression models and implemented several improvements in our open-source software system HeuristicLab.
+                    We used symbolic regression algorithms for example for modeling blast furnace processes as well as temper-rolling processes together with our partner voestalpine Stahl in Linz.
+                    Supported by the Austrian Research Promotion Agency (FFG).<br />
                 Project duration: 2008 - 2013<br />
                 </p>
             </div>
@@ -120,6 +134,12 @@ One of the goals was using symbolic regression to produce models for design and 
         <h2 class="section-header">Links</h2>
         <div class="row">
             <div class="col-md-4">
+                <a href="https://heal.heuristiclab.com" target="_blank">https://heal.heuristiclab.com</a>
+            </div>
+            <div class="col-md-8">Research Group - Heuristic and Evolutionary Algorithms Laboratory</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
                 <a href="https://www.genetic-programming.org" target="_blank">https://www.genetic-programming.org</a>
             </div>
             <div class="col-md-8">Genetic programming page by John Koza</div>
@@ -129,12 +149,6 @@ One of the goals was using symbolic regression to produce models for design and 
                 <a href="https://www.geneticprogramming.com" target="_blank">https://www.geneticprogramming.com</a>
             </div>
             <div class="col-md-8">More recent page on genetic programming by the GP community</div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <a href="https://heal.heuristiclab.com" target="_blank">https://heal.heuristiclab.com</a>
-            </div>
-            <div class="col-md-8">Research Group - Heuristic and Evolutionary Algorithms Laboratory</div>
         </div>
     </div>
 </section>

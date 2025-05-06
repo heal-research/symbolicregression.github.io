@@ -1,0 +1,24 @@
+<article class="blogpost-teaser">
+   <div class="row">
+      <div class="col-md-4">
+         
+      </div>
+      <div class="col-md-8">
+         <div class="teaser-header">
+            <h3 class="section-subheading">{{post.title}}</h3>
+            <p class="post-meta">
+               {% assign m = post.date | date: "%-m" | minus: 1 %}
+               <b><time class="date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ site.data.i18n.months[page.lang][m] }} {{ post.date | date: "%-d" }}, {{ post.date | date: "%-Y" }}</time></b>
+               <span> / </span>
+               <span class="teaser-author"><b>{{post.author}}</b></span>
+            </p>
+         </div>
+         <div class="excerpt text-justify">
+            {{ post.excerpt }}
+            {% if post.content contains site.excerpt_separator %}
+            <a class="readmore-link" href="{{post.url}}">&rArr; read more</a>
+            {% endif %}
+         </div>
+      </div>
+   </div>
+</article>

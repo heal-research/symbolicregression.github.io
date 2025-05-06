@@ -1,0 +1,19 @@
+---
+title: News
+layout: blog
+lang: en
+description: The latest news are posted here!
+---
+
+<section id="blog">
+   <div class="container">
+      <h2 class="section-header">Latest News</h2>
+      <div class="row">
+         <div class="col-md-12">
+            {% for post in site.posts %}
+               {% include post_preview.html preview_size_small=false %}
+            {% endfor %}
+         </div>
+      </div>
+   </div>
+</section>

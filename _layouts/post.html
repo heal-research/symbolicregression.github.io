@@ -1,0 +1,24 @@
+---
+layout: blog
+---
+
+<section id="post">
+   <div class="container text-justify">
+      <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+         <header class="post-header">
+            <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+            <p class="post-meta">
+               {% assign m = page.date | date: "%-m" | minus: 1 %}
+               <b>
+               <time class="date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ site.data.i18n.months["en"][m] }} {{ page.date | date: "%-d" }}, {{ page.date | date: "%-Y" }}</time>
+               <span class="slash-separator">/</span>
+               <span class="author" itemprop="author" itemscope itemtype="https://schema.org/Person">{{ page.author }}</span>
+               </b>
+            </p>
+         </header>
+         <div class="post-content" itemprop="articleBody">
+            {{ content }}
+          </div>
+      </article>
+   </div>
+</section>

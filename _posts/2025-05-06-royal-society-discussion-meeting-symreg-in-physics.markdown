@@ -13,7 +13,7 @@ The meeting on _Symbolic Regression in the Physical Sciences_ was held on 28th a
 
 Symbolic regression is a branch of machine learning that attempts to find interpretable mathematical expressions which can accurately approximate a data set. This meeting brought together practitioners of symbolic regression with physicists who are tackling problems which are particularly amenable to their analysis.
 
-<div class="col-lg-7 col-md-12 text-center">
+<div class="col-md-12 text-center">
     <figure class="image-box">
         <img src="/assets/img/rs_group_cropped.jpg" id="royal-society-speakers-group-picture">
     </figure>

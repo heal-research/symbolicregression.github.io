@@ -7,20 +7,23 @@ author: Gabriel Kronberger, Fabrício Olivetti de França and Bogdan Burlacu
 excerpt_separator: <!--more-->
 ---
 
-The meeting held on 28th-29th of April 2025 at Royal Society in London, was organized by Deaglan Bartlett, Harry Desmond, Pedro G. Ferreira, and Gabriel Kronberger.
-
-Symbolic regression is a branch of machine learning that attempts to find interpretable mathematical expressions which can accurately approximate a data set. This meeting brought together practitioners of symbolic regression with physicists who are tackling problems which are particularly amenable to their analysis.
+The meeting on _Symbolic Regression in the Physical Sciences_ was held on 28th and 29th of April 2025 at Royal Society in London. Two days of insightful talks highlighted several applications of symbolic regression and gave some hints about future developments of symbolic regression methods. We provide our personal summary of the main topics in this post.
 
 <!--more-->
 
+Symbolic regression is a branch of machine learning that attempts to find interpretable mathematical expressions which can accurately approximate a data set. This meeting brought together practitioners of symbolic regression with physicists who are tackling problems which are particularly amenable to their analysis.
+
+
+
 ## Schedule
+The workshop had a mixture of talks focussing either on applications of symbolic regression in physical sciences and engineering or on symbolic regression methods.
 
 Monday 28th of April:
 
 - Harry Desmond, University of Portsmouth, _(Exhaustive) Symbolic Regression and model selection by minimum description length_
 - Steven Abel, Durham University, _Symbolic regression in beyond Standard Model physics_
 - Evgeniya Kabliman, University of Bremen & Leibniz Institute for Materials Engineering, _Constitutive modelling using symbolic regression_
-- Roger Guimerà, Universitat Rovira i Virgili Physics for symbolic regression, _Symbolic regression for physics_
+- Roger Guimerà, Universitat Rovira i Virgili _Physics for symbolic regression, Symbolic regression for physics_
 - William La Cava, Boston Children's Hospital _Brush: incorporating split-wise functions and multi-armed bandits into symbolic regression_
 - Tariq Yasin, University of Oxford, _Empirical dark matter profiles with symbolic regression_
 - Cristina Cornelio, Samsung AI, _Derivable scientific discovery_
@@ -90,7 +93,7 @@ Summary of requested features:
 ## Future Activities
 
 - <a href="https://heal.heuristiclab.com/research/symbolic-regression-workshop" target="_blank">Symbolic Regression Workshop</a> at the <a href="https://gecco-2025.sigevo.org/HomePage" target="_blank">Genetic and Evolutionary Computation Conference (GECCO)</a> 14th-18th of July, Malaga
-- <a href="https://drive.google.com/file/d/1sQE80uWEmnN15XZELUWZPp97DASWrq8b/view" target="_blank">Advancing Computational Mechanics with Symbolic Regression</a>, U.S. National Congress on Computational Mechanics</a>, Chicago July 20-24, 2025
+- <a href="https://drive.google.com/file/d/1sQE80uWEmnN15XZELUWZPp97DASWrq8b/view" target="_blank">Advancing Computational Mechanics with Symbolic Regression</a>, <a href="https://usnccm18.usacm.org/" target="_blank"> U.S. National Congress on Computational Mechanics</a>, Chicago July 20-24, 2025
 - We plan to organize a workshop proposal at NeurIPS in December 2025
 
 ## Links

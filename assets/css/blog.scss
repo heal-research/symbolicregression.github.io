@@ -37,3 +37,14 @@ section {
       color: $brand-primary;
    }
 }
+
+.blogpost-teaser {
+   img {
+      width: 100%;
+   }
+
+   .image-link {
+      display: inline-block;
+      margin: 20px 0px 0px 0px;
+   }
+}

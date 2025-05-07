@@ -5,7 +5,7 @@ date: 2025-05-06 12:00:00 +0100
 categories: workshops physics
 author: Gabriel Kronberger, Fabrício Olivetti de França and Bogdan Burlacu
 excerpt_separator: <!--more-->
-image: /blog/resources/2025-05-06-royal-society-discussion-meeting-symreg-in-physics/rs_group_cropped.jpg
+image: /blog/resources/2025-05-06-royal-society-discussion-meeting-symreg-in-physics/rs_meeting_orga_cropped.png
 ---
 
 The meeting on [_Symbolic Regression in the Physical Sciences_][meeting]{:target="\_blank"} was held on 28th and 29th of April 2025 at Royal Society in London. Two days of insightful talks highlighted several applications of symbolic regression and gave some hints about future developments of symbolic regression methods. We provide our personal summary of the main topics in this post.

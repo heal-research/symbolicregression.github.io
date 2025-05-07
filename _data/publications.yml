@@ -1,4 +1,35 @@
 papers:
+
+  - id: millner-ijes
+    year: 2025
+    title: "Comparison of semi-empirical models, symbolic regression, and machine learning approaches for prediction of tensile strength in steels"
+    authors: G. Millner, G. Kronberger, M. Mücke, L. Romaner, D. Scheiber
+    publisher: "International Journal of Engineering Science 212, 104247"
+    link: https://doi.org/10.1016/j.ijengsci.2025.104247
+  - id: kronberger-jsco
+    year: 2025
+    title: "Effects of reducing redundant parameters in parameter optimization for symbolic regression using genetic programming"
+    authors: G. Kronberger, F. Olivetti de Franca
+    publisher: Journal of Symbolic Computation 129, 102413
+    link: https://doi.org/10.1016/j.jsc.2024.102413
+  - id: deFranca-GECCO-symregg
+    year: 2025
+    title: "Improving Genetic Programming for Symbolic Regression with Equality Graphs"
+    authors: F. Olivetti de Franca, G. Kronberger
+    publisher: arxiv preprint, accepted for Genetic and Evolutionary Computation Conference (GECCO'25)
+    link: https://arxiv.org/abs/2501.17848
+  - id: deFranca-GECCO-reggression
+    year: 2025
+    title: "rEGGression: an Interactive and Agnostic Tool for the Exploration of Symbolic Regression Models"
+    authors: F. Olivetti de Franca, G. Kronberger
+    publisher: arxiv preprint, accepted for Genetic and Evolutionary Computation Conference (GECCO'25)
+    link: https://arxiv.org/abs/2501.17859
+  - id: kammerer-appsci
+    year: 2024
+    title: "Bias and Variance Analysis of Contemporary Symbolic Regression Methods"
+    authors: L. Kammerer, G. Kronberger, S. Winkler
+    publisher: Applied Sciences 14 (23), 11061
+    link: https://www.mdpi.com/2076-3417/14/23/11061
   - id: symreg-book
     year: 2024
     title: Symbolic Regression
@@ -21,13 +52,13 @@ papers:
     year: 2024
     title: "A Comparison of Recent Algorithms for Symbolic Regression to Genetic Programming"
     authors: Y. A. Radwan, G. Kronberger, S. Winkler
-    publisher: arXiv preprint, 2406.03585
-    link: https://arxiv.org/abs/2406.03585
+    publisher: Computer Aided Systems Theory - EUROCAST 2024. EUROCAST 2024. Lecture Notes in Computer Science, vol 15172. Springer
+    link: https://doi.org/10.1007/978-3-031-82949-9_15
   - id: population-diversity-inheritance-genetic-programming-symbolic-regression
     year: 2024
     title: "Population diversity and inheritance in genetic programming for symbolic regression"
     authors: "B. Burlacu, K. Yang, M. Affenzeller"
-    publisher: "Natural Computing, Vol. 23, pp. 531–566"
+    publisher: "Natural Computing, Vol. 23, pp. 531-566"
     link: https://doi.org/10.1007/s11047-022-09934-x
   - id: population-dynamics-genetic-programming-symbolic-regression
     year: 2024
@@ -109,10 +140,10 @@ papers:
     link: https://doi.org/10.48550/arXiv.2304.01117
   - id: vector-gp-optimizing-segments-feature-extraction
     year: 2023
-    title: "Vectorial Genetic Programming--Optimizing Segments for Feature Extraction"
+    title: "Vectorial Genetic Programming - Optimizing Segments for Feature Extraction"
     authors: "P. Fleck, S. M. Winkler, M. Kommenda, M. Affenzeller"
-    publisher: "arXiv preprint arXiv:2303.03200"
-    link: https://doi.org/10.48550/arXiv.2303.03200
+    publisher: "Computer Aided Systems Theory - EUROCAST 2024. EUROCAST 2024. Lecture Notes in Computer Science, vol 15172"
+    link: https://doi.org/10.1007/978-3-031-82949-9_25
   - id: potentials
     year: 2023
     title: "Symbolic regression in materials science: Discovering interatomic potentials from data"

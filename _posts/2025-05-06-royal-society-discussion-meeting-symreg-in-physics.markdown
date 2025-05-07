@@ -7,7 +7,7 @@ author: Gabriel Kronberger, Fabrício Olivetti de França and Bogdan Burlacu
 excerpt_separator: <!--more-->
 ---
 
-The meeting on _Symbolic Regression in the Physical Sciences_ was held on 28th and 29th of April 2025 at Royal Society in London. Two days of insightful talks highlighted several applications of symbolic regression and gave some hints about future developments of symbolic regression methods. We provide our personal summary of the main topics in this post.
+The meeting on [_Symbolic Regression in the Physical Sciences_][meeting]{:target="\_blank"} was held on 28th and 29th of April 2025 at Royal Society in London. Two days of insightful talks highlighted several applications of symbolic regression and gave some hints about future developments of symbolic regression methods. We provide our personal summary of the main topics in this post.
 
 <!--more-->
 
@@ -24,6 +24,8 @@ Left to right: C. Cornelio, E. Kabliman, S. Manti, A. Lucantonio, L. Kammerer, G
 The workshop had a mixture of talks focussing either on applications of symbolic regression in physical sciences and engineering or on symbolic regression methods.
 
 ### Monday 28th of April:
+[Youtube Stream: Day 1][vod1]{:target="\_blank"}
+
 - Harry Desmond, University of Portsmouth, **_(Exhaustive) Symbolic Regression and model selection by minimum description length_**
 - Steven Abel, Durham University, **_Symbolic regression in beyond Standard Model physics_**
 - Evgeniya Kabliman, University of Bremen & Leibniz Institute for Materials Engineering, **_Constitutive modelling using symbolic regression_**
@@ -34,6 +36,8 @@ The workshop had a mixture of talks focussing either on applications of symbolic
 - J. Nathan Kutz, University of Washington, **_Sparse regression for symbolic representations in latent space dynamics_**
 
 ### Tuesday 29th of April:
+[Youtube Stream: Day 2][vod2]{:target="\_blank"}
+
 - Deaglan Bartlett, Institut d'Astrophysique de Paris, **_Accelerating cosmological modelling with symbolic regression_**
 - Miles Cranmer, University of Cambridge, **_Concept evolution and SymbolicRegression.jl as a modular research platform_**
 - Etienne Russeil, Stockholm University, **_Multi-view Symbolic Regression: from independent experiments to general laws_**
@@ -123,11 +127,8 @@ Summary of requested features:
 - <a href="https://drive.google.com/file/d/1sQE80uWEmnN15XZELUWZPp97DASWrq8b/view" target="_blank">Advancing Computational Mechanics with Symbolic Regression</a>, <a href="https://usnccm18.usacm.org/" target="_blank"> U.S. National Congress on Computational Mechanics</a>, Chicago July 20-24, 2025
 - We plan to organize a workshop proposal at NeurIPS in December 2025
 
-## Links
 
-- [Royal Society Scientific Meetings][meeting]{:taret="\_blank"}
-- [Youtube Stream: Day 1][vod1]{:taret="\_blank"}
-- [Youtube Stream: Day 2][vod2]{:taret="\_blank"}
+
 
 [meeting]: https://royalsociety.org/science-events-and-lectures/2025/04/symbolic-regression/
 [vod1]: https://www.youtube.com/watch?v=fzVnkDSPwt0

@@ -18,7 +18,7 @@ Symbolic regression is a branch of machine learning that attempts to find interp
         <img src="/assets/img/rs_group_cropped.jpg" id="royal-society-speakers-group-picture">
     </figure>
 </div>
-Left to right: C. Cornelio, E. Kabliman, S. Manti, A. Lucantonio, L. Kammerer, G. Kronberger, H. Desmond, A. Soltani, D. Bartlett, G. Bomarito, N. Kutz, P. Ferreira, B. Burlacu, W. La Cava, A. Constantin
+Left to right: C. Cornelio, E. Kabliman, S. Manti, A. Lucantonio, L. Kammerer, G. Kronberger, H. Desmond, A. Soltani, D. Bartlett, G. Bomarito, N. Kutz, F. Olivetti de Franca, P. Ferreira, B. Burlacu, W. La Cava, A. Constantin
 
 ## Schedule
 The workshop had a mixture of talks focussing either on applications of symbolic regression in physical sciences and engineering or on symbolic regression methods.

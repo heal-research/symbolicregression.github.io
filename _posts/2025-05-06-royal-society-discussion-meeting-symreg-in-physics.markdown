@@ -132,6 +132,15 @@ Summary of requested features:
 - <a href="https://drive.google.com/file/d/1sQE80uWEmnN15XZELUWZPp97DASWrq8b/view" target="_blank">Advancing Computational Mechanics with Symbolic Regression</a>, <a href="https://usnccm18.usacm.org/" target="_blank"> U.S. National Congress on Computational Mechanics</a>, Chicago July 20-24, 2025
 - We plan to organize a workshop proposal at NeurIPS in December 2025
 
+
+We had a great time in London and enjoyed the insightful talks. We thank the Royal Society for hosting and funding this meeting.
+<div class="col-md-8 text-center">
+    <figure class="image-box">
+        <img src="/blog/resources/2025-05-06-royal-society-discussion-meeting-symreg-in-physics/gabriel-fabricio-bogdan.jpg" id="gabriel-fabricio-bogdan-london">
+    </figure>
+</div>
+Gabriel, Fabrício, Bogdan
+
 [meeting]: https://royalsociety.org/science-events-and-lectures/2025/04/symbolic-regression/
 [vod1]: https://www.youtube.com/watch?v=fzVnkDSPwt0
 [vod2]: https://www.youtube.com/watch?v=8o6jU-iBXbw

@@ -5,17 +5,18 @@ date: 2025-07-18 12:00:00 +0100
 categories: workshops
 author: Gabriel Kronberger and Fabrício Olivetti de França
 excerpt_separator: <!--more-->
-image: /blog/resources/2025-07-18-symbolic-regression-workshop-gecco/gabe_fabricio_cropped.png
+image: /blog/resources/2025-07-18-symbolic-regression-workshop-gecco/gabe_fabricio.jpg
 ---
 
 
 This year's workshop on Symbolic Regression at GECCO (Genetic and Evolutionary Computation Conference) saw a record number of submissions and was very well recieved. We had two marvelous sessions with nine contributed talks and a 30-minute long lively discussion round. The overall quality of talks was high spanning a good mix of topics including benchmarking, efficiency improvements, theoretical considerations, and applications. Thanks to all the speakers and participants for their contributions. 
 
+<!--more-->
+
 The sessions for the GP track and the poster sessions had several additional contributions on SR. 
 
 It has been a while since my (Gabriel's) previous in-person visit to GECCO in 2018. For me, it was an outstanding intellectually satisfying event in Malaga, thanks to the many friends and new like-minded colleagues that I met after a long time. The many interesting and friendly chats I had in the breaks between sessions and at dinner were the best part of the conference.  
 
-<!--more-->
 
 ## Talks
 Florian Bachinger presented his proposal of benchmarks for shape constrained regression which should be helpful for the development of SR algorithms that allow to incorporate knowledge on the shape of the regression function (range, monotonicity, curvature). Regression with shape constraints could for instance be helpful to restrict function behaviour outside the range of training data to improve extrapolation.
@@ -66,17 +67,17 @@ We discussed the aims of SR implementations. Currently, SR is often considered a
 Another topic was the smoothness of mutation in genetic programming. Typical mutation operators are rather disruptive, and the hypothesis was raised that a smoother mutation operation could improve search.
 
 
-
-<div class="col-md-8 text-left">
-    <figure class="image-box">
-        <img src="/blog/resources/2025-07-18-symbolic-regression-workshop-gecco/symreg_workshop.jpg" id="workshop-room">
-    </figure>
-</div>
-
-<div class="col-md-8 text-right">
-    <figure class="image-box">
-        <img src="/blog/resources/2025-07-18-symbolic-regression-workshop-gecco/gabe_fabricio.jpg" id="workshop-organizers">
-    </figure>
+<div class="row">
+    <div class="col-lg-7 col-md-12 text-center">
+        <figure class="image-box">
+            <img src="/blog/resources/2025-07-18-symbolic-regression-workshop-gecco/symreg_workshop.jpg" id="workshop-room">
+        </figure>
+    </div>
+    <div class="col-lg-7 col-md-12 text-center">
+        <figure class="image-box">
+            <img src="/blog/resources/2025-07-18-symbolic-regression-workshop-gecco/gabe_fabricio.jpg" id="workshop-organizers">
+        </figure>
+    </div>
 </div>
 
 Gabriel Kronberger and Fabrício Olivetti de Franca

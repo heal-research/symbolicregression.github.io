@@ -15,7 +15,7 @@ The sessions for the GP track and the poster sessions had several additional con
 
 It has been a while since my (Gabriel's) previous in-person visit to GECCO in 2018. For me, it was an outstanding intellectually satisfying event in Malaga, thanks to the many friends and new like-minded colleagues that I met after a long time. The many interesting and friendly chats I had in the breaks between sessions and at dinner were the best part of the conference.  
 
-<!--mode-->
+<!--more-->
 
 ## Talks
 Florian Bachinger presented his proposal of benchmarks for shape constrained regression which should be helpful for the development of SR algorithms that allow to incorporate knowledge on the shape of the regression function (range, monotonicity, curvature). Regression with shape constraints could for instance be helpful to restrict function behaviour outside the range of training data to improve extrapolation.

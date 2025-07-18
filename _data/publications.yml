@@ -1,5 +1,11 @@
 papers:
 
+  - id: kammerer-syren-baryon
+    year: 2025
+    title: "syren-baryon: Analytic emulators for the impact of baryons on the matter power spectrum"
+    authors: L. Kammerer, Deaglan J. Bartlett, G. Kronberger, H. Desmond, P.G. Ferreira
+    publisher: "accepted for Astronomy & Astrophysics, arxiv preprint"
+    link: https://doi.org/10.48550/arXiv.2506.08783
   - id: millner-ijes
     year: 2025
     title: "Comparison of semi-empirical models, symbolic regression, and machine learning approaches for prediction of tensile strength in steels"
@@ -16,14 +22,14 @@ papers:
     year: 2025
     title: "Improving Genetic Programming for Symbolic Regression with Equality Graphs"
     authors: F. Olivetti de Franca, G. Kronberger
-    publisher: arxiv preprint, accepted for Genetic and Evolutionary Computation Conference (GECCO'25)
-    link: https://arxiv.org/abs/2501.17848
+    publisher: Proceedings of Genetic and Evolutionary Computation Conference (GECCO'25), Pages 989 - 998
+    link: https://doi.org/10.1145/3712256.3726383
   - id: deFranca-GECCO-reggression
     year: 2025
     title: "rEGGression: an Interactive and Agnostic Tool for the Exploration of Symbolic Regression Models"
     authors: F. Olivetti de Franca, G. Kronberger
-    publisher: arxiv preprint, accepted for Genetic and Evolutionary Computation Conference (GECCO'25)
-    link: https://arxiv.org/abs/2501.17859
+    publisher: Proceedings of Genetic and Evolutionary Computation Conference (GECCO'25) Pages 4 - 12
+    link: https://doi.org/10.1145/3712256.3726385
   - id: kammerer-appsci
     year: 2024
     title: "Bias and Variance Analysis of Contemporary Symbolic Regression Methods"
@@ -34,7 +40,7 @@ papers:
     year: 2024
     title: Symbolic Regression
     authors: G. Kronberger, B. Burlacu, M. Kommenda, S. M. Winkler, M. Affenzeller
-    publisher: CRC Press
+    publisher: CRC Press, 308 pages
     link: https://doi.org/10.1201/9781315166407
   - id: symreg-gp-inefficiency
     year: 2024

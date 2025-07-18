@@ -12,8 +12,8 @@ layout: blog
                <b>
                <time class="date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ site.data.i18n.months["en"][m] }} {{ page.date | date: "%-d" }}, {{ page.date | date: "%-Y" }}</time>
                <span class="slash-separator">/</span>
-               <span class="author" itemprop="author" itemscope itemtype="https://schema.org/Person">{{ page.author }}</span>
                </b>
+               <span class="author" itemprop="author" itemscope itemtype="https://schema.org/Person">{{ page.author }}</span>
             </p>
          </header>
          <div class="post-content" itemprop="articleBody">

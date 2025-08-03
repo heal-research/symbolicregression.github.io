@@ -30,14 +30,11 @@ The workshop had a mixture of talks focussing either on applications of symbolic
 
 <!--[Youtube Stream: Day 1][vod1]{:target="\_blank"}-->
 
-- Harry Desmond, University of Portsmouth, **_(Exhaustive) Symbolic Regression and model selection by minimum description length_** <a href="https://youtu.be/fC5Q-kRr9_Y?feature=shared" target="_blank">Video<\
-/a>
+- Harry Desmond, University of Portsmouth, **_(Exhaustive) Symbolic Regression and model selection by minimum description length_** <a href="https://youtu.be/fC5Q-kRr9_Y?feature=shared" target="_blank">Video</a>
 - Steven Abel, Durham University, **_Symbolic regression in beyond Standard Model physics_** <a href="https://youtu.be/lrrzglxRPOI?feature=shared" target="_blank">Video</a>
-- Evgeniya Kabliman, University of Bremen & Leibniz Institute for Materials Engineering, **_Constitutive modelling using symbolic regression_** <a href="https://youtu.be/jWfX2x5x_Fw?feature=shared" target="_b\
-lank">Video</a>
+- Evgeniya Kabliman, University of Bremen & Leibniz Institute for Materials Engineering, **_Constitutive modelling using symbolic regression_** <a href="https://youtu.be/jWfX2x5x_Fw?feature=shared" target="_blank">Video</a>
 - Roger Guimerà, Universitat Rovira i Virgili **_Physics for symbolic regression, Symbolic regression for physics_** <a href="https://youtu.be/JPm2cwduP6M?feature=shared" target="_blank">Video</a>
-- William La Cava, Boston Children's Hospital **_Brush: incorporating split-wise functions and multi-armed bandits into symbolic regression_** <a href="https://youtu.be/zkTKmsksOhM?feature=shared" target="_bl\
-ank">Video</a>
+- William La Cava, Boston Children's Hospital **_Brush: incorporating split-wise functions and multi-armed bandits into symbolic regression_** <a href="https://youtu.be/zkTKmsksOhM?feature=shared" target="_blank">Video</a>
 - Tariq Yasin, University of Oxford, **_Empirical dark matter profiles with symbolic regression_** <a href="https://youtu.be/nJMendHOtUs?feature=shared" target="_blank">Video</a>
 - Cristina Cornelio, Samsung AI, **_Derivable scientific discovery_** <a href="https://youtu.be/7Wm1emhz8S4?feature=shared" target="_blank">Video</a>
 - J. Nathan Kutz, University of Washington, **_Sparse regression for symbolic representations in latent space dynamics_** <a href="https://youtu.be/rhGiTCMGX4Y?feature=shared" target="_blank">Video</a>
@@ -51,10 +48,8 @@ ank">Video</a>
 - Etienne Russeil, Stockholm University, **_Multi-view Symbolic Regression: from independent experiments to general laws_** <a href="https://youtu.be/ItMv-Mwb9r4?feature=shared" target="_blank">Video</a>
 
 - Geoffrey Bomarito, National Aeronautics and Space Administration (NASA), **_Symbolic regression via posterior sampling_** <a href="https://youtu.be/Ft0pDaoP0Fs?feature=shared" target="_blank">Video</a>
-- Andrei Constantin, University of Birmingham & University of Oxford, **_Statistical patterns in the equations of physics and the emergence of a meta-law of Nature_** <a href="https://youtu.be/zKcFNDejR5I?fea\
-ture=shared" target="_blank">Video</a>
-- Bogdan Burlacu, University of Applied Sciences Upper Austria, **_Zobrist hash-based duplicate detection in symbolic regression_** <a href="https://youtu.be/yazT7IBkqqQ?feature=shared" target="_blank">Video<\
-/a>
+- Andrei Constantin, University of Birmingham & University of Oxford, **_Statistical patterns in the equations of physics and the emergence of a meta-law of Nature_** <a href="https://youtu.be/zKcFNDejR5I?feature=shared" target="_blank">Video</a>
+- Bogdan Burlacu, University of Applied Sciences Upper Austria, **_Zobrist hash-based duplicate detection in symbolic regression_** <a href="https://youtu.be/yazT7IBkqqQ?feature=shared" target="_blank">Video</a>
 - Fabricio Olivetti de França, Universidade Federal do ABC, **_Equality graph assisted symbolic regression_** <a href="https://youtu.be/hIeMY8BQUb4?feature=shared" target="_blank">Video</a>
 - Panel Discussion and Closing
 

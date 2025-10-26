@@ -8,10 +8,7 @@ excerpt_separator: <!--more-->
 image: /blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/cxegg.png
 ---
 
-# The Secret Weapon for Better Equation Discovery: E-graphs and Equality Saturation
-by Fabrício Olivetti de França
-
-> This guest post by Fabrício describes the concepts of Equality Graphs and Equality Saturation and the benefits of using E-Graphs in Symbolic Regression. 
+> This guest post _by Fabrício Olivetti de França_ describes the concepts of Equality Graphs and Equality Saturation and the benefits of using E-Graphs in Symbolic Regression. 
 
 <!--more-->
 

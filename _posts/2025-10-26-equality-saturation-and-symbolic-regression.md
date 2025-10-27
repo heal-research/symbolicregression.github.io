@@ -59,7 +59,11 @@ In an e-graph, symbols (such as $+, -, x, \log$) are called **e-nodes**. The cor
 
 For example, in the figure below, the dashed box in the middle is an e-class. It contains two e-nodes: one for multiplication (`2x`) and one for addition (`x+x`). Because they are in the same e-class, the graph automatically knows that $2x = x+x$.
 
-![](https://i.imgur.com/AOl1zmE.png)
+<div class="col-md-12 text-center">
+    <figure class="image-box">
+        <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/eqexample.png" id="equality-saturation-example">
+    </figure>
+</div>
 
 This structure is immensely powerful. Now, when the graph builds a larger expression, such as a term squared (the very top multiplication operator in this e-graph), it knows it can be represented in four different ways instantly:
 
@@ -85,19 +89,36 @@ $$
 $$
 
 1. **Start:** Insert $(x+x)^2$ into the graph.
- ![](https://i.imgur.com/kix6zha.png)
+<div class="col-md-12 text-center">
+    <figure class="image-box">
+        <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat1.png" id="equality-saturation-pattern-1">
+    </figure>
+</div>
+
 
 2. **Apply Rules:** The rule $\alpha + \alpha \rightarrow 2\alpha$ applies to the inner expression $x+x$:
 
-![](https://i.imgur.com/XeByvST.png)
+<div class="col-md-12 text-center">
+    <figure class="image-box">
+        <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat3.png" id="equality-saturation-pattern-3">
+    </figure>
+</div>
 
 3. We **insert** the right-hand side, $2x$ and **merge** with the e-class for $x+x$, as the graph knows they are identical:
 
-![](https://i.imgur.com/7JS8xxl.png)
+<div class="col-md-12 text-center">
+    <figure class="image-box">
+        <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat5.png" id="equality-saturation-pattern-5">
+    </figure>
+</div>
 
 4. **Repeat until Saturation:** The process continues, applying other rules until the E-graph contains every possible equivalent expression derived from these rules:
 
-![](https://i.imgur.com/MTQ7R8x.png)
+<div class="col-md-12 text-center">
+    <figure class="image-box">
+        <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/grow.png" id="equality-saturation-grow">
+    </figure>
+</div>
 
 The most popular implementation of equality saturation is Egg [[4]](#4), a library written in Rust.
 But, how can e-graphs and equality saturation help with symbolic regression search?
@@ -127,7 +148,11 @@ As stated before, this can be inefficient since we can generate many equivalent 
 
 For once, we would have a database system allowing us to query whether a given expression was already visited, even in an equivalent form. But also, we can use this information to enforce the generation of new expressions!
 
-![](https://i.imgur.com/ZRkIbP4.png)
+<div class="col-md-12 text-center">
+    <figure class="image-box">
+        <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/cxegg.png" id="equality-saturation-crossover">
+    </figure>
+</div>
 
 It works like this, imagine that the current state of the search is the e-graph above! The green e-classes are the root of the already evaluated expressions.
 Let's say that GP decides to recombine the expressions $x + \sqrt{x}$ and $x + 2x$, choosing to replace $\sqrt{x}$ of the first expression with something else from the second.

@@ -34,9 +34,10 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
+markdown: GFM
 
-envioronment: production
-regnerate: false
+environment: production
+regenerate: false
 
 show_drafts: false
 future: false

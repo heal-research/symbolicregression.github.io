@@ -61,7 +61,7 @@ For example, in the figure below, the dashed box in the middle is an e-class. It
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:300px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/eqexample.png" id="equality-saturation-example">
+        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/eqexample.png" id="equality-saturation-example">
     </figure>
 </div>
 
@@ -91,7 +91,7 @@ $$
 1. **Start:** Insert $(x+x)^2$ into the graph.
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:300px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat1.png" id="equality-saturation-pattern-1">
+        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat1.png" id="equality-saturation-pattern-1">
     </figure>
 </div>
 
@@ -100,7 +100,7 @@ $$
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:300px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat3.png" id="equality-saturation-pattern-3">
+        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat3.png" id="equality-saturation-pattern-3">
     </figure>
 </div>
 
@@ -108,7 +108,7 @@ $$
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:300px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat5.png" id="equality-saturation-pattern-5">
+        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat5.png" id="equality-saturation-pattern-5">
     </figure>
 </div>
 
@@ -116,7 +116,7 @@ $$
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:300px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/grow.png" id="equality-saturation-grow">
+        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/grow.png" id="equality-saturation-grow">
     </figure>
 </div>
 
@@ -150,7 +150,7 @@ For once, we would have a database system allowing us to query whether a given e
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:300px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/cxegg.png" id="equality-saturation-crossover">
+        <img style="max-height:auto; max-width:800px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/cxegg.png" id="equality-saturation-crossover">
     </figure>
 </div>
 
@@ -167,6 +167,7 @@ You can install eggp with `pip`:
 
 ```bash
 pip install eggp
+
 ```
 
 ### Finding a Formula 
@@ -194,7 +195,9 @@ model.fit(df[['r_k', 'log_Re']], df['target'])
 
 print("\nLast population resumed from the first Pareto front: ")
 print(model.results[['Expression', 'loss_train', 'loss_val', 'size']])
+
 ```
+
 ### Interactive Model Selection with `rEGGression`
 
 This e-graph can be further explored with the [rEGGression](https://github.com/folivetti/reggression) tool [[8]](#8). An e-graph explorer for Symbolic Regression.
@@ -204,6 +207,7 @@ from reggression import Reggression
 
 egg = Reggression(dataset="datasets/nikuradse_1.csv", loadFrom="regression_example.egg", loss="MSE") 
 print(egg.top(5, pattern="v0 ^ v0")
+
 ```
 
 This will retrieve the top 5 expressions that follow the pattern $\alpha^\alpha$, such as $x^x$ or $\log((x+5)^{x+5}) + 3$. The result is a list of the best-performing models matching your structural criteria:

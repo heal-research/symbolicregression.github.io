@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 image: /blog/resources/2025-05-06-royal-society-discussion-meeting-symreg-in-physics/rs_meeting_orga_cropped.png
 ---
 
-The meeting on [_Symbolic Regression in the Physical Sciences_][meeting]{:target="\_blank"} was held on 28th and 29th of April 2025 at Royal Society in London. Two days of insightful talks highlighted several applications of symbolic regression and gave some hints about future developments of symbolic regression methods. We provide our personal summary of the main topics in this post.
+The meeting on [_Symbolic Regression in the Physical Sciences_][meeting] was held on 28th and 29th of April 2025 at Royal Society in London. Two days of insightful talks highlighted several applications of symbolic regression and gave some hints about future developments of symbolic regression methods. We provide our personal summary of the main topics in this post.
 
 <!--more-->
 
@@ -28,8 +28,6 @@ The workshop had a mixture of talks focussing either on applications of symbolic
 
 ### Monday 28th of April:
 
-<!--[Youtube Stream: Day 1][vod1]{:target="\_blank"}-->
-
 - Harry Desmond, University of Portsmouth, **_(Exhaustive) Symbolic Regression and model selection by minimum description length_** <a href="https://youtu.be/fC5Q-kRr9_Y?feature=shared" target="_blank">Video</a>
 - Steven Abel, Durham University, **_Symbolic regression in beyond Standard Model physics_** <a href="https://youtu.be/lrrzglxRPOI?feature=shared" target="_blank">Video</a>
 - Evgeniya Kabliman, University of Bremen & Leibniz Institute for Materials Engineering, **_Constitutive modelling using symbolic regression_** <a href="https://youtu.be/jWfX2x5x_Fw?feature=shared" target="_blank">Video</a>
@@ -40,8 +38,6 @@ The workshop had a mixture of talks focussing either on applications of symbolic
 - J. Nathan Kutz, University of Washington, **_Sparse regression for symbolic representations in latent space dynamics_** <a href="https://youtu.be/rhGiTCMGX4Y?feature=shared" target="_blank">Video</a>
 
 ### Tuesday 29th of April:
-
-<!--[Youtube Stream: Day 2][vod2]{:target="\_blank"}-->
 
 - Deaglan Bartlett, Institut d'Astrophysique de Paris, **_Accelerating cosmological modelling with symbolic regression_** <a href="https://youtu.be/j1IYemcdRgo?feature=shared" target="_blank">Video</a>
 - Miles Cranmer, University of Cambridge, **_Concept evolution and SymbolicRegression.jl as a modular research platform_** <a href="https://youtu.be/g8HJ__rsFgE?feature=shared" target="_blank">Video</a>

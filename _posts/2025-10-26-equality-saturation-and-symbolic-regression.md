@@ -59,7 +59,7 @@ In an e-graph, symbols (such as $+, -, x, \log$) are called **e-nodes**. The cor
 
 For example, in the figure below, the dashed box in the middle is an e-class. It contains two e-nodes: one for multiplication (`2x`) and one for addition (`x+x`). Because they are in the same e-class, the graph automatically knows that $2x = x+x$.
 
-<div class="col-md-12 text-center">
+<div class="col-md-6 text-center">
     <figure class="image-box">
         <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/eqexample.png" id="equality-saturation-example">
     </figure>
@@ -89,7 +89,7 @@ $$
 $$
 
 1. **Start:** Insert $(x+x)^2$ into the graph.
-<div class="col-md-12 text-center">
+<div class="col-md-6 text-center">
     <figure class="image-box">
         <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat1.png" id="equality-saturation-pattern-1">
     </figure>
@@ -98,7 +98,7 @@ $$
 
 2. **Apply Rules:** The rule $\alpha + \alpha \rightarrow 2\alpha$ applies to the inner expression $x+x$:
 
-<div class="col-md-12 text-center">
+<div class="col-md-6 text-center">
     <figure class="image-box">
         <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat3.png" id="equality-saturation-pattern-3">
     </figure>
@@ -106,7 +106,7 @@ $$
 
 3. We **insert** the right-hand side, $2x$ and **merge** with the e-class for $x+x$, as the graph knows they are identical:
 
-<div class="col-md-12 text-center">
+<div class="col-md-6 text-center">
     <figure class="image-box">
         <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat5.png" id="equality-saturation-pattern-5">
     </figure>
@@ -114,7 +114,7 @@ $$
 
 4. **Repeat until Saturation:** The process continues, applying other rules until the E-graph contains every possible equivalent expression derived from these rules:
 
-<div class="col-md-12 text-center">
+<div class="col-md-6 text-center">
     <figure class="image-box">
         <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/grow.png" id="equality-saturation-grow">
     </figure>
@@ -223,7 +223,7 @@ print(egg.top(5, pattern="log(v0)", negate=True)
 ```
 | Expression | Fitness | Size |
 |---------------|--------|----| 
-| $\left(\left({\left(\theta_{0} \cdot r_{k}\right)^{\theta_{1}}^{\log_{Re}}} \cdot \theta_{2}\right) + \theta_{3}\right)$ | -0.001131 |11  |
+| $\left(\left(\left(\theta_{0} \cdot r_{k}\right)^\theta_{1}^\log_{Re} \cdot \theta_{2}\right) + \theta_{3}\right)$ | -0.001131 |11  |
 | $\left({\left(\log_{Re} \cdot \theta_{0}\right)^{\theta_{1}}} \cdot \left(r_{k} + \theta_{2}\right)\right)^{\theta_{3}}$ |-0.001187 |11  |
 | $\left(\frac{\left(r_{k} + \theta_{0}\right)^{\theta_{1}}}{\left(\frac{\theta_{2}}{log_{Re}} + \theta_{3}\right)} + \theta_{4}\right)$ |-0.001190| 13  |
 | $\left({\left(e^{\left(\log_{Re} + \theta_{0}\right)} \cdot \theta_{1}\right)^{\theta_{2}}} \cdot r_{k}\right)^{\theta_{3}}$ | -0.001191 |12  |

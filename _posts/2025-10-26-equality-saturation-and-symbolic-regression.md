@@ -61,7 +61,7 @@ For example, in the figure below, the dashed box in the middle is an e-class. It
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/eqexample.png" id="equality-saturation-example">
+        <img style="max-height:auto; max-width:300px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/eqexample.png" id="equality-saturation-example">
     </figure>
 </div>
 
@@ -91,7 +91,7 @@ $$
 1. **Start:** Insert $(x+x)^2$ into the graph.
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat1.png" id="equality-saturation-pattern-1">
+        <img style="max-height:auto; max-width:300px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat1.png" id="equality-saturation-pattern-1">
     </figure>
 </div>
 
@@ -100,7 +100,7 @@ $$
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat3.png" id="equality-saturation-pattern-3">
+        <img style="max-height:auto; max-width:300px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat3.png" id="equality-saturation-pattern-3">
     </figure>
 </div>
 
@@ -108,7 +108,7 @@ $$
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat5.png" id="equality-saturation-pattern-5">
+        <img style="max-height:auto; max-width:300px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat5.png" id="equality-saturation-pattern-5">
     </figure>
 </div>
 
@@ -116,7 +116,7 @@ $$
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/grow.png" id="equality-saturation-grow">
+        <img style="max-height:auto; max-width:300px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/grow.png" id="equality-saturation-grow">
     </figure>
 </div>
 
@@ -148,9 +148,9 @@ As stated before, this can be inefficient since we can generate many equivalent 
 
 For once, we would have a database system allowing us to query whether a given expression was already visited, even in an equivalent form. But also, we can use this information to enforce the generation of new expressions!
 
-<div class="col-md-12 text-center">
+<div class="col-md-6 text-center">
     <figure class="image-box">
-        <img src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/cxegg.png" id="equality-saturation-crossover">
+        <img style="max-height:auto; max-width:300px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/cxegg.png" id="equality-saturation-crossover">
     </figure>
 </div>
 
@@ -223,7 +223,7 @@ print(egg.top(5, pattern="log(v0)", negate=True)
 ```
 | Expression | Fitness | Size |
 |---------------|--------|----| 
-| $\left(\left(\left(\theta_{0} \cdot r_{k}\right)^\theta_{1}^\log_{Re} \cdot \theta_{2}\right) + \theta_{3}\right)$ | -0.001131 |11  |
+| $\left(\left( \left(\theta_{0} \cdot r_{k}\right)^{\theta_1 ^ {\log_{Re}}} \cdot \theta_{2}\right) + \theta_{3} \right)$ | -0.001131 |11  |
 | $\left({\left(\log_{Re} \cdot \theta_{0}\right)^{\theta_{1}}} \cdot \left(r_{k} + \theta_{2}\right)\right)^{\theta_{3}}$ |-0.001187 |11  |
 | $\left(\frac{\left(r_{k} + \theta_{0}\right)^{\theta_{1}}}{\left(\frac{\theta_{2}}{log_{Re}} + \theta_{3}\right)} + \theta_{4}\right)$ |-0.001190| 13  |
 | $\left({\left(e^{\left(\log_{Re} + \theta_{0}\right)} \cdot \theta_{1}\right)^{\theta_{2}}} \cdot r_{k}\right)^{\theta_{3}}$ | -0.001191 |12  |

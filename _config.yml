@@ -46,6 +46,7 @@ sass:
   style: compressed
 
 blogname: "blog"
+excerpt_separator: "<!--more-->"
 permalink: blog/:year/:title/
 paginate: 20
 paginate_path: "blog/page:num/"

@@ -4,11 +4,10 @@ title: "The Secret Weapon for Better Equation Discovery: E-graphs and Equality S
 date: 2025-10-26 12:00:00 +0100
 categories: science
 author: Fabrício Olivetti de França
-excerpt_separator: <!--more-->
 image: /blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/cxegg.png
 ---
 
-> This guest post _by Fabrício Olivetti de França_ describes the concepts of Equality Graphs and Equality Saturation and the benefits of using E-Graphs in Symbolic Regression. 
+> This guest post _by Fabrício Olivetti de França_ describes the concepts of Equality Graphs and Equality Saturation and the benefits of using E-Graphs in Symbolic Regression.
 
 <!--more-->
 
@@ -33,18 +32,18 @@ Consider the simple expression $2x$. How many different ways can you write that 
 $$
 x+x \\
 \frac{4x}{2} \\
-3x-x \\ 
+3x-x \\
 \dots \text{and many more!}
 $$
 
-All these expressions are mathematically identical; they will all yield the exact same result for the same dataset. 
+All these expressions are mathematically identical; they will all yield the exact same result for the same dataset.
 
 This redundancy creates two issues for our search algorithms:
 
 1.  **Wasted Time:** The algorithm might revisit $x+x$ after having already explored $2x$, wasting valuable computational budget.
-    
+
 2.  **Complexity:** If $x+x$ is the correct solution, we want its simplest, and most interpretable form ($2x$), not one of the infinitely complex equivalent forms. Using post-processing simplification tools often fails or introduces new problems, as we've shown in our research [[1]](#1).
- 
+
 On the other hand, redundancy can be helpful. Sometimes, navigating from $x+x$ to $3x-x$ can be a "stepping stone" to reach a new, better area of the search space. This is known as the **neutral space theory** [[2]](#2).
 
 But what if we could detect _all_ equivalent expressions in real-time and use that knowledge to make the search efficient?
@@ -68,15 +67,15 @@ For example, in the figure below, the dashed box in the middle is an e-class. It
 This structure is immensely powerful. Now, when the graph builds a larger expression, such as a term squared (the very top multiplication operator in this e-graph), it knows it can be represented in four different ways instantly:
 
 $$
-(2x) (2x) \\ 
-(2x) (x+x) \\ 
-(x+x) (2x) \\ 
-(x+x)(x+x) 
+(2x) (2x) \\
+(2x) (x+x) \\
+(x+x) (2x) \\
+(x+x)(x+x)
 $$
 
 The E-graph stores all four, but only pays the storage cost for one!
 
-## Equality saturation: automatically generating equivalence 
+## Equality saturation: automatically generating equivalence
 
 How does the E-graph learn what's equivalent? It uses an algorithm called **Equality Saturation**. This process takes a simple set of mathematical rules (such as the distributive property or $a+a=2a$) and applies them repeatedly until no new equivalences can be found (or until a time limit is reached).
 
@@ -170,12 +169,12 @@ pip install eggp
 
 ```
 
-### Finding a Formula 
+### Finding a Formula
 This example uses `eggp` to find a relationship for one of the 'Nikuradse problems' [[9]](#9) (see the tutorials at this [link](https://github.com/folivetti/eggp/tree/main/tutorials)).
 
 ```python
 from eggp import EGGP
-import pandas as pd 
+import pandas as pd
 
 pd.set_option('display.max_colwidth', 100)
 df = pd.read_csv("datasets/nikuradse_1.csv")
@@ -205,39 +204,39 @@ This e-graph can be further explored with the [rEGGression](https://github.com/f
 ```python
 from reggression import Reggression
 
-egg = Reggression(dataset="datasets/nikuradse_1.csv", loadFrom="regression_example.egg", loss="MSE") 
+egg = Reggression(dataset="datasets/nikuradse_1.csv", loadFrom="regression_example.egg", loss="MSE")
 print(egg.top(5, pattern="v0 ^ v0")
 
 ```
 
 This will retrieve the top 5 expressions that follow the pattern $\alpha^\alpha$, such as $x^x$ or $\log((x+5)^{x+5}) + 3$. The result is a list of the best-performing models matching your structural criteria:
 
-| Expression | Fitness | Size |
-|---------------|--------|----|  
-| $\left({\operatorname{log}({\log_{Re}^{\log_{Re}}})^{\theta_{0}}} \cdot r_{k}\right)^{\theta_{1}}$ | -0.001514 | 10 |  
-| $\left(\left({\log_{Re}^{\log_{Re}}} \cdot \theta_{0}\right) + \frac{\theta_{1}}{\operatorname{log}(r_{k})}\right)$ | -0.001567 | 10  |
-| $\left(\frac{\operatorname{log}({\log_{Re}^{\log_{Re}}})}{\left(\theta_{0} \cdot r_{k}\right)} + \theta_{1}\right)$ | -0.004623 | 10  |
-| $\left(\frac{\left(r_{k} + \theta_{0}\right)^{\theta_{1}}}{\operatorname{log}(r_{k})^{\operatorname{log}(r_{k})}} + \theta_{2}\right)$ | -0.005701 | 13  |
-| $\left(\operatorname{log}({\log_{Re}^{\log_{Re}}}) \cdot r_{k}\right)^{\theta_{0}}$ | -0.010011 | 8 |
+| Expression                                                                                                                             | Fitness   | Size |
+| -------------------------------------------------------------------------------------------------------------------------------------- | --------- | ---- |
+| $\left({\operatorname{log}({\log_{Re}^{\log_{Re}}})^{\theta_{0}}} \cdot r_{k}\right)^{\theta_{1}}$                                     | -0.001514 | 10   |
+| $\left(\left({\log_{Re}^{\log_{Re}}} \cdot \theta_{0}\right) + \frac{\theta_{1}}{\operatorname{log}(r_{k})}\right)$                    | -0.001567 | 10   |
+| $\left(\frac{\operatorname{log}({\log_{Re}^{\log_{Re}}})}{\left(\theta_{0} \cdot r_{k}\right)} + \theta_{1}\right)$                    | -0.004623 | 10   |
+| $\left(\frac{\left(r_{k} + \theta_{0}\right)^{\theta_{1}}}{\operatorname{log}(r_{k})^{\operatorname{log}(r_{k})}} + \theta_{2}\right)$ | -0.005701 | 13   |
+| $\left(\operatorname{log}({\log_{Re}^{\log_{Re}}}) \cdot r_{k}\right)^{\theta_{0}}$                                                    | -0.010011 | 8    |
 
 Or retrieving the top-5 expressions **not** having the pattern $\log(v)$:
 
 ```python
 print(egg.top(5, pattern="log(v0)", negate=True)
 ```
-| Expression | Fitness | Size |
-|---------------|--------|----| 
-| $\left(\left( \left(\theta_{0} \cdot r_{k}\right)^{\theta_1 ^ {\log_{Re}}} \cdot \theta_{2}\right) + \theta_{3} \right)$ | -0.001131 |11  |
-| $\left({\left(\log_{Re} \cdot \theta_{0}\right)^{\theta_{1}}} \cdot \left(r_{k} + \theta_{2}\right)\right)^{\theta_{3}}$ |-0.001187 |11  |
-| $\left(\frac{\left(r_{k} + \theta_{0}\right)^{\theta_{1}}}{\left(\frac{\theta_{2}}{log_{Re}} + \theta_{3}\right)} + \theta_{4}\right)$ |-0.001190| 13  |
-| $\left({\left(e^{\left(\log_{Re} + \theta_{0}\right)} \cdot \theta_{1}\right)^{\theta_{2}}} \cdot r_{k}\right)^{\theta_{3}}$ | -0.001191 |12  |
-| $\left(\theta_0 \cdot \left(\left(\left(\log_{Re} \cdot \log_{Re}\right) \cdot \theta_{1}\right) + r_{k}\right)\right)^{\theta_{2}}$ | -0.001192 |11|
+| Expression                                                                                                                             | Fitness   | Size |
+| -------------------------------------------------------------------------------------------------------------------------------------- | --------- | ---- |
+| $\left(\left( \left(\theta_{0} \cdot r_{k}\right)^{\theta_1 ^ {\log_{Re}}} \cdot \theta_{2}\right) + \theta_{3} \right)$               | -0.001131 | 11   |
+| $\left({\left(\log_{Re} \cdot \theta_{0}\right)^{\theta_{1}}} \cdot \left(r_{k} + \theta_{2}\right)\right)^{\theta_{3}}$               | -0.001187 | 11   |
+| $\left(\frac{\left(r_{k} + \theta_{0}\right)^{\theta_{1}}}{\left(\frac{\theta_{2}}{log_{Re}} + \theta_{3}\right)} + \theta_{4}\right)$ | -0.001190 | 13   |
+| $\left({\left(e^{\left(\log_{Re} + \theta_{0}\right)} \cdot \theta_{1}\right)^{\theta_{2}}} \cdot r_{k}\right)^{\theta_{3}}$           | -0.001191 | 12   |
+| $\left(\theta_0 \cdot \left(\left(\left(\log_{Re} \cdot \log_{Re}\right) \cdot \theta_{1}\right) + r_{k}\right)\right)^{\theta_{2}}$   | -0.001192 | 11   |
 
-## Conclusion 
+## Conclusion
 
-The integration of e-graphs and equality saturation is not just an academic exercise; it's a fundamental change in how we approach Symbolic Regression. By treating equivalent expressions as one, we eliminate computational waste and focus the search entirely on finding novel and better solutions. 
+The integration of e-graphs and equality saturation is not just an academic exercise; it's a fundamental change in how we approach Symbolic Regression. By treating equivalent expressions as one, we eliminate computational waste and focus the search entirely on finding novel and better solutions.
 
-Our `eggp` algorithm shows the potential of this integration, achieving state-of-the-art results with a streamlined genetic programming framework. Furthermore, `rEGGression` gives the human expert unparalleled power to explore the results, acting as an interactive tool for guided model selection that is agnostic to the original SR method. 
+Our `eggp` algorithm shows the potential of this integration, achieving state-of-the-art results with a streamlined genetic programming framework. Furthermore, `rEGGression` gives the human expert unparalleled power to explore the results, acting as an interactive tool for guided model selection that is agnostic to the original SR method.
 
 The days of algorithms driving in circles are over. E-graphs have provided the GPS.
 
@@ -251,7 +250,7 @@ Our e-graph implementation is available at the [Haskell Symbolic Regression](htt
 
 Our SR algorithm [eggp](https://github.com/folivetti/eggp) already shows the potential of this integration, being capable of beating the state-of-the-art with a simple genetic programming framework.
 
-The  [rEGGression](https://github.com/folivetti/reggression) Python library make it easy to explore the explored solutions and can be used as an interactive tool for a guided model selection. 
+The  [rEGGression](https://github.com/folivetti/reggression) Python library make it easy to explore the explored solutions and can be used as an interactive tool for a guided model selection.
 
 
 ## References
@@ -272,4 +271,3 @@ The  [rEGGression](https://github.com/folivetti/reggression) Python library make
 <a id="8">[8]</a> de França, Fabrício Olivetti, and Gabriel Kronberger. "rEGGression: an Interactive and Agnostic Tool for the Exploration of Symbolic Regression Models." _Proceedings of the Genetic and Evolutionary Computation Conference_. 2025.
 
 <a id="9">[9]</a> Guimerà, Roger, et al. "A Bayesian machine scientist to aid in the solution of challenging scientific problems." Science Advances Vol. 6, No. 5, eaav6971, <a href="https://doi.org/10.1126/sciadv.aav6971">doi: 10.1126/sciadv.aav69</a> 2020.
-

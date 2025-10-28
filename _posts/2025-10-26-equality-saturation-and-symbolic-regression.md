@@ -30,9 +30,9 @@ Imagine trying to navigate a forest with many paths leading to the same (wrong) 
 Consider the simple expression $2x$. How many different ways can you write that same value?
 
 $$
-x+x \\
-\frac{4x}{2} \\
-3x-x \\
+x+x \\\\
+\frac{4x}{2} \\\\
+3x-x \\\\
 \dots \text{and many more!}
 $$
 
@@ -67,9 +67,9 @@ For example, in the figure below, the dashed box in the middle is an e-class. It
 This structure is immensely powerful. Now, when the graph builds a larger expression, such as a term squared (the very top multiplication operator in this e-graph), it knows it can be represented in four different ways instantly:
 
 $$
-(2x) (2x) \\
-(2x) (x+x) \\
-(x+x) (2x) \\
+(2x) (2x) \\\\
+(2x) (x+x) \\\\
+(x+x) (2x) \\\\
 (x+x)(x+x)
 $$
 
@@ -82,8 +82,8 @@ How does the E-graph learn what's equivalent? It uses an algorithm called **Equa
 Let’s watch it work on the expression $(x+x)^2$ using three simple rules:
 
 $$
-\alpha + \alpha \rightarrow 2\alpha \\
-\alpha \times \alpha \rightarrow \alpha^2 \\
+\alpha + \alpha \rightarrow 2\alpha \\\\
+\alpha \times \alpha \rightarrow \alpha^2 \\\\
 \alpha \times (\beta + \gamma) \rightarrow (\alpha \times \beta + \alpha \times \gamma)
 $$
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Powerful Database for Equations: Using e-graphs and Equality Saturation for Interactive Equation Discovery"
-date: 2025-12-01 00:00:00 +0100
+date: 2025-11-30 11:00:00 +0100
 categories: science
 author: Fabrício Olivetti de França
 image: /blog/resources/2025-12-01-a-powerful-database-for-expressions/top5operon.svg

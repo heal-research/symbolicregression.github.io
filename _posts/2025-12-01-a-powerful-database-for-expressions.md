@@ -7,16 +7,16 @@ author: Fabrício Olivetti de França
 image: /blog/resources/2025-12-01-a-powerful-database-for-expressions/top5operon.svg
 ---
 
-In the last post we introduced the idea of e-graphs and how it can play an important role with **equation discovery** (aka **symbolic regression**). We also introduced **[eggp](https://github.com/folivetti/eggp)** [[1]](#1), the first equation discovery algorithm that takes advantage of e-graphs by using it as a powerful database system and enforce novelty.
-
-<!--more-->
-
 Post by Fabricio Olivetti de França ([Scholar](https://scholar.google.com/citations?user=1FgxaZ0AAAAJ), [Linkedin](https://www.linkedin.com/in/olivetti/))
 
+
+In the last post we introduced the idea of e-graphs and how it can play an important role with **equation discovery** (aka **symbolic regression**). We also introduced **[eggp](https://github.com/folivetti/eggp)** [[1]](#1), the first equation discovery algorithm that takes advantage of e-graphs by using it as a powerful database system and enforce novelty.
 
 We also briefly introduced **[r🥚ression](https://github.com/folivetti/reggression)** [[2]](#2), a Python tool that allows us to explore the power of e-graphs in different scenario. In this post, we will play a bit more with this tool to show how powerful e-graphs can be as a go to tool for equation discovery.
 
 For a gentle introduction to e-graphs and equality saturation, see the [previous part of this blog post](https://symreg.at/blog/2025/equality-saturation-and-symbolic-regression/).
+
+<!--more-->
 
 ## First things first
 
@@ -50,7 +50,7 @@ Plotting the training set as red dots and the test set as green dots, we have:
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/data.svg" id="benchmark dataset">
+        <img style="max-height:auto;" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/data.svg" id="benchmark dataset">
     </figure>
 </div>
 
@@ -126,7 +126,7 @@ Some of these functions behave similarly while others display a different behavi
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top5.svg" id="top five expressions">
+        <img style="max-height:auto;" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top5.svg" id="top five expressions">
     </figure>
 </div>
 
@@ -140,7 +140,7 @@ model_top(egg.top(n=10, filters=["size <= 10"]), n, x, y)
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top10.svg" id="top ten expressions">
+        <img style="max-height:auto;" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top10.svg" id="top ten expressions">
     </figure>
 </div>
 
@@ -191,7 +191,7 @@ egg.top(n=n, pattern="exp(v0)*v1")
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top5pat.svg" id="top five patterns">
+        <img style="max-height:auto;" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top5pat.svg" id="top five patterns">
     </figure>
 </div>
 
@@ -218,7 +218,7 @@ Plotting the top-5 expressions we get:
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top5operon.svg" id="top five expressions from operon">
+        <img style="max-height:auto;" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top5operon.svg" id="top five expressions from operon">
     </figure>
 </div>
 

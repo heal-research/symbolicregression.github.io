@@ -290,16 +290,16 @@ egg.getNExpressions(eid1, 10)
 Leading to:
 
 $$
-((6.0 + x) * x)   \\
-((x + 6.0) * x)  \\
-((x * 6.0) + (x ^ 2))  \\
-((x * 6.0) + (x ^ 2))  \\
-(0.0 + ((6.0 + x) * x))  \\
-(0.0 + ((x + 6.0) * x))  \\
-((2.0 * (x * 3.0)) + (x ^ 2))  \\
-((2.0 * (3.0 * x)) + (x ^ 2))  \\
-(((x * 3.0) * 2.0) + (x ^ 2))  \\
-(((3.0 * x) * 2.0) + (x ^ 2)) \\
+((6.0 + x) * x)   \\\\
+((x + 6.0) * x)  \\\\
+((x * 6.0) + (x ^ 2))  \\\\
+((x * 6.0) + (x ^ 2))  \\\\
+(0.0 + ((6.0 + x) * x))  \\\\
+(0.0 + ((x + 6.0) * x))  \\\\
+((2.0 * (x * 3.0)) + (x ^ 2))  \\\\
+((2.0 * (3.0 * x)) + (x ^ 2))  \\\\
+(((x * 3.0) * 2.0) + (x ^ 2))  \\\\
+(((3.0 * x) * 2.0) + (x ^ 2)) \\\\
 $$
 
 This can potentially be used to integrate e-graphs with other genetic programming algorithms or even reward based algorithms such as Monte Carlo Tree Search [[6]](#6) [[7]](#7) and Deep Reinforcement Learning [[8]](#8), and LLMs [[9]](#9).

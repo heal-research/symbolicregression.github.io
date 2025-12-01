@@ -310,8 +310,7 @@ As we can see, there is still a vast ground to be explored with the combination 
 
 ## Try it yourself
 
-The full Jupyter Notebook is available [here](https://github.com/folivetti/reggression/tree/main/tutorials/blog)
-And rEGGression repository also host some [tutorials](https://github.com/folivetti/reggression/tree/main/tutorials)
+The full Jupyter Notebook is available [here](https://github.com/folivetti/reggression/tree/main/tutorials/blog) and the rEGGression repository also host some [tutorials](https://github.com/folivetti/reggression/tree/main/tutorials)
 
 ## References
 <a id="1">[1]</a> de França, Fabrício Olivetti, and Gabriel Kronberger. "Improving Genetic Programming for Symbolic Regression with Equality Graphs." _Proceedings of the Genetic and Evolutionary Computation Conference_. 2025.

@@ -18,6 +18,20 @@ For the first time, we used OpenReview as a platform to organize paper submissio
 
 ## Workshop Overview
 
+
+<div class="row">
+    <div class="col-lg-7 col-md-12 text-center">
+        <figure class="image-box">
+            <img src="/blog/resources/2026-06-23-wcci-cec-symbolic-regression-workshop/wcci.jpg" id="wcci-logo">
+        </figure>
+    </div>
+    <div class="col-lg-7 col-md-12 text-center">
+        <figure class="image-box">
+            <img src="/blog/resources/2026-06-23-wcci-cec-symbolic-regression-workshop/symreg-banner.png" id="symreg-banner">
+        </figure>
+    </div>
+</div>
+
 ### Program
 Two invited talks and four contributed talks were presented during the workshop.
 

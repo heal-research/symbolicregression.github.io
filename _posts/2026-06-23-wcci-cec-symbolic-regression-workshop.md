@@ -10,7 +10,7 @@ image: /blog/resources/2026-06-23-wcci-cec-symbolic-regression-workshop/wcci.jpg
 Post by Gabriel Kronberger [Linkedin](https://www.linkedin.com/in/gabriel-kronberger-89a09450/)
 
 
-We organized the Workshop on Symbolic Regression and Equation Discovery as a subevent within WCCI/CEC 2026 in Maastricht, Netherlands this year. After several years of hosting it at GECCO, it was a great opportunity for meeting new people, discussing SR developments, and sharing ideas. 
+We organized the [Workshop on Symbolic Regression and Equation Discovery](https://heal.heuristiclab.com/research/symbolic-regression-workshop) as a subevent within WCCI/CEC 2026 in Maastricht, Netherlands this year. After several years of hosting it at GECCO, it was a great opportunity for meeting new people, discussing SR developments, and sharing ideas. 
 
 For the first time, we used OpenReview as a platform to organize paper submissions and reviews. We received 8 submissions and accepted 5 papers, which were presented during the workshop. The accepted papers and review discussions are [archived on OpenReview](https://openreview.net/group?id=IEEE.org/WCCI/2026/Workshop/SymReg&referrer=%5BHomepage%5D(%2F)#tab-accept-oral).
 

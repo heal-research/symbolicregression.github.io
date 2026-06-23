@@ -10,7 +10,7 @@ image: /blog/resources/2026-06-23-wcci-cec-symbolic-regression-workshop/wcci.jpg
 Post by Gabriel Kronberger [Linkedin](https://www.linkedin.com/in/gabriel-kronberger-89a09450/)
 
 
-The WCCI/CEC 2026 conference in Maastricht, Netherlands, hosted a workshop on Symbolic Regression (SR) that I co-organized. After several years of hosting it at GECCO, it was a great opportunity for meeting new people, discussing SR developments, and sharing ideas. 
+We organized the Workshop on Symbolic Regression and Equation Discovery as a subevent within WCCI/CEC 2026 in Maastricht, Netherlands this year. After several years of hosting it at GECCO, it was a great opportunity for meeting new people, discussing SR developments, and sharing ideas. 
 
 For the first time, we used OpenReview as a platform to organize paper submissions and reviews. We received 8 submissions and accepted 5 papers, which were presented during the workshop. The accepted papers and review discussions are [archived on OpenReview](https://openreview.net/group?id=IEEE.org/WCCI/2026/Workshop/SymReg&referrer=%5BHomepage%5D(%2F)#tab-accept-oral).
 
@@ -70,3 +70,5 @@ We are still undecided where to host the next workshop in 2027. We are **conside
 We are also interested in **hosting a symbolic regression / equation discovery workshop at one of the large AI conferences** (NeurIPS, ICML, ICLR, AAAI, IJCAI) in 2027. If you are interested in co-organizing such a workshop, please [contact us](mailto:gabriel.kronberger@fh-hagenberg.at).
 
 Additionally, we try to host **a small, in-depth, invitation-only multi-day SymReg event** most likely in the EU in 2027. Let us know if you are interested in participating in such an event.
+
+Finally, I want to thank my co-organizers: Fabricio Olivetti, William LaCava and Steven Gustafson as well as the members of the Programme Committee (Deaglan J. Bartlett, Geoffrey F. Bomarito, Harry Desmond, Alcides Fonseca, Johannes Koch, Alessandro Lucantonio, James McDermott, Julia Reuter, Colm O'Riordan, Giovanni Squillero, Alberto Tonda, Leonardo Trujillo, Bernhard Werth, Stephan Winkler, Aisha Yousuf) for their help in reviewing the submitted papers. 

@@ -12,24 +12,32 @@ description: List of links to all contents of the site
    <div class="col-lg-12 col-md-12">
          <h4>Start Page</h4>
          <ul>
-            <li><a href="{{ site.baseurl }}/#info"></a></li>
-            <li><a href="{{ site.baseurl }}/#projects"></a></li>
-            <li><a href="{{ site.baseurl }}/#contact">Contact</a></li>
+            <li><a href="{{ '/#info' | relative_url }}">What is Symbolic Regression?</a></li>
+            <li><a href="{{ '/#projects' | relative_url }}">Projects</a></li>
+            <li><a href="{{ '/#links' | relative_url }}">Links</a></li>
+            <li><a href="{{ '/#contact' | relative_url }}">Contact</a></li>
+         </ul>
+         <br/>
+         <h4>Blog</h4>
+         <ul>
+            <li><a href="{{ '/blog/' | relative_url }}">News</a></li>
+            {% for post in site.posts %}
+            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+            {% endfor %}
          </ul>
          <br/>
          <h4>Subpages</h4>
          <ul>
-            <!--<li><a href="{{ site.baseurl }}/calls">Team</a></li>-->
-            <li><a href="{{ site.baseurl }}/book">Book</a></li>
-            <li><a href="{{ site.baseurl }}/publications">Publications</a></li>
-            <li><a href="{{ site.baseurl }}/datasets">Datasets</a></li>
-            <li><a href="{{ site.baseurl }}/software">Software</a></li>
+            <li><a href="{{ '/book/' | relative_url }}">Book</a></li>
+            <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+            <li><a href="{{ '/datasets/' | relative_url }}">Datasets</a></li>
+            <li><a href="{{ '/software/' | relative_url }}">Software</a></li>
          </ul>
          <br/>
          <h4>Info</h4>
          <ul>
-            <li><a href="{{ site.baseurl }}/imprint">Imprint</a></li>
-            <li><a href="{{ site.baseurl }}/dataprotection">Data Protection</a></li>
+            <li><a href="{{ '/imprint/' | relative_url }}">Imprint</a></li>
+            <li><a href="{{ '/dataprotection/' | relative_url }}">Data protection</a></li>
          </ul>
    </div>
 </div>

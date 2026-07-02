@@ -16,7 +16,7 @@ Symbolic regression is a branch of machine learning that attempts to find interp
 
 <div class="col-md-12 text-center">
     <figure class="image-box">
-        <img src="/blog/resources/2025-05-06-royal-society-discussion-meeting-symreg-in-physics/rs_group_cropped.jpg" id="royal-society-speakers-group-picture">
+        <img src="/blog/resources/2025-05-06-royal-society-discussion-meeting-symreg-in-physics/rs_group_cropped.jpg" id="royal-society-speakers-group-picture" alt="Group photo of speakers at the Royal Society symbolic regression meeting" loading="lazy">
     </figure>
 </div>
 
@@ -51,7 +51,7 @@ The workshop had a mixture of talks focussing either on applications of symbolic
 
 ## Summary
 
-Several speakers gave excellent examples showcasing the power of symbolic regression and its ability to produce fast and accurate models. Several issues and ideas were raised repeatedly by different speakers. These reoccuring themes include **additional quality criteria** for SR models for instance to preferably produce physically plausible and interpretable models, **hierarchical models** with global parameters and local fitting parameters for each dataset, and **systematic handling of data and model uncertainty**.
+Several speakers gave excellent examples showcasing the power of symbolic regression and its ability to produce fast and accurate models. Several issues and ideas were raised repeatedly by different speakers. These recurring themes include **additional quality criteria** for SR models for instance to preferably produce physically plausible and interpretable models, **hierarchical models** with global parameters and local fitting parameters for each dataset, and **systematic handling of data and model uncertainty**.
 
 ### Additional quality criteria
 
@@ -73,14 +73,14 @@ Steven Abel used symbolic regression tools in the context of finding extensions 
 
 The execution speed of the symbolic regression models is another relevant quality criterion, for example when using SR models in the form of emulators in larger optimization pipelines. This was raised for instance by Deaglan Bartlett when he presented his results for finding emulators for the <a href="https://arxiv.org/pdf/2311.15865" target="_blank">linear</a> and <a href="https://arxiv.org/abs/2402.17492" target="_blank">non-linear power spectrum</a> of pairwise galaxy distances and again when he presented the beautiful new approximation for a hypergeometric function that was more accurate than the human-derived approximation which has been used for decades. In this talk on <a href="https://arxiv.org/abs/2305.01582" target="_blank">SymbolicRegression.jl and PySR</a>, Miles Cranmer expressed that he thinks that probably the best criterion for model complexity is the speed of evaluating the expressions on an FPGA.
 
-Overall, with that many possibilities of calculating the quality of the obtained solutions, there is a need for a customizable experience with symbolic regression tools. Miles Cranmer showed his recent improvements with <a href="https://github.com/MilesCranmer/PySR" target="_blank">PySR</a> and how it is capable of incorporating customized loss functions, operators, and function templates in the form of standard Julia code even allowing the importing of external libraries (such as ODE solvers). As some decisions can be made post-hoc, there may be a need for a structured database of hypothesis that can be easily explored by the user, this can be accomplish with the <a href="https://arxiv.org/abs/2501.17848" target="_blank">equality graphs, presented by Fabricio Olivetti de França</a>, allowing the automatic derivation of properties (i.e., monotonicity), pattern matching, and <a href="https://arxiv.org/abs/2501.17859" target="_blank">statistics on common patterns observed during the search</a>.
+Overall, with that many possibilities of calculating the quality of the obtained solutions, there is a need for a customizable experience with symbolic regression tools. Miles Cranmer showed his recent improvements with <a href="https://github.com/MilesCranmer/PySR" target="_blank">PySR</a> and how it is capable of incorporating customized loss functions, operators, and function templates in the form of standard Julia code even allowing the importing of external libraries (such as ODE solvers). As some decisions can be made post-hoc, there may be a need for a structured database of hypothesis that can be easily explored by the user; this can be accomplished with the <a href="https://arxiv.org/abs/2501.17848" target="_blank">equality graphs, presented by Fabricio Olivetti de França</a>, allowing the automatic derivation of properties (i.e., monotonicity), pattern matching, and <a href="https://arxiv.org/abs/2501.17859" target="_blank">statistics on common patterns observed during the search</a>.
 
 ### Hierarchical models
 
 In most of the talks, symbolic regression models were used as one component embedded within a larger pipeline or hierarchical simulation model. Different ways of handling this were mentioned in several talks.
 
 For example Roger Guimerà showed ordinary differential equations produced by the Bayesian Machine Scientist which describe the growth behaviour of bacterial strains on different media. The system found a common expression which was accurate for all growth curves but had fitting parameters that were fit to each of the individual growth curves. Similarly, the expressions found by the Bayesian Machine Scientists for predicting mobility patterns between larger cities included fitting parameters tuned for each city.
-Etienne Russeil called this approach multi-view symbolic regression and he highlighted results for example for the observed light intensity curves of supernovea over time where symbolic regression was used to find a common model structure with parameters that are fit to each supernova light curve.
+Etienne Russeil called this approach multi-view symbolic regression and he highlighted results for example for the observed light intensity curves of supernovae over time where symbolic regression was used to find a common model structure with parameters that are fit to each supernova light curve.
 
 Tariq Yasin also mentioned a similar approach with global parameters and local parameters fit to each of the approximately 150 galaxies in the dataset that they used.
 
@@ -95,7 +95,7 @@ One potential shortcoming of current SR research, highlighted in the workshop, i
 
 ### Efficiency and usability of SR tools
 
-As SR becomes more popular, it is necessary to ensure a good experience to the final user. This points to efficiency, easy-of-use, and customization. Regarding efficiency, PyOperon already provides an optimized implementation often orders of magnitude faster than other approaches. Bogdan Burlacu showed that it is still possible to improve the runtime by caching the fitness values for already visited expressions using the Zobrist hash. With this approach, he avoided evaluating repeated expressions along the search. Similar to this idea, Fabricio Olivetti also exploited the fact that equality graphs can represent equivalence relationships thus estimulating the generation of unique expressions, improving the speed of convergence. He also argued that many implementations contain too many hyper-parameters, not often intuitive to the user, he shows that a minimum set of hyper-parameters can be enough to achieve competing results with the popular implementations.
+As SR becomes more popular, it is necessary to ensure a good experience for the final user. This points to efficiency, ease of use, and customization. Regarding efficiency, PyOperon already provides an optimized implementation often orders of magnitude faster than other approaches. Bogdan Burlacu showed that it is still possible to improve the runtime by caching the fitness values for already visited expressions using the Zobrist hash. With this approach, he avoided evaluating repeated expressions along the search. Similar to this idea, Fabricio Olivetti also exploited the fact that equality graphs can represent equivalence relationships, thus stimulating the generation of unique expressions and improving the speed of convergence. He also argued that many implementations contain too many hyper-parameters, which are not often intuitive to the user, and he showed that a minimum set of hyper-parameters can be enough to achieve competing results with the popular implementations.
 Finally, regarding customization, as already mentioned, Miles Cranmer introduced many new features to PySR enabling the user to adapt the main components to fit their personal demands. A briefly presented alternative was r🥚ression (aka rEGGression) that exploits equality graphs to offer a post-analysis navigation of multiple models found by a combination of SR algorithm executions.
 
 ### Operon and PyOperon
@@ -133,7 +133,7 @@ Summary of requested features:
 We had a great time in London and enjoyed the insightful talks. We thank the Royal Society for hosting and funding this meeting.
 <div class="col-md-8 text-center">
     <figure class="image-box">
-        <img src="/blog/resources/2025-05-06-royal-society-discussion-meeting-symreg-in-physics/gabriel-fabricio-bogdan.jpg" id="gabriel-fabricio-bogdan-london">
+        <img src="/blog/resources/2025-05-06-royal-society-discussion-meeting-symreg-in-physics/gabriel-fabricio-bogdan.jpg" id="gabriel-fabricio-bogdan-london" alt="Gabriel Kronberger, Fabricio Olivetti de Franca, and Bogdan Burlacu in London" loading="lazy">
     </figure>
 </div>
 Gabriel, Fabrício, Bogdan

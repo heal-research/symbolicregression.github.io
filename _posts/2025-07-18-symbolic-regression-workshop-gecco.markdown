@@ -9,7 +9,7 @@ image: /blog/resources/2025-07-18-symbolic-regression-workshop-gecco/gabe_fabric
 ---
 
 
-This year's workshop on Symbolic Regression at GECCO (Genetic and Evolutionary Computation Conference) saw a record number of submissions and was very well recieved. We had two marvelous sessions with nine contributed talks and a 30-minute long lively discussion round. The overall quality of talks was high spanning a good mix of topics including benchmarking, efficiency improvements, theoretical considerations, and applications. Thanks to all the speakers and participants for their contributions. 
+This year's workshop on Symbolic Regression at GECCO (Genetic and Evolutionary Computation Conference) saw a record number of submissions and was very well received. We had two marvelous sessions with nine contributed talks and a 30-minute long lively discussion round. The overall quality of talks was high, spanning a good mix of topics including benchmarking, efficiency improvements, theoretical considerations, and applications. Thanks to all the speakers and participants for their contributions. 
 
 <!--more-->
 
@@ -70,12 +70,12 @@ Another topic was the smoothness of mutation in genetic programming. Typical mut
 <div class="row">
     <div class="col-lg-7 col-md-12 text-center">
         <figure class="image-box">
-            <img src="/blog/resources/2025-07-18-symbolic-regression-workshop-gecco/symreg_workshop.jpg" id="workshop-room">
+            <img src="/blog/resources/2025-07-18-symbolic-regression-workshop-gecco/symreg_workshop.jpg" id="workshop-room" alt="Audience and speakers at the symbolic regression workshop at GECCO 2025" loading="lazy">
         </figure>
     </div>
     <div class="col-lg-7 col-md-12 text-center">
         <figure class="image-box">
-            <img src="/blog/resources/2025-07-18-symbolic-regression-workshop-gecco/gabe_fabricio.jpg" id="workshop-organizers">
+            <img src="/blog/resources/2025-07-18-symbolic-regression-workshop-gecco/gabe_fabricio.jpg" id="workshop-organizers" alt="Workshop organizers Gabriel Kronberger and Fabrício Olivetti de França at GECCO 2025" loading="lazy">
         </figure>
     </div>
 </div>

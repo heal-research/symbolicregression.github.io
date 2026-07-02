@@ -7,7 +7,7 @@ author: Gabriel Kronberger
 image: /blog/resources/2026-06-23-wcci-cec-symbolic-regression-workshop/wcci.jpg
 ---
 
-Post by Gabriel Kronberger [LinkedIn](https://www.linkedin.com/in/gabriel-kronberger-89a09450/)
+Post by Gabriel Kronberger [Linkedin](https://www.linkedin.com/in/gabriel-kronberger-89a09450/)
 
 
 We organized the [Workshop on Symbolic Regression and Equation Discovery](https://heal.heuristiclab.com/research/symbolic-regression-workshop) as a subevent within WCCI/CEC 2026 in Maastricht, Netherlands this year. After several years of hosting it at GECCO, it was a great opportunity for meeting new people, discussing SR developments, and sharing ideas. 
@@ -53,7 +53,7 @@ Application to tyre friction modelling: https://github.com/Unlayer-AI/friction-m
 ### Discussion
 The workshop concluded with a discussion session on relevant future research directions for symbolic regression.
 
-The discussion revolved around **integration of prior knowledge** into symbolic regression. Some partial solutions which are often application-specific have been proposed e.g. for limit behavior, symmetries, structural preferences [[1](http://doi.org/10.1145/3377930.3390152), [2](https://doi.org/10.1162/evco_a_00294), [3](https://doi.org/10.1155/2016/1021378)]. However, it is unclear how those can be expressed, generally to allow SR search processes to consider diverse background knowledge.
+The disucssion revolved around **integration of prior knowledge** into symbolic regression. Some partial solutions which are often application-specific have been proposed e.g. for limit behavior, symmetries, structural preferences [[1](http://doi.org/10.1145/3377930.3390152), [2](https://doi.org/10.1162/evco_a_00294), [3](https://doi.org/10.1155/2016/1021378)]. However, it is unclear how those can be expressed, generally to allow SR search processes to consider diverse background knowledge.
 In a Bayesian formulation we could potentially express this using priors. There are also other possibilities, such as integrated directly into ML loss functions or as secondary objectives. 
 A study was mentioned where neural networks were used in an interactive learning scenario to learn human preferences using interactive feedback from pairwise comparisons. 
 LLMs may provide another avenue for understanding and reacting to background knowledge in written form. The potential of using fuzzy computing ideas for handling human preferences was also mentioned. 
@@ -62,7 +62,7 @@ Another topic that was raised is that SR community could benefit from research d
  
 **Handling uncertainty in SR** was a topic in multiple presentations: in the form of uncertainty-aware model selection (based on DL, or Bayesian information criterion) which automatically prefers less complex models when data is scarce or noisy, and for calculating parameter confidence intervals and prediction intervals for symbolic regression models.
 
-Prior work looking into using symbolic regression with **vectorial input values** was briefly discussed as well [[4](https://link.springer.com/chapter/10.1007/978-3-030-16670-0_14), [5](https://dl.acm.org/doi/abs/10.1145/3583133.3590695), [6](https://link.springer.com/chapter/10.1007/978-981-16-8113-4_2), [7](https://arxiv.org/abs/2303.03200)]. 
+Prior work looking into using symbolic regression with **vectorial input values** was briefly discussed as well [[4](https://link.springer.com/chapter/10.1007/978-3-030-16670-0_14), [5](https://dl.acm.org/doi/abs/10.1145/3583133.3590695), [6](https://link.springer.com/chapter/10.1007/978-981-16-8113-4_2), [7](https://arxiv.org/abs/2303.03200)}. 
 
 ### Plans for 2027
 We are still undecided where to host the next workshop in 2027. We are **considering both GECCO and CEC**, and we will announce the location and dates on the workshop website once decided. 

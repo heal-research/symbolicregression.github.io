@@ -190,17 +190,16 @@ description: Detailed information about the Symbolic Regression book
         </div>
         {% for author in site.data.authors %}
         <div class="row author-card">
+            <!--
             <div class="col-md-3">
-                <img class="author-img img-thumbnail mx-auto d-block" src="../assets/img/{{author.img}}"
-                    alt="Profile photo of {{author.first_name}} {{author.last_name}}" loading="lazy" />
+                <img class="author-img img-thumbnail img-fluid mx-auto d-block" src="../assets/img/{{author.img}}"
+                    alt="" />
             </div>
-            <div class="col-md-9 col-sm-12">
+            -->
+            <div class="col-md-6 col-sm-12">
                 <h5>{{author.first_name}} {{author.last_name}}</h5>
                 <p class="author-role">{{author.role}}</p>
                 <p class="author-desc">{{author.desc}}</p>
-                {% if author.scholar %}
-                <p class="author-contact">Google Scholar: <a href="{{author.scholar}}" target="_blank" rel="noopener noreferrer">Profile</a></p>
-                {% endif %}
                 <!--<p class="author-contact"><b>Email:</b> <a href="mailto:{{author.mail}}">{{author.mail}}</a></p>-->
                 <!--
                 <p class="author-social">

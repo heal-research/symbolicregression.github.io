@@ -39,20 +39,12 @@ section {
 }
 
 .blogpost-teaser {
-   .teaser-image-col {
-      display: flex;
-      justify-content: center;
-   }
-
    img {
       width: 100%;
-      display: block;
-      margin: 0 auto;
    }
 
    .image-link {
-      display: block;
-      width: 100%;
-      margin: 20px auto 0px auto;
+      display: inline-block;
+      margin: 20px 0px 0px 0px;
    }
 }

@@ -14,7 +14,7 @@ In the last post we introduced the idea of e-graphs and how it can play an impor
 
 We also briefly introduced **[r🥚ression](https://github.com/folivetti/reggression)** [[2]](#2), a Python tool that allows us to explore the power of e-graphs in different scenario. In this post, we will play a bit more with this tool to show how powerful e-graphs can be as a go to tool for equation discovery.
 
-For a gentle introduction to e-graphs and equality saturation, see the [previous part of this blog post](/blog/2025/equality-saturation-and-symbolic-regression/).
+For a gentle introduction to e-graphs and equality saturation, see the [previous part of this blog post](https://symreg.at/blog/2025/equality-saturation-and-symbolic-regression/).
 
 <!--more-->
 
@@ -50,7 +50,7 @@ Plotting the training set as red dots and the test set as green dots, we have:
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto;" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/data.svg" id="benchmark dataset" alt="Training and test data used in the e-graph symbolic regression example" loading="lazy">
+        <img style="max-height:auto;" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/data.svg" id="benchmark dataset">
     </figure>
 </div>
 
@@ -62,7 +62,7 @@ In any case, the purpose here is to show how we can use r🥚ression to explore 
 
 ## Laying the egg 🥚
 
-We can create an initial e-graph for this dataset using `eggp`. As mentioned [in the previous post](/blog/2025/equality-saturation-and-symbolic-regression/), this algorithm uses e-graphs to enforce the generation of new expressions, avoiding redundancy in the search.
+We can create an initial e-graph for this dataset using `eggp`. As mentioned [in the previous post](https://symreg.at/blog/2025/equality-saturation-and-symbolic-regression/), this algorithm uses e-graphs to enforce the generation of new expressions, avoiding redundancy in the search.
 
 ```python
 from eggp import EGGP
@@ -126,7 +126,7 @@ Some of these functions behave similarly while others display a different behavi
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto;" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top5.svg" id="top five expressions" alt="Plot comparing the top five symbolic regression expressions" loading="lazy">
+        <img style="max-height:auto;" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top5.svg" id="top five expressions">
     </figure>
 </div>
 
@@ -140,7 +140,7 @@ model_top(egg.top(n=10, filters=["size <= 10"]), n, x, y)
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto;" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top10.svg" id="top ten expressions" alt="Plot comparing top symbolic regression expressions with maximum size ten" loading="lazy">
+        <img style="max-height:auto;" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top10.svg" id="top ten expressions">
     </figure>
 </div>
 
@@ -191,7 +191,7 @@ egg.top(n=n, pattern="exp(v0)*v1")
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto;" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top5pat.svg" id="top five patterns" alt="Top five expressions matching the selected exponential pattern" loading="lazy">
+        <img style="max-height:auto;" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top5pat.svg" id="top five patterns">
     </figure>
 </div>
 
@@ -218,7 +218,7 @@ Plotting the top-5 expressions we get:
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto;" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top5operon.svg" id="top five expressions from operon" alt="Top five expressions after importing Operon results into the e-graph" loading="lazy">
+        <img style="max-height:auto;" src="/blog/resources/2025-12-01-a-powerful-database-for-expressions/top5operon.svg" id="top five expressions from operon">
     </figure>
 </div>
 

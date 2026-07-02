@@ -1,22 +1,22 @@
 <article class="blogpost-teaser">
    <div class="row">
       <div class="col-md-4">
-         <a class="image-link" href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt="{{ post.title }}" /></a>
+         <a class="image-link" href="{{ post.url }}"><img src="{{post.image}}" alt="{{post.title}}" /></a>
       </div>
       <div class="col-md-8">
          <div class="teaser-header">
-            <h3 class="section-subheading"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <h3 class="section-subheading">{{post.title}}</h3>
             <p class="post-meta">
                {% assign m = post.date | date: "%-m" | minus: 1 %}
                <b><time class="date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ site.data.i18n.months[page.lang][m] }} {{ post.date | date: "%-d" }}, {{ post.date | date: "%-Y" }}</time></b>
                <span> / </span>
-               <span class="teaser-author"><b>{{ post.author }}</b></span>
+               <span class="teaser-author"><b>{{post.author}}</b></span>
             </p>
          </div>
          <div class="excerpt text-justify">
             {{ post.excerpt }}
             {% if post.content contains site.excerpt_separator %}
-            <a class="readmore-link" href="{{ post.url | relative_url }}">&rArr; read more</a>
+            <a class="readmore-link" href="{{post.url}}">&rArr; read more</a>
             {% endif %}
          </div>
       </div>

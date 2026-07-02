@@ -7,41 +7,27 @@ description: publications of the research group which relate to symbolic regress
 ---
 
 <section id="publications">
-   <div class="publications-wrap">
-      <h2 class="publications-title">Publications</h2>
-      {% assign papers = site.data.publications.papers | sort: "year" | reverse %}
-      {% assign paper_groups = papers | group_by_exp: "paper", "paper.year" %}
-
-      {% for group in paper_groups %}
-      <div class="publication-year-group">
-         <h3 class="publication-year-heading">{{ group.name }}</h3>
-         <ul class="publication-list">
-            {% for paper in group.items %}
-            {% assign link = paper.link | strip_newlines | strip %}
-            {% assign author_text = paper.authors | default: paper.author %}
-            {% assign source_text = paper.publisher | default: "Doctoral thesis" %}
-            <li class="publication-item">
-               <p class="publication-citation">
-                  <span class="publication-authors">{{ author_text }}</span>.
-                  <span class="publication-paper-title"> {{ paper.title }}</span>.
-                  <span class="publication-source"> {{ source_text }}</span>{% if source_text != "" %}.{% endif %}
-                  <span class="publication-year"> {{ paper.year }}</span>.
-                  {% if link != "" %}
-                  {% assign is_doi = false %}
-                  {% if link contains "doi.org/" %}
-                  {% assign is_doi = true %}
-                  {% endif %}
-                  {% if is_doi %}
-                  {% assign doi_value = link | replace: 'https://doi.org/', '' | replace: 'http://doi.org/', '' %}
-                  <span class="publication-link"> DOI: <a href="{{ link }}" target="_blank" rel="noopener noreferrer">{{ doi_value }}</a></span>
-                  {% else %}
-                  <span class="publication-link"> <a href="{{ link }}" target="_blank" rel="noopener noreferrer">{{ link }}</a></span>
-                  {% endif %}
-                  {% endif %}
-               </p>
-            </li>
-            {% endfor %}
-         </ul>
+   <div class="container text-justify">
+      <h2>Publications</h2>
+      {% assign papers = site.data.publications.papers %}
+      {% for paper in papers%}
+      {% assign link = paper.link | strip_newlines %}
+      <div class="row">
+         <div class="col-md-1 col-sm-12">
+            <h6>{{ paper.year }}</h6>
+         </div>
+         <div class="col-md-11 col-sm-12">
+            {% if link == "" %}
+            <h5>{{ paper.title }}</h5>
+            {% else %}
+            <h5><a href="{{ link }}" alt="Link to publication" target="_blank">{{ paper.title }}</a></h5>
+            {% endif %}
+            {% if paper.type == "thesis" %}
+            <p>{{ paper.author }} - Doctoral Thesis</p>
+            {% else %}
+            <p>{{ paper.authors }} - {{ paper.publisher }}</p>
+            {% endif %}
+         </div>
       </div>
       {% endfor %}
    </div>

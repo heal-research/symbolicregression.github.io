@@ -15,12 +15,12 @@ In data science, physics, and engineering, the ultimate goal isn't just predicti
 
 Traditional AI models such as Artificial Neural Networks give us complex, black-box equations. SR aims for human-readable formulas (like $f(x) = \log(x) + c$).
 
-To find this perfect formula, all search algorithms, whether they use Genetic Programming (GP), Monte Carlo Tree Search (MCTS), or Deep Learning (DL), follow a cycle of: proposing a candidate equation, learning from its performance, and repeating.
+To find this perfect formula, all search algorithms, whether they use Genetic Programming (GP), Monte Carlo Tree Search (MCTS), or Deep Learning (DL), follow a a cycle of: proposing a candidate equation, learning from its performance, and repeat.
 
 How the proposal and learning steps work depends on the algorithm:
 - **Genetic Programming** proposes new equations by modifying existing equations or combining them. It learns by favoring the selection of the best equations found so far.
 - **Monte Carlo Tree Search** proposal step generates a new equation by traversing a tree of possible grammar derivations that are more probable to fit the data taking a confidence interval into consideration. It learns by updating the probabilities of each derivation.
-- **Deep Learning** and **Reinforcement Learning** propose new equations by choosing the next symbol that maximizes the expected reward given the last choice. It learns by reinforcing the quality of the generated expression through the sequence of steps.
+- **Deep Learning** and **Reinforcement Learning** proposes new equations by choosing the next symbol that maximizes the expected reward given the last choice. It learns by reinforcing the quality of the generated expression through the sequence of steps.
 
 The problem? The search space is unbelievably vast and filled with redundancy.
 
@@ -60,7 +60,7 @@ For example, in the figure below, the dashed box in the middle is an e-class. It
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/eqexample.png" id="equality-saturation-example" alt="E-graph example showing equivalent expressions 2x and x plus x" loading="lazy">
+        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/eqexample.png" id="equality-saturation-example">
     </figure>
 </div>
 
@@ -90,7 +90,7 @@ $$
 1. **Start:** Insert $(x+x)^2$ into the graph.
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat1.png" id="equality-saturation-pattern-1" alt="Initial e-graph state for the expression x plus x squared" loading="lazy">
+        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat1.png" id="equality-saturation-pattern-1">
     </figure>
 </div>
 
@@ -99,15 +99,15 @@ $$
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat3.png" id="equality-saturation-pattern-3" alt="Equality saturation applying a rewrite rule to the inner x plus x expression" loading="lazy">
+        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat3.png" id="equality-saturation-pattern-3">
     </figure>
 </div>
 
-3. We **insert** the right-hand side, $2x$, and **merge** it with the e-class for $x+x$, as the graph knows they are identical:
+3. We **insert** the right-hand side, $2x$ and **merge** with the e-class for $x+x$, as the graph knows they are identical:
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat5.png" id="equality-saturation-pattern-5" alt="E-graph after merging the equivalent expressions 2x and x plus x" loading="lazy">
+        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/pat5.png" id="equality-saturation-pattern-5">
     </figure>
 </div>
 
@@ -115,7 +115,7 @@ $$
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/grow.png" id="equality-saturation-grow" alt="Expanded e-graph after repeated equality saturation rewrites" loading="lazy">
+        <img style="max-height:auto; max-width:190px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/grow.png" id="equality-saturation-grow">
     </figure>
 </div>
 
@@ -128,7 +128,7 @@ A few years ago, we realized this powerful mechanism could be the missing piece 
 
 First, we demonstrated that e-graphs are a superior **simplification tool** compared to standard methods like `sympy` [[1]](#1). By simplifying equations with equality saturation, we not only reduced model complexity but also increased the probability of finding the best-fitting local optima [[6]](#6).
 
-Second, we found the E-graph structure could be used to analyze how inefficient standard search algorithms like Genetic Programming were under a limited budget, showing how often they revisited the same expressions [[5]](#5) in severely length-limited and therefore constrained search spaces.
+Second, we found the E-graph structure could be used to analyze how inefficient standard search algorithms like Genetic Programming were under limited budget, showing how often they revisited the same expressions [[5]](#5) in severly length-limited and therefore constrained search spaces.
 
 At this point, we felt there was much more we could do with e-graphs in SR.
 
@@ -149,7 +149,7 @@ For once, we would have a database system allowing us to query whether a given e
 
 <div class="col-md-6 text-center">
     <figure class="image-box">
-        <img style="max-height:auto; max-width:800px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/cxegg.png" id="equality-saturation-crossover" alt="E-graph-guided crossover example for symbolic regression search" loading="lazy">
+        <img style="max-height:auto; max-width:800px" src="/blog/resources/2025-10-26-equality-saturation-and-symbolic-regression/cxegg.png" id="equality-saturation-crossover">
     </figure>
 </div>
 

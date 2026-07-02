@@ -5,21 +5,24 @@
   role: Professor for Business Intelligence and Data Engineering
   mail: gabriel.kronberger@fh-hagenberg.at
   desc:  His research is focused on symbolic regression algorithms and their application in science and engineering. From 2018 until the end of 2022, he headed the Josef Ressel Center for Symbolic Regression in which he developed symbolic regression methods for semi-analytical modelling to improve interpretability, trustworthiness, and extrapolation capabilities. 
-  img: gkronber.png
+  img: gkronber.jpg
+  scholar: https://scholar.google.com/citations?user=1uFIkkEAAAAJ&hl=en
 - id: bburlacu
   prefix: FH-Prof. Dipl.-Ing. Dr.
   first_name: Bogdan
   last_name: Burlacu
-  role: Professor for Data Analytics and Machine Learning
+  role: Lecturer at TU Iasi
   desc: He has been an active researcher in the symbolic regression community for over a decade and his main area of expertise is the development of new symbolic regression algorithms and software.
   img: bburlacu.png
+  scholar: https://scholar.google.com/citations?user=bFM0lvsAAAAJ&hl=en
 - id: mkommenda
   prefix: DI(FH) Dr.
   first_name: Michael
   last_name: Kommenda
-  role: Consultant for Artificial Intelligence Solutions
+  role: Consultant for Artificial Intelligence Solutions with Tietoevry
   desc: He authored several papers on symbolic regression and genetic programming and organized the workshop for symbolic regression at the Genetic and Evolutionary Computation Conference (GECCO).
   img: mkommend.jpg
+  scholar: https://scholar.google.com/citations?user=nhTC-EYAAAAJ&hl=en
 - id: swinkler
   prefix: FH-Prof. PD DI Dr.
   first_name: Stephan
@@ -27,6 +30,7 @@
   role: Professor for Bioinformatics, Machine Learning, and Evolutionary Algorithms
   desc: He is head of the Department of Medical and Bioinformatics as well as the Bioinformatics Research Group. For more than 20 years, he has been an active researcher in genetic programming and symbolic regression. Stephan Winkler has published numerous articles and books on data science and bioinformatics, and is member of the organization team of the Genetic Programming in Theory and Practice Workshop (GPTP).
   img: swinkler.png
+  scholar: https://scholar.google.com/citations?user=tRWow7wAAAAJ&hl=en
 - id: maffenzeller
   prefix: FH-Prof. PD DI Dr.
   first_name: Michael
@@ -34,3 +38,4 @@
   role: Professor for Heuristic Optimization and Machine Learning
   desc: He has published several papers, journal articles and books dealing with theoretical and practical aspects of evolutionary computation, genetic algorithms, and meta-heuristics in general. In 2001 he received his PhD in engineering sciences and in 2004 he received his habilitation in applied systems engineering, both from the Johannes Kepler University of Linz, Austria. He is head of the research group HEAL.
   img: maffenze.png
+  scholar: https://scholar.google.com/citations?user=ODP92iYAAAAJ&hl=en

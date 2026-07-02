@@ -150,7 +150,8 @@ section#book {
       .author-img {
          width:200px;
          height:250px;
-         padding:15px;
+         object-fit: cover;
+         object-position: center;
       }
 
       h5 {

@@ -18,7 +18,7 @@ description: SymReg Homepage
             </div>
             <div class="col-lg-7 col-md-12 text-center">
                 <figure class="image-box">
-                    <img src="/assets/img/symreg-explanation.png" id="symreg-example" alt="Illustration of symbolic regression fitting equations to data" loading="lazy">
+                    <img src="/assets/img/symreg-banner.png" id="symreg-example" alt="Illustration of symbolic regression fitting equations to data" loading="lazy">
                 </figure>
             </div>
         </div>

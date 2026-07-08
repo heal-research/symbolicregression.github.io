@@ -1,11 +1,70 @@
 papers:
-
+  - id: kammerer-evaluation-population-initialization-methods-eurocast
+    year: 2026
+    title: "Evaluation of Population Initialization Methods for Genetic Programming-based Symbolic Regression"
+    authors: L. Kammerer, G. Kronberger, D.J. Bartlett, H. Desmond, P.G. Ferreira, S. Winkler
+    publisher: "accepted to be published in Computer Aided Systems Theory - EUROCAST 2026, LNCS, Springer"
+    link: https://arxiv.org/abs/2606.31990
+  - id: kronberger-gpsr-description-length
+    year: 2026
+    title: "Guiding Multi-Objective Genetic Programming with Description Length Improves Symbolic Regression Solutions"
+    authors: G. Kronberger, F.O. de Franca, D.J. Bartlett, H. Desmond, P.G. Ferreira
+    publisher: "arXiv preprint 2605.22374"
+    link: https://arxiv.org/abs/2605.22374
+  - id: soltani-model-selection-criteria-gecco
+    year: 2026
+    title: "A Comparative Study of Model Selection Criteria for Symbolic Regression"
+    authors: A. Soltani, G. Kronberger, F.O. de Franca, M. Billa, A. Lucantonio
+    publisher: "GECCO '26: Proceedings of the 2026 Genetic and Evolutionary Computation Conference"
+    link: https://arxiv.org/abs/2605.11233
+  - id: haider-interpretable-rca
+    year: 2026
+    title: "Enhanced Interpretability in Root Cause Analysis Using Structure-Template Symbolic Regression"
+    authors: C. Haider, R. Kern, J. Zenisek, F. Bachinger 
+    publisher: "Special Issue on 7th International Conference on Industry of the Future and Smart Manufacturing, Procedia Computer Science, Volume 277, pp. 2689–2698"
+    link: https://doi.org/10.1016/j.procs.2026.02.306
+  - id: bloder-austenite-kinetics
+    year: 2026
+    title: "Modeling the Kinetics of Austenite Decomposition for Arbitrary Cooling Conditions Using Symbolic Regression"
+    authors: B. Bloder, G. Kronberger, T. Antretter, P. Raninger 
+    publisher: "Metallurgical and Materials Transactions A 57, 3398–3410"
+    link: https://doi.org/10.1007/s11661-026-08211-1
+  - id: defranca-eqsat-royal-society
+    year: 2026
+    title: "Equality Graph Assisted Symbolic Regression"
+    authors: F.O. de Franca, G. Kronberger 
+    publisher: "Philosophical Transactions of the Royal Society, Part A Math Phys Eng Sci (2026) 384 (2317): 20240597."
+    link: https://doi.org/10.1098/rsta.2024.0597
+  - id: kabliman-constitutive-royal-society
+    year: 2026
+    title: "Identification of empirical constitutive models for age-hardenable aluminium alloy and high-chromium martensitic steel using symbolic regression"
+    authors: E. Kabliman, G. Kronberger
+    publisher: "Philosophical Transactions of the Royal Society, Part A Math Phys Eng Sci (2026) 384 (2317): 20240587."
+    link: https://doi.org/10.1098/rsta.2024.0587
+  - id: predictive-maintenance-electric-motors
+    year: 2026
+    title: "Interpretable Machine Learning for Predictive Maintenance of Electric Motors: A Comparative Study of Subspace kNN and Symbolic Classification"
+    authors: H. Hinterleitner, A. Ahmadov, M. Jungwirth, J. Zenisek, F. Bachinger, M. Affenzeller
+    publisher: "Special Issue on 7th International Conference on Industry of the Future and Smart Manufacturing, Procedia Computer Science, Volume 277, 2026, pp. 2398-2407"
+    link: https://doi.org/10.1016/j.procs.2026.02.276
+  - id: ramlan-gpsr-model-selection
+    year: 2025
+    title: "Comparative Analysis of Model Selection Criteria for Symbolic Regression Using Genetic Programming"
+    authors: F. W. Ramlan, G. Kronberger, C. O'Riodan, J. McDermott
+    publisher: "International Joint Conference on Computational Intelligence, IJCCI, Springer Nature Switzerland, pp. 91–108"
+    link: https://doi.org/10.1007/978-3-032-15635-8_6
+  - id: ramlan-model-selection-gecco
+    year: 2025
+    title: "Can Synthetic Data Improve Symbolic Regression Extrapolation Performance?"
+    authors: F. W. Ramlan, C. O'Riodan, G. Kronberger, J. McDermott
+    publisher: "Proceedings of the Genetic and Evolutionary Computation Conference Companion, pp. 2548–2555"
+    link: https://doi.org/10.1145/3712255.3734356
   - id: kammerer-syren-baryon
     year: 2025
     title: "syren-baryon: Analytic emulators for the impact of baryons on the matter power spectrum"
     authors: L. Kammerer, Deaglan J. Bartlett, G. Kronberger, H. Desmond, P.G. Ferreira
-    publisher: "accepted for Astronomy & Astrophysics, arxiv preprint"
-    link: https://doi.org/10.48550/arXiv.2506.08783
+    publisher: "Astronomy & Astrophysics, Volume 701, September 2025, A284, 13 pages"
+    link: https://doi.org/10.1051/0004-6361/202555887 
   - id: millner-ijes
     year: 2025
     title: "Comparison of semi-empirical models, symbolic regression, and machine learning approaches for prediction of tensile strength in steels"
@@ -30,6 +89,24 @@ papers:
     authors: F. Olivetti de Franca, G. Kronberger
     publisher: Proceedings of Genetic and Evolutionary Computation Conference (GECCO'25) Pages 4 - 12
     link: https://doi.org/10.1145/3712256.3726385
+  - id: bachinger-scrbenchmark
+    year: 2025
+    title: "SCRBenchmark: A Benchmarking Library for Shape-Constrained Regression"
+    authors: F. Bachinger, B. Werth, J. Zenisek, F. O. de Franca
+    publisher: "GECCO '25 Companion: Proceedings of the Genetic and Evolutionary Computation Conference Companion, pp. 2505-2513"
+    link: https://doi.org/10.1145/3712255.3734280
+  - id: werth-pruning-gecco25
+    year: 2025
+    title: "Continuous Pruning for Symbolic Regression"
+    authors: B. Werth, M. Affenzeller
+    publisher: "GECCO '25 Companion: Proceedings of the Genetic and Evolutionary Computation Conference Companion, pp. 2572-2579"
+    link: https://doi.org/10.1145/3712255.3734287
+  - id: fleck-hovf-coating
+    year: 2025
+    title: "Transfer Learning for Interpretable Prediction of HVOF Coating Properties"
+    authors: P. Fleck, C. Haider, J. Zenisek, W. Rannetbauer, C. Hambrock
+    publisher: "Special Issue on 7th International Conference on Industry of the Future and Smart Manufacturing, Procedia Computer Science, Volume 277, 2026, pp. 1592-1601"
+    link: https://doi.org/10.1016/j.procs.2026.02.197
   - id: kammerer-appsci
     year: 2024
     title: "Bias and Variance Analysis of Contemporary Symbolic Regression Methods"
@@ -54,6 +131,20 @@ papers:
     authors: P. Leser, G. Bomarito, G. Kronberger, F. O. de Franca
     publisher: "GECCO '24 Companion: Proceedings of the Genetic and Evolutionary Computation Conference Companion, ACM"
     link: https://doi.org/10.1145/3638530.3664142
+
+  - id: haider-domain-knowledge-sciml-eurocast
+    year: 2025
+    title: "Comparing Constraint Evaluation Methods for Shape-Constrained Regression"
+    authors: C. Haider, F. Bachinger, F. Holzinger, F. O. de Franca
+    publisher: EUROCAST 2024 - 19th International Conference, 2024, Revised Selected Papers. Lecture Notes in Computer Science, vol 15172. Springer
+    link: https://doi.org/10.1007/978-3-031-82949-9_7
+
+  - id: bachinger-domain-knowledge-sciml-eurocast
+    year: 2025
+    title: "Automated Inference of Domain Knowledge in Scientific Machine Learning"
+    authors: F. Bachinger, C. Haider, J. Zenisek, F. O. de Franca, M. Affenzeller
+    publisher: EUROCAST 2024 - 19th International Conference, 2024, Revised Selected Papers. Lecture Notes in Computer Science, vol 15172. Springer
+    link: https://doi.org/10.1007/978-3-031-82949-9_11
   - id: comparison-symreg-eurocast
     year: 2024
     title: "A Comparison of Recent Algorithms for Symbolic Regression to Genetic Programming"
@@ -145,7 +236,7 @@ papers:
     publisher: "arXiv preprint arXiv:2304.01117"
     link: https://doi.org/10.48550/arXiv.2304.01117
   - id: vector-gp-optimizing-segments-feature-extraction
-    year: 2023
+    year: 2025
     title: "Vectorial Genetic Programming - Optimizing Segments for Feature Extraction"
     authors: "P. Fleck, S. M. Winkler, M. Kommenda, M. Affenzeller"
     publisher: "Computer Aided Systems Theory - EUROCAST 2024. EUROCAST 2024. Lecture Notes in Computer Science, vol 15172"

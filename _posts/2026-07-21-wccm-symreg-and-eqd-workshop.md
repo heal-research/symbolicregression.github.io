@@ -51,8 +51,8 @@ _Extending a Physics-based Recrystallization Model using Genetic Programming_,
 J. Kronsteiner, S. Raaber, G. Kronberger
 <a href="https://wccm-eccomas2026.org/event/contribution/a0171a39-fce8-11f0-919d-000c29ddfc0c">abstract</a>
 </br>
-_Fidelity Compensated Physics-Informed Surrogate Modeling_,
 
+_Fidelity Compensated Physics-Informed Surrogate Modeling_,
 S. Shiratori, A. Shimizu, K. Shukla, Z. Wang, G. Karniadakis
 <a href="https://wccm-eccomas2026.org/event/contribution/69c4a10b-05cd-11f1-919d-000c29ddfc0c">abstract</a>
 </br>

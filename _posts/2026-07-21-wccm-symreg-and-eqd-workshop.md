@@ -26,6 +26,9 @@ _Using Description Length to Guide Genetic Programming Improves Symbolic Regress
 G. Kronberger, D. Bartlett, H. Desmond, P. Ferreira, F. Olivetti de Franca
 <a href="https://wccm-eccomas2026.org/event/contribution/8bf2c8b1-ee2e-11f0-b205-000c29ddfc0c">abstract</a>
 </br>
+<a href="/blog/resources/2026-07-21-wccm-symreg-and-eqd-ws/wccm_2026_gkronber.pdf" target="_blank">Slides (PDF)</a>
+</br>
+
 
 _Identifying tractable probabilistic models through uncertainty-aware symbolic regression_,
 B. Schuscha, C. Findenig, M. Mücke, D. Scheiber
@@ -34,8 +37,8 @@ B. Schuscha, C. Findenig, M. Mücke, D. Scheiber
 
 _On the Effect of Prior Specification in Bayesian Symbolic Regression_,
 G. Bomarito, P. Leser, J. Pribe, G. Weber
-<a href="https://wccm-eccomas2026.org/event/contribution/66fc6d53-0609-11f1-919d-000c29ddfc0c">abstract</a> <a href="/blog/resources/2026-07-21-wccm-symreg-and-eqd-ws/2026-07_wccm_pysips.pdf" target="_blank">Slides (PDF)</a>
-
+<a href="https://wccm-eccomas2026.org/event/contribution/66fc6d53-0609-11f1-919d-000c29ddfc0c">abstract</a></br>
+<a href="/blog/resources/2026-07-21-wccm-symreg-and-eqd-ws/2026-07_wccm_pysips.pdf" target="_blank">Slides (PDF)</a>
 </br>
 
 _Symbolic discovery of high-dimensional tensorial governing equations from data_,
@@ -52,6 +55,9 @@ _Extending a Physics-based Recrystallization Model using Genetic Programming_,
 J. Kronsteiner, S. Raaber, G. Kronberger
 <a href="https://wccm-eccomas2026.org/event/contribution/a0171a39-fce8-11f0-919d-000c29ddfc0c">abstract</a>
 </br>
+<a href="/blog/resources/2026-07-21-wccm-symreg-and-eqd-ws/WCCM2026_KJ.pdf" target="_blank">Slides (PDF)</a>
+</br>
+
 
 _Fidelity Compensated Physics-Informed Surrogate Modeling_,
 S. Shiratori, A. Shimizu, K. Shukla, Z. Wang, G. Karniadakis

@@ -34,7 +34,8 @@ B. Schuscha, C. Findenig, M. Mücke, D. Scheiber
 
 _On the Effect of Prior Specification in Bayesian Symbolic Regression_,
 G. Bomarito, P. Leser, J. Pribe, G. Weber
-<a href="https://wccm-eccomas2026.org/event/contribution/66fc6d53-0609-11f1-919d-000c29ddfc0c">abstract</a>
+<a href="https://wccm-eccomas2026.org/event/contribution/66fc6d53-0609-11f1-919d-000c29ddfc0c">abstract</a> <a href="/blog/resources/2026-07-21-wccm-symreg-and-eqd-ws/2026-07_wccm_pysips.pdf" target="_blank">Slides (PDF)</a>
+
 </br>
 
 _Symbolic discovery of high-dimensional tensorial governing equations from data_,

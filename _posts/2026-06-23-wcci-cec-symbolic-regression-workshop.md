@@ -38,8 +38,8 @@ Two invited talks and four contributed talks were presented during the workshop.
 - **Invited Talk:** _"Exhaustive Symbolic Regression: Learning Physics directly from Data"_, Harry Desmond
 - _"Learning Parametric Nitrogen Fertilizer Response Curves Using Neuro Symbolic Regression"_, Giorgio Morales, John Sheppard
 - _"SRToolkit: Shared Infrastructure for Symbolic Regression Research"_, Sebastian Mežnar, Ljupco Todorovski, Sašo Džeroski
-- **Invited Talk:** _"Evolution of mutation + Genetic and agentic symbolic regression of distributed rate-and-state friction models"_, Marco Virgolin
-- _"Prediction Intervals and Confidence Regions for Symbolic Regression Models based on Likelihood Profiles"_, Fabricio Olivetti de Franca, Gabriel Kronberger
+- **Invited Talk:** _"Evolution of mutation + Genetic and agentic symbolic regression of distributed rate-and-state friction models"_, Marco Virgolin, <a href= "blog/resources/2026-06-23-wcci-cec-symbolic-regression-workshop/20260622-evolution of mutation.pptx">Slides</a>
+- _"Prediction Intervals and Confidence Regions for Symbolic Regression Models based on Likelihood Profiles"_, Fabricio Olivetti de Franca, Gabriel Kronberger, <a href="blog/resources/2026-06-23-wcci-cec-symbolic-regression-workshop/wcci_kronberger.pdf">Slides</a>
 - _"Generalized Residuals Symbolic Regression"_, Rory Sweeney, Takfarinas Saber, James McDermott
 
 [Harry Desmond](https://www.port.ac.uk/about-us/structure-and-governance/our-people/our-staff/harry-desmond) presented  exhaustive symbolic regression and in particular their formulation for the calculation of total description length of symbolic regression models, combining model accuracy and complexity for ranking expressions. He then presented several applications and their results in astrophysics including modeling of universe expansion and the radial acceleration relation of galaxies.  
